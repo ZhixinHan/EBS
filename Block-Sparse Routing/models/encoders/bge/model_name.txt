@@ -1,0 +1,3 @@
+"bge-small-en-v1_5"
+"bge-base-en-v1_5"
+"bge-large-en-v1_5"

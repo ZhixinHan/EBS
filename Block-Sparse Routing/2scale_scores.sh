@@ -1,0 +1,53 @@
+#!/bin/bash
+
+decoder_name="$1"
+
+current_time=$(date "+%Y-%m-%d_%H-%M-%S")
+
+config=(
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc,task1510_evalution_relation_extraction:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc,task1510_evalution_relation_extraction:rougeL,task1729_personachat_generate_next:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc,task1510_evalution_relation_extraction:rougeL,task1729_personachat_generate_next:rougeL,task181_outcome_extraction:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc,task1510_evalution_relation_extraction:rougeL,task1729_personachat_generate_next:rougeL,task181_outcome_extraction:rougeL,task511_reddit_tifu_long_text_summarization:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc,task1510_evalution_relation_extraction:rougeL,task1729_personachat_generate_next:rougeL,task181_outcome_extraction:rougeL,task511_reddit_tifu_long_text_summarization:rougeL,task002_quoref_answer_generation:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc,task1510_evalution_relation_extraction:rougeL,task1729_personachat_generate_next:rougeL,task181_outcome_extraction:rougeL,task511_reddit_tifu_long_text_summarization:rougeL,task002_quoref_answer_generation:rougeL,task1290_xsum_summarization:rougeL"
+    "task748_glucose_reverse_cause_event_detection:rougeL,task073_commonsenseqa_answer_generation:rougeL,task1590_diplomacy_text_generation:rougeL,task639_multi_woz_user_utterance_generation:rougeL,task1572_samsum_summary:rougeL,task1687_sentiment140_classification:acc,task591_sciq_answer_generation:rougeL,task363_sst2_polarity_classification:acc,task1510_evalution_relation_extraction:rougeL,task1729_personachat_generate_next:rougeL,task181_outcome_extraction:rougeL,task511_reddit_tifu_long_text_summarization:rougeL,task002_quoref_answer_generation:rougeL,task1290_xsum_summarization:rougeL,task875_emotion_classification:acc"
+)
+
+for task_metric_s in "${config[@]}"; do
+  python test.py \
+  --decoder_name "$decoder_name" \
+  --encoder_name bge-small-en-v1_5 \
+  --per_device_eval_batch_size 1 \
+  --do_bf16 False \
+  --do_fp16 False \
+  --decoder_max_source_length 512 \
+  --generation_max_length 50 \
+  --encoder_max_length 512 \
+  --seed 42 \
+  --current_time "$current_time" \
+  --benchmark SuperNI \
+  --max_num_instances_of_train_task 1 \
+  --max_num_instances_of_eval_task 1 \
+  --max_num_instances_of_test_task 0 \
+  --tasks "$task_metric_s" \
+  --input_text all \
+  --MultiModel scale_scores \
+  --order 2 \
+  --do_train False \
+  --do_eval False \
+  --do_predict True \
+  --do_probe True \
+  --threshold 0.9 \
+  --num_beams 1 \
+  --temperature 1.0 \
+  --repetition_penalty 1.0 \
+  --pooler_vectors__method average
+done

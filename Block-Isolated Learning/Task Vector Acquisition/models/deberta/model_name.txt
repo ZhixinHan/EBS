@@ -1,0 +1,4 @@
+"deberta-v3-xsmall"
+"deberta-v3-small"
+"deberta-v3-base"
+"deberta-v3-large"

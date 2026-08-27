@@ -1,0 +1,405 @@
+{
+    "Definition": "You are given a question and some answer options (associated with \"A\", \"B\", \"C\", \"D\"). You should choose the correct answer based on commonsense knowledge. Avoid answering questions based on associations, the set of answers are chosen deliberately to capture common sense beyond associations. Do not generate anything else apart from one of the following characters: 'A', 'B, 'C', 'D', 'E' and only give one answer for each question.",
+    "Instances": [
+        {
+            "input": "If a person stutters when he experiences anxiety or excitement, he'll have difficult doing what?\n(A)express information (B)dance (C)library (D)go somewhere (E)study",
+            "output": "A"
+        },
+        {
+            "input": "Where can you keep letter opener when it likely to be needed soon?\n(A)office supply store (B)stationery store (C)dek (D)martyr's chest (E)refrigerator",
+            "output": "C"
+        },
+        {
+            "input": "Danny found that the carpet did not ,match the drapes, which was disappointing, because this place was expensive.  But it was the only place in town that wasn't booked solid for the week and he needed it while he was in town, so he couldn't complain.   Where might this place be?\n(A)brothel (B)restaurant (C)building (D)bowling alley (E)at hotel",
+            "output": "E"
+        },
+        {
+            "input": "What do people need to do to change their lives?\n(A)face problems (B)better themselves (C)pay bills (D)become disillusioned (E)eat chicken",
+            "output": "A"
+        },
+        {
+            "input": "Humans need shelter to survive.  They usually find shelter where?\n(A)underpass (B)homes (C)workplace (D)school (E)space shuttle",
+            "output": "B"
+        },
+        {
+            "input": "Someone who had a very bad flight might be given a trip in this to make up for it?\n(A)first class (B)propitious (C)reputable (D)one (E)sufficient",
+            "output": "A"
+        },
+        {
+            "input": "Nature can be good and bad for the person who walks, what are some things?\n(A)seeing bear (B)see beautiful views (C)get wet (D)getting lost (E)murdered by a landshark",
+            "output": "B"
+        },
+        {
+            "input": "Jim decided to lose weight.  He thought that exercise is the best way to lose weight because you can't get rid of what?\n(A)need for food (B)fitness (C)sweating (D)fastfood (E)thirst",
+            "output": "A"
+        },
+        {
+            "input": "Nature creates more beautiful structures than those that are what?\n(A)artificial (B)indoors (C)city (D)man made (E)eat cake",
+            "output": "D"
+        },
+        {
+            "input": "The water in clouds turn in to what when it gets cold?\n(A)typhoon (B)snowflake (C)laddle (D)teardrops (E)sink",
+            "output": "B"
+        },
+        {
+            "input": "What southern U.S. state is know for having many swamps?\n(A)wetlands (B)new york (C)michigan (D)louisiana (E)river delta",
+            "output": "D"
+        },
+        {
+            "input": "When going to sleep what happens to your body?\n(A)snoring (B)latency (C)dreams (D)relaxation (E)dreaming",
+            "output": "D"
+        },
+        {
+            "input": "Where is a monkey likely to enjoy being?\n(A)banana tree (B)sailor suit (C)theatre (D)mulberry bush (E)research laboratory",
+            "output": "A"
+        },
+        {
+            "input": "What is a form of anaerobic exercising?\n(A)shortness of breath (B)lift weights (C)error (D)fall down (E)run",
+            "output": "E"
+        },
+        {
+            "input": "The earth is one planet in what?\n(A)tree (B)orbit (C)solar system (D)fotograph (E)dreams",
+            "output": "C"
+        },
+        {
+            "input": "Where would you put a container can after you buy it?\n(A)pantry (B)store (C)gas (D)liquid (E)garage",
+            "output": "E"
+        },
+        {
+            "input": "Where did you meet your best friend since Kindergarten?\n(A)friend's house (B)school (C)fraternity house (D)internet cafe (E)airplane",
+            "output": "B"
+        },
+        {
+            "input": "James was below the balloon.  He watched it rise.  What direction did he look in?\n(A)upstairs (B)aloft (C)diagonal (D)upstream (E)upwards",
+            "output": "E"
+        },
+        {
+            "input": "John and Tim like playing. It makes them what?\n(A)feeling happy (B)learning (C)injury (D)burn (E)get hungry",
+            "output": "A"
+        },
+        {
+            "input": "What could happen if someone is seeing new presents at a birthday party?\n(A)envy (B)jealousy (C)education (D)fear (E)excitement",
+            "output": "E"
+        },
+        {
+            "input": "Joe's cat smelled something delicious and jumped into this, causing him to panic and fear for its life. Where might it have jumped?\n(A)meat loaf (B)bedroom (C)microwave (D)living room (E)floor",
+            "output": "C"
+        },
+        {
+            "input": "Why would a person put flowers in a room with dirty gym socks?\n(A)continue to grow (B)plant themselves (C)many colors (D)smell good (E)make pretty",
+            "output": "D"
+        },
+        {
+            "input": "The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?\n(A)electrical circuit (B)build evenly (C)uneven (D)unbalanced (E)tilted",
+            "output": "C"
+        },
+        {
+            "input": "The person signed up for home insurance, what is he seeking?\n(A)financial security (B)live well (C)good relationship (D)compliments (E)discounted furniture",
+            "output": "A"
+        },
+        {
+            "input": "James know that committing murder was wrong, but he thought that he could get away with it.  He was really troubled  and fearful because of what?\n(A)happiness (B)problems (C)prosecution (D)distress (E)misery",
+            "output": "C"
+        },
+        {
+            "input": "How can someone die from eating hamburger?\n(A)gas (B)getting full (C)mad cow disease (D)death (E)feel full",
+            "output": "C"
+        },
+        {
+            "input": "Where would using a boat not require navigation skills?\n(A)water (B)ocean (C)garage (D)harbor (E)river",
+            "output": "E"
+        },
+        {
+            "input": "What does a self assured person often do?\n(A)acknowledgment (B)focused (C)know what time (D)feel important (E)trust himself",
+            "output": "D"
+        },
+        {
+            "input": "He was very outgoing, for him making friends was no personal what?\n(A)scary (B)having friends (C)good feeling (D)conflict (E)friendship",
+            "output": "D"
+        },
+        {
+            "input": "What do you feel when giving assistance to the needy?\n(A)reward (B)boredom (C)pleasure (D)happiness (E)satisfaction",
+            "output": "E"
+        },
+        {
+            "input": "Paul wants carrots and doesn't need to drive anywhere. He gets them from where?\n(A)refrigerator (B)store (C)farmer's market (D)supermarket (E)dryer",
+            "output": "A"
+        },
+        {
+            "input": "He was a sloppy eater, so where did he leave a mess?\n(A)sailboat (B)desk (C)closet (D)table (E)apartment",
+            "output": "D"
+        },
+        {
+            "input": "What does every person want?\n(A)life partner (B)larger house (C)second chances (D)money (E)headache",
+            "output": "A"
+        },
+        {
+            "input": "If a small flying animal picks up a string, where are they taking it?\n(A)bird's nest (B)park (C)guitar (D)kite (E)quark",
+            "output": "A"
+        },
+        {
+            "input": "He had no issue committing perjury, he had a what that he would get away with it?\n(A)confidence (B)go to jail (C)telling lies (D)lying (E)manual",
+            "output": "A"
+        },
+        {
+            "input": "What could go to a tennis court?\n(A)desert (B)college campus (C)recreational center (D)athletic club (E)park",
+            "output": "D"
+        },
+        {
+            "input": "What could you use to fill a cup and then drink from it?\n(A)sand box (B)kitchen cabinet (C)waterfall (D)water fountain (E)table",
+            "output": "D"
+        },
+        {
+            "input": "The two played video games all night in the living room, he enjoyed visiting where?\n(A)formal seating (B)friend's house (C)movies (D)home (E)apartment",
+            "output": "B"
+        },
+        {
+            "input": "The weasel ran up away from danger, somebody joked only our first president could get him down from the what?\n(A)washington dc (B)ladder (C)natural history museum (D)cherry tree (E)chicken coop",
+            "output": "D"
+        },
+        {
+            "input": "If you were looking for a blowfish, you wouldn't look on dry land, you'd look in a what?\n(A)fish market (B)jungle (C)sea water (D)body of water (E)soup",
+            "output": "D"
+        },
+        {
+            "input": "George checked the rotor of the Apache, which wasn't powered by internal combustion, but by what?\n(A)jet engine (B)helicopter (C)electric motor (D)rotator (E)electrical circuit",
+            "output": "A"
+        },
+        {
+            "input": "The poker dealer spread the flop of cards across the what?\n(A)players (B)play games (C)casino (D)table (E)toy store",
+            "output": "D"
+        },
+        {
+            "input": "Where is a salt shaker most often kept?\n(A)cruet (B)table setting (C)kitchen cupboard (D)cabinet (E)store",
+            "output": "B"
+        },
+        {
+            "input": "Where would you put a dollar if you want to go to a store and buy something with it?\n(A)cash drawer (B)teh bank (C)safety deposit box (D)pocket (E)piggy bank",
+            "output": "D"
+        },
+        {
+            "input": "What room is likely to have a sideboard on the counter?\n(A)home (B)serve food buffet (C)dining room (D)living room (E)kitchen",
+            "output": "E"
+        },
+        {
+            "input": "What is unlikely to get bugs on its windshield due to bugs' inability to reach it when it is moving?\n(A)airplane (B)scooter (C)motorboat (D)car (E)motor vehicle",
+            "output": "A"
+        },
+        {
+            "input": "What mall store sells jeans for a decent price?\n(A)clothing store (B)bedroom (C)thrift store (D)apartment (E)gap",
+            "output": "E"
+        },
+        {
+            "input": "Where can a bath towel be borrowed?\n(A)cupboard (B)at hotel (C)swimming pool (D)clothes line (E)backpack",
+            "output": "B"
+        },
+        {
+            "input": "Why do people stop caring about their problems?\n(A)no problems (B)better themselves (C)face problems (D)learn from each other (E)become disillusioned",
+            "output": "E"
+        },
+        {
+            "input": "John rode on the plain until it reached the ocean and couldn't go any farther. What might he have bee on?\n(A)mountain (B)fancy (C)sandplain (D)cliff (E)gorge",
+            "output": "D"
+        },
+        {
+            "input": "They were never going to be big actors, but they all had passion for the local what?\n(A)theater (B)opera (C)show (D)television (E)blockbuster feature",
+            "output": "A"
+        },
+        {
+            "input": "Where would you use a folding chair but not store one?\n(A)beach (B)city hall (C)closet (D)garage (E)school",
+            "output": "A"
+        },
+        {
+            "input": "If you spend a long time shopping in uncomfortable shoes, you might develop what?\n(A)tiredness (B)calluses (C)bankruptcy (D)standing in line (E)sleepyness",
+            "output": "B"
+        },
+        {
+            "input": "What does impeachment mean for the president?\n(A)vote (B)election (C)trouble (D)board room (E)corporation",
+            "output": "C"
+        },
+        {
+            "input": "Noble citizen of the Roman empire believed those born with lower status were what to them?\n(A)loser (B)ignoble (C)peasant (D)inferior (E)plebeian",
+            "output": "D"
+        },
+        {
+            "input": "Spraining an ankle while playing baseball will cause what?\n(A)strikes (B)eating (C)injury (D)sore muscles (E)pain",
+            "output": "E"
+        },
+        {
+            "input": "John was traveling to a new city and took time to check out a business.  He noticed that its carpet was stained with sauces and ketchup. What type of business might that be?\n(A)bedroom (B)chair (C)bowling alley (D)at hotel (E)restaurant",
+            "output": "E"
+        },
+        {
+            "input": "If you have a condo in a Wisconsin city known for beer, where are you?\n(A)city (B)electrical circuit (C)residential area (D)suburbia (E)milwaukee",
+            "output": "E"
+        },
+        {
+            "input": "Where is hard to read note likely to be?\n(A)fridge (B)sheet music (C)desk (D)bed (E)medical chart",
+            "output": "E"
+        },
+        {
+            "input": "How does someone go about buying beer?\n(A)have no money (B)pants (C)relaxation (D)lose money (E)spend money",
+            "output": "E"
+        },
+        {
+            "input": "If there is gum on your shoe where did it likely come from?\n(A)shelf (B)movies (C)sidewalk (D)water fountain (E)table",
+            "output": "C"
+        },
+        {
+            "input": "If a person isn't able to pay their bills what must they do?\n(A)know everything (B)acknowledgment (C)make more money (D)throw a party (E)spare time",
+            "output": "C"
+        },
+        {
+            "input": "What is main benefit to exercising?\n(A)losing weight (B)healthy (C)get in shape (D)weight loss (E)sweat",
+            "output": "C"
+        },
+        {
+            "input": "Steve thought that it was possible, but he agreed that it was what?\n(A)no go (B)unable (C)unlikely (D)impossibility (E)cant do",
+            "output": "C"
+        },
+        {
+            "input": "What region of a west coast U.S. city would you find a Japanese restaurant?\n(A)california (B)tokio (C)downtown (D)narnia (E)large town",
+            "output": "C"
+        },
+        {
+            "input": "What is a tactic used to interfere with learning about science?\n(A)repetition (B)sense of wonder (C)accidents (D)intimidation (E)increased knowledge",
+            "output": "D"
+        },
+        {
+            "input": "What do people usually feel when falling in love?\n(A)getting married (B)pain (C)happiness (D)getting married (E)suffering",
+            "output": "C"
+        },
+        {
+            "input": "The tiger was stuck in what animal prison where he got lazy and fat?\n(A)jungle (B)zoo (C)kill (D)india (E)eat cake",
+            "output": "B"
+        },
+        {
+            "input": "What do parents tell a child to do on the weekend?\n(A)study (B)begin school (C)go out to play (D)row boat (E)clean room",
+            "output": "C"
+        },
+        {
+            "input": "Why are dogs often known as man's best friend?\n(A)aggressive (B)friendly (C)very loyal (D)found outside (E)very smart",
+            "output": "C"
+        },
+        {
+            "input": "Where can you buy a two wheel transportation machine?\n(A)boat (B)michigan (C)train station (D)bicycle shop (E)trunk of car",
+            "output": "D"
+        },
+        {
+            "input": "Where might an alien use a vacuum?\n(A)space (B)closet (C)kitchen (D)orbit (E)container",
+            "output": "A"
+        },
+        {
+            "input": "Where do you buy condoms?\n(A)supermarket (B)sock drawer (C)cd store (D)medicine chest (E)bedroom",
+            "output": "A"
+        },
+        {
+            "input": "What animal is known for being a follower?\n(A)goat (B)expensive (C)lion (D)wolf (E)meadow",
+            "output": "A"
+        },
+        {
+            "input": "The soldier was told to get to the rendezvous point, for there he was suppose to what?\n(A)fight enemy (B)go to war (C)fight for freedom (D)wait for orders (E)follow instructions",
+            "output": "D"
+        },
+        {
+            "input": "If you want to kill someone you can do what to them with a gun?\n(A)sip through (B)damnation (C)shoot (D)commit crime (E)eat breakfast",
+            "output": "C"
+        },
+        {
+            "input": "The hostess greeted the employees to the program, she then led them to their what?\n(A)group people (B)welcome guests (C)occupations (D)work room (E)seat customer",
+            "output": "D"
+        },
+        {
+            "input": "Where is a likely place to store unused soap?\n(A)cabinet (B)supermarket (C)jail (D)butt (E)own home",
+            "output": "A"
+        },
+        {
+            "input": "Loss of someone you love can cause what kind of feeling in your heart?\n(A)painful (B)happy (C)blind (D)contagious (E)bring joy",
+            "output": "A"
+        },
+        {
+            "input": "Where in your home would you keep a ballpoint pen when not in use?\n(A)backpack (B)bank (C)desk drawer (D)eat cake (E)office desk",
+            "output": "C"
+        },
+        {
+            "input": "James was someone who was caught in his own delusions.  To him, the truth didn't do what what?\n(A)work to advantage (B)matter to (C)help (D)free mind (E)further knowledge",
+            "output": "B"
+        },
+        {
+            "input": "He wanted to live somewhere were every yard was uniform in size and landscaping, where should he look for a house?\n(A)city (B)three feet (C)subdivision (D)parking garage (E)michigan",
+            "output": "C"
+        },
+        {
+            "input": "The flasks was used to distill elements, where was is being used?\n(A)laboratory (B)chemistry lab (C)coat pocket (D)after hours speakeasy (E)bordello",
+            "output": "B"
+        },
+        {
+            "input": "What was the man encouraged to do after he expressed his anger violently?\n(A)cool off (B)punch (C)illustrate point (D)fight (E)release energy",
+            "output": "A"
+        },
+        {
+            "input": "Where can a student learn to play a triangle?\n(A)math class (B)math book (C)in pythagorus' band (D)orchestra (E)music class",
+            "output": "E"
+        },
+        {
+            "input": "What do you need to do to use television if it is already turned on?\n(A)get wet (B)open eyes (C)kill (D)plug in (E)first turn on power",
+            "output": "B"
+        },
+        {
+            "input": "The guys had a regular poker game, rather than going to the movies this what their what?\n(A)competition (B)fun game (C)losing money (D)fun (E)social event",
+            "output": "E"
+        },
+        {
+            "input": "When you stroke a dogs fur what have you done?\n(A)start fighting (B)play (C)lots of attention (D)petted (E)bone",
+            "output": "D"
+        },
+        {
+            "input": "Dan fell off a bar stool.  He did this because he was what than ever before?\n(A)kitchen (B)drunker (C)tavern (D)restaurant (E)shorter",
+            "output": "B"
+        },
+        {
+            "input": "The wood was still rough to the touch, what did the woodworker have to do?\n(A)petrify (B)sanded (C)warp (D)composted (E)clean",
+            "output": "B"
+        },
+        {
+            "input": "The chief saw his entire tribe wiped out, he was a leader with a single what?\n(A)peon (B)indian (C)minister (D)follower (E)employee",
+            "output": "D"
+        },
+        {
+            "input": "The flower grew tall to compete for sunlight, what did its neighbor do?\n(A)blossom (B)park (C)open (D)cast shadow (E)vase",
+            "output": "D"
+        },
+        {
+            "input": "If while driving to work another car makes a careless maneuver, what emotion might you feel?\n(A)boredom (B)happiness (C)transportation cost (D)getting there (E)road rage",
+            "output": "E"
+        },
+        {
+            "input": "What kind of food makes someone sick?\n(A)boat (B)necessary to live (C)edible (D)unhealthy (E)kitchen",
+            "output": "D"
+        },
+        {
+            "input": "Where would you find the sharpest parts of a triangle?\n(A)three vertices (B)point (C)3 sides (D)three sides (E)math book",
+            "output": "A"
+        },
+        {
+            "input": "How might a automobile get off a freeway?\n(A)exit ramp (B)garage (C)driveway (D)repair shop (E)stop light",
+            "output": "A"
+        },
+        {
+            "input": "What does going to bed with your spouse for sex lead to?\n(A)bad dreams (B)a good nights sleep (C)rest (D)sleepiness (E)get pregnant",
+            "output": "E"
+        },
+        {
+            "input": "What would it be if they get a surprising show over and over?\n(A)surprise (B)fight (C)annoyance (D)might scare (E)irritated",
+            "output": "C"
+        },
+        {
+            "input": "Sally thought that competing wasn't worth the risk. If she pushed more what might happen?\n(A)pressure (B)trying harder (C)put harder (D)enemies (E)death",
+            "output": "E"
+        },
+        {
+            "input": "John is sitting in a toilet stall in a bathroom, outside he can hear cars going around in circles.  What is the function of the place he is most likely at?\n(A)eating food (B)public place (C)race track (D)at hotel (E)public building",
+            "output": "C"
+        }
+    ]
+}

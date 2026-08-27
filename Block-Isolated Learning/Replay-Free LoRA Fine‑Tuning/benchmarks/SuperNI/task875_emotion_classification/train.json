@@ -1,0 +1,4005 @@
+{
+    "Definition": "In this task, you are given a sentence containing a particular emotion. You must classify the sentence into one of the six emotions: 'joy', 'love', 'anger', 'fear', or 'surprise'.",
+    "Instances": [
+        {
+            "input": "i feel like i should make one of these for every beach loving friend i know",
+            "output": "love"
+        },
+        {
+            "input": "ive been feeling quite nostalgic lately so i thought i would compile a list of my favourite books from my childhood",
+            "output": "love"
+        },
+        {
+            "input": "i feel horribly restless",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling romantic on this beautiful summers day rel bookmark permalink",
+            "output": "love"
+        },
+        {
+            "input": "i am way less uptight the second time around but i still do feel awkward both at baring myself and at the potential of making anyone else feel uncomfortable",
+            "output": "sadness"
+        },
+        {
+            "input": "i thought id try to demonstrate the difference as i know if i hadnt seen it for myself i may still be feeling doubtful",
+            "output": "fear"
+        },
+        {
+            "input": "i feel a bit surprised that motion capture films dont seem to me to have the visual richness and detail that full cgi films have",
+            "output": "surprise"
+        },
+        {
+            "input": "i thought it might and it makes my hair feel lovely and silky",
+            "output": "love"
+        },
+        {
+            "input": "i dont give a fuck because i feel like i cannot elicit any positive change or shifts within my current client load",
+            "output": "joy"
+        },
+        {
+            "input": "i feel that i have got my looks and sweet nature from my mom",
+            "output": "love"
+        },
+        {
+            "input": "i believe are sincere on both parts but we have seen time and again that logan probably feels much more devoted to her than she does to him",
+            "output": "love"
+        },
+        {
+            "input": "i am satisfied with the final installment and feeling a bit melancholy",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel very blessed and loved by the people around me",
+            "output": "love"
+        },
+        {
+            "input": "id feel like a heartless bitch if i didnt share these with anybody",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like im heartless cuz a week after my boyfirend of months broke up with me i was thinking about another guy",
+            "output": "anger"
+        },
+        {
+            "input": "when reading a newspaper story of a man who had committed incestuous acts on his twoyear old child the thought that anyone could do such a thing is abhorrent to me",
+            "output": "anger"
+        },
+        {
+            "input": "i don t want to cry either because i know she ll think i feel tortured having to eat the black part of the rice",
+            "output": "anger"
+        },
+        {
+            "input": "i was feeling like a shocked rat in a skinner box experiment",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like a positive ball of inspiration",
+            "output": "joy"
+        },
+        {
+            "input": "i feel a bit strange saying it",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so low from living high chorus post chorus outro i need you more need you more i need you more than dope",
+            "output": "sadness"
+        },
+        {
+            "input": "im feeling a little tender swollen and hot in that area today",
+            "output": "love"
+        },
+        {
+            "input": "i feel my own heart a lot to make sure i am still there",
+            "output": "joy"
+        },
+        {
+            "input": "i feel so often when i roll through my beloved new york that so little is done for so many if i start to write about race colour religion and sexual preference and gender identity my readers will say hey mia what s up are you confused",
+            "output": "love"
+        },
+        {
+            "input": "im feeling more comfortable with derby i feel as though i can start to step out my shell",
+            "output": "joy"
+        },
+        {
+            "input": "i feel i would be ungrateful to god and undutiful to the church if i did not use my poor efforts on the side of truth and peace",
+            "output": "sadness"
+        },
+        {
+            "input": "i make some of those cracks by the age old system of not sleeping and driving myself insane but i dont have the energy and i dont have that feeling because it feels like ive already devoted my life to working and hacking systems and fucking with numbers for people",
+            "output": "love"
+        },
+        {
+            "input": "i ate i could feel a gentle tingle throughout almost as if i was feeling the healing taking place at a cellular level",
+            "output": "love"
+        },
+        {
+            "input": "i feel awkward and so i start acting awkward lol",
+            "output": "sadness"
+        },
+        {
+            "input": "i was feeling very keen to get out of the camp site before they realised i had been given the best gift of all free accommodation and free services",
+            "output": "joy"
+        },
+        {
+            "input": "i am this thing i have these feelings and i m not afraid to express them and to stand up for what i believe in",
+            "output": "fear"
+        },
+        {
+            "input": "i was feeling pretty overwhelmed and stressed out over the whole affair but a few minutes of straightforward logical there totally is a right answer algebra combined with overhearing some trigonometry another tutor and tutee were working on at the library calmed me right down",
+            "output": "surprise"
+        },
+        {
+            "input": "i can not help but feel distraught about it",
+            "output": "fear"
+        },
+        {
+            "input": "i was taunted by the ability of feeling threatened from weakness of frailty beneath this exterior of human existance lies a woman wanting nothing but a man needing his warmth and masculinity",
+            "output": "fear"
+        },
+        {
+            "input": "i feel so frightened at the thought of opening up my heart",
+            "output": "fear"
+        },
+        {
+            "input": "i didnt feel if i was having a shitty day i wouldnt usually come right out and say i was having a shitty day",
+            "output": "sadness"
+        },
+        {
+            "input": "i am a boy i like girls they are pretty and i like it when they smile at me but it makes me feel funny",
+            "output": "surprise"
+        },
+        {
+            "input": "i was willing to be honest with myself and put a name to what i was feeling i was shocked",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel intimidated by other girls acne getting rid of pimples",
+            "output": "fear"
+        },
+        {
+            "input": "i was feelings amazed imagining how would she feel when she will get this",
+            "output": "surprise"
+        },
+        {
+            "input": "im feeling reluctant to change anything because it is all working so well",
+            "output": "fear"
+        },
+        {
+            "input": "i love they way they feel in my hand im sort of shocked i dont have some psycho fetish",
+            "output": "surprise"
+        },
+        {
+            "input": "i just want that feeling of not caring about unnecessary stuff like i felt before",
+            "output": "love"
+        },
+        {
+            "input": "ive been feeling weirdly superior about my knowledge of this book roundabouts now",
+            "output": "joy"
+        },
+        {
+            "input": "i still second guess myself and still have a terrible time making definitive decisions but there are certain truths that i do know about myself and i feel assured by those truths",
+            "output": "joy"
+        },
+        {
+            "input": "i told my colleagues in the qa team that after knowing almost everything in the floor back when i was an agent now i feel like im a kid curious of almost everything",
+            "output": "surprise"
+        },
+        {
+            "input": "i will help you in setting the table picking up the dishes after we finish eating and if i feel particulary charming on that day will not pick at my food search for lizards in your house or come out looking green to my gills after having used your restroom",
+            "output": "joy"
+        },
+        {
+            "input": "i feel so inhibited in someone elses kitchen like im painting on someone elses picture",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel uptight is it any wonder i dont know whats right",
+            "output": "fear"
+        },
+        {
+            "input": "i think i brag and it feels strange because i still see myself as a little fattie pre teen unworthy of any male attention",
+            "output": "surprise"
+        },
+        {
+            "input": "i know it seems very sudden to everyone but i am not sure how much i can communicate just how comfortable i feel with him how similarly we look at the world and how supportive and loving he has been towards me",
+            "output": "love"
+        },
+        {
+            "input": "i is feeling particularly hostile shell say no red shirt today nickey",
+            "output": "anger"
+        },
+        {
+            "input": "i really want to go buy some yardage of art gallery just to play with because it feels so amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "i get a little gripped about timing i feel frantic in my thoughts",
+            "output": "fear"
+        },
+        {
+            "input": "i left gastro feeling impressed",
+            "output": "surprise"
+        },
+        {
+            "input": "ive come home for the holidays i feel so much more mellow",
+            "output": "joy"
+        },
+        {
+            "input": "i went through the exam i could feel my heart sink with each unsure answer each flip flop decision and random guess",
+            "output": "fear"
+        },
+        {
+            "input": "i feel accepted and loved and forgiven the grace of god is so healing",
+            "output": "joy"
+        },
+        {
+            "input": "i really am a hard worker and feel quite loyal to places i work",
+            "output": "love"
+        },
+        {
+            "input": "i feel like he is snobbish snooty gauche a drunk and offensive",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like i should not be surprised at this development",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel needy when i ask someone to hang out with me and i end up not trying after a few times of being told no i have plans sorry",
+            "output": "sadness"
+        },
+        {
+            "input": "i chose to go with my gut feeling i think this only amused laetshi further if i d been the easily flustered type he d have probably said something",
+            "output": "joy"
+        },
+        {
+            "input": "i find myself feeling surprised and totally unworthy whenever i see her face",
+            "output": "surprise"
+        },
+        {
+            "input": "i hope you keep handing out books of mormon to those you feel impressed to give them to",
+            "output": "surprise"
+        },
+        {
+            "input": "i seem to feel some fondness for this curious old man",
+            "output": "surprise"
+        },
+        {
+            "input": "i don t know about you but that feeling of powerlessness of not being in control sends me in a mad tizzy for the haagen dazs",
+            "output": "anger"
+        },
+        {
+            "input": "i was feeling annoyed suddenly",
+            "output": "anger"
+        },
+        {
+            "input": "i just do not feel uptight at all",
+            "output": "fear"
+        },
+        {
+            "input": "i feel so overwhelmed im nauseous",
+            "output": "fear"
+        },
+        {
+            "input": "i stood kind of dumbfounded looking around feeling culture shocked",
+            "output": "surprise"
+        },
+        {
+            "input": "i like to add a slice of cheese and some pepper to the egg and when i am feeling naughty i like to add some chocolate chips to my trail mix another treat i am loving as a pregnant mom who often craves a sweet but doesn t want to overload on sugar or empty calories is zico coconut water in chocolate",
+            "output": "love"
+        },
+        {
+            "input": "i sit down to author this letter i feel a little surprised that an entire year has already passed us by",
+            "output": "surprise"
+        },
+        {
+            "input": "i still feel a little bit funny when i discover his fb damn it",
+            "output": "surprise"
+        },
+        {
+            "input": "i am right handed however i play billiards left handed naturally so me trying to play right handed feels weird",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel over the moon when the guy i liked started a class cbc read more href http jazzyboy",
+            "output": "love"
+        },
+        {
+            "input": "i went to work but i feel stunned and numb",
+            "output": "surprise"
+        },
+        {
+            "input": "iv tried it once and reading back to my problems made me feel like a superior helping out a young naive person",
+            "output": "joy"
+        },
+        {
+            "input": "i am going crazy at leas the feeling is more pleasent them fearful",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "im deep in a budget spreadsheet i feel that im someplace where i dont do my most creative work",
+            "output": "joy"
+        },
+        {
+            "input": "i feel thoroughly unwelcome at this school and there are individual people who are clearly deeply moved by my work and my choices",
+            "output": "sadness"
+        },
+        {
+            "input": "i was thinking about a post i wrote earlier mulling over the memories it brought to the surface tossing them around in my head and began to feel this gentle tug this little nudge deep down that began to vibrate and morph into something solid",
+            "output": "love"
+        },
+        {
+            "input": "ive somehow had a few epiphanies and toned down the need for validation its still a work in progress but i feel less need to be liked by people who dont deserve the attention",
+            "output": "love"
+        },
+        {
+            "input": "i know how that feels weird right",
+            "output": "fear"
+        },
+        {
+            "input": "ive heard so how are you feeling so many times and discussed my uncertain future with so many people that the conversations are blending together",
+            "output": "fear"
+        },
+        {
+            "input": "im feeling adventurous i get the philips better lemon chicken",
+            "output": "joy"
+        },
+        {
+            "input": "i remember feeling equally dazed and road rollered when the twins came home and that was with the pee and poo all neatly tied up in diapers",
+            "output": "surprise"
+        },
+        {
+            "input": "i didnt feel alarmed moreso a feeling of total welcome",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling all nostalgic i went on pinterest and found some great looking recipes for tomatoes and had to share a href http media cache ec",
+            "output": "love"
+        },
+        {
+            "input": "i feel like it is worthwhile to support local artists and so does clay so i am fortunate in that sense",
+            "output": "joy"
+        },
+        {
+            "input": "im in so much pain and i feel like a useless lump face",
+            "output": "sadness"
+        },
+        {
+            "input": "i had to change after several months due to the fact that i didnt feel my daughter was being helped or my daughter convinced me how rotten the therapists were",
+            "output": "joy"
+        },
+        {
+            "input": "i was feeling restless no one was home and it was sunny outside",
+            "output": "fear"
+        },
+        {
+            "input": "i don t like feeling that my family damaged me in some way even though they didn t mean it",
+            "output": "sadness"
+        },
+        {
+            "input": "im all about driving to fall out boy or out with friends avenue q when youre feeling totally emo more fall out boy and when youre feeling rebellious muse or when youre in an easy goin mood moshav band when you feel like dancin beatles or feel like making out to oh who cares",
+            "output": "anger"
+        },
+        {
+            "input": "i feel herpes coming i would be very surprised at this point if i make it out again after my checkup at the clinic on wednesday",
+            "output": "surprise"
+        },
+        {
+            "input": "im also feeling cranky about it because the main characters scientist brother observing the moon mentions that there is zero gravity there",
+            "output": "anger"
+        },
+        {
+            "input": "i feel so welcomed in chicago",
+            "output": "joy"
+        },
+        {
+            "input": "i got to feel our sweet girl kick in my belly and he never had that intimacy with her",
+            "output": "love"
+        },
+        {
+            "input": "i kept thinking about how awesome i would feel afterwards remembering how amazing i felt after my emotional spin class the previous night",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel very blessed to have a new team of doctors that are by my side and listen",
+            "output": "love"
+        },
+        {
+            "input": "i reached down to feel what that strange sensation was and i felt something there",
+            "output": "fear"
+        },
+        {
+            "input": "i haven t seen her since they broke up but now i m in this class and she is here waving at me so i go and sit next to her and get out my stuff and talk to her but i feel really strange about it because she cheated on my friend which i really should have mentioned before",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so peaceful so i know i made the right decision",
+            "output": "joy"
+        },
+        {
+            "input": "i can feel all supportive and jrock ish in school tommorrow",
+            "output": "love"
+        },
+        {
+            "input": "i could feel her eyes boring a hole in my neck as i quickly stepped to the side so i wasn t in the way of her son anymore",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel very weird about so much of my psychological safety coming from noah providing money",
+            "output": "surprise"
+        },
+        {
+            "input": "i was feeling and i said impatient",
+            "output": "anger"
+        },
+        {
+            "input": "i felt like facebook was a catalyst for me to feel that way about myself and i started to see it as a bit of a hostile online community",
+            "output": "anger"
+        },
+        {
+            "input": "i got outside i beat myself up pretty bad mentally of course for not going with my gut feeling but again i was hesitant b c ive never done this before and that was actually my very st time meeting with a seller and feeling good about a particular property",
+            "output": "fear"
+        },
+        {
+            "input": "i made it and enjoyed most of my run but now i m feeling greedy",
+            "output": "anger"
+        },
+        {
+            "input": "i really feel amazed on how they can do that",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel helpless as her mother i should be able to take the pain away as a small child i could do this but she is a young adult now the same age i was when i had her and it hurts to see her in pain",
+            "output": "fear"
+        },
+        {
+            "input": "i purple month doesnt feel surprised in fact zhuo feng up many pupils all clear xiao her identity dont even say main star feng of young",
+            "output": "surprise"
+        },
+        {
+            "input": "i come home feeling drained and paralysed and when i try to study my brain just shuts down and ill end up snoring away on my bed and visiting dreamland",
+            "output": "sadness"
+        },
+        {
+            "input": "i do feel agitated restless or on edge quite often",
+            "output": "anger"
+        },
+        {
+            "input": "im feeling amazing because im answering these questions from new york so life is good",
+            "output": "surprise"
+        },
+        {
+            "input": "i looked at my husband and even though i love him with all the love in my heart the feelings i felt for him today when he was stood there so vulnerable grew so deep and strong and i didnt realise that i could love him anymore",
+            "output": "fear"
+        },
+        {
+            "input": "i guess it could be described as me just not really feeling like i m a part of the popular bands the up and comers or the growing local band",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like nobody is giving me a chance to explain and accept that i am never going to be happy doing what they expect me to do",
+            "output": "joy"
+        },
+        {
+            "input": "i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent",
+            "output": "joy"
+        },
+        {
+            "input": "i find myself still feeling curious when i log into sl",
+            "output": "surprise"
+        },
+        {
+            "input": "i have to confess to feeling quite angry when i read some of the negative reviews of uses for boys some of which are basically victim blaming and slut shaming",
+            "output": "anger"
+        },
+        {
+            "input": "i want is to be happy and to feel loved",
+            "output": "love"
+        },
+        {
+            "input": "im feeling you up grumpy",
+            "output": "anger"
+        },
+        {
+            "input": "im feeling a bit dazed and out of sorts like someone needs to poke me to really wake me up",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel some people go a little overboard with a cake face or just too much going on and end up looking super unnatural",
+            "output": "joy"
+        },
+        {
+            "input": "i feel isolated as though i am observing",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel stupid and thoughtless",
+            "output": "sadness"
+        },
+        {
+            "input": "i was feeling pretty impressed with my potential new boss",
+            "output": "surprise"
+        },
+        {
+            "input": "i am such a private person and although i won t be going into anything too personal i m feeling anxious just writing this",
+            "output": "fear"
+        },
+        {
+            "input": "i started feeling uncomfortable around my straight male friends particularly after one of them drunkenly came on to me grabbing at my waist while he attempted to murmur sweet nothings in my ear at a party that same week",
+            "output": "fear"
+        },
+        {
+            "input": "i still feel very emo but its now a bouncy butterflies in my tummy everythings gonna be ok kinda email rather than a feeling shitty emo so",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling relaxed",
+            "output": "joy"
+        },
+        {
+            "input": "i am much lighter now i feel extremely passionate about myself and my life yes me i do",
+            "output": "love"
+        },
+        {
+            "input": "i have a lovely nesty feeling after looking at all that cute teeny weeny clothing",
+            "output": "joy"
+        },
+        {
+            "input": "i cannot deny that right now i am feeling disillusioned with the avon",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel a bit frustrated with myself as i know i m not getting out of my dogs in the ring or at training if i m honest at moment due to me but i ll continue to do the remaining shows i ve entered until the end of july as long as we re all enjoying it",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like it has some necessity in a romantic relationship but too much can be very harmful in that context but that s not my problem",
+            "output": "love"
+        },
+        {
+            "input": "finding out that i am not an as able student as i thought",
+            "output": "fear"
+        },
+        {
+            "input": "i could smell the chlorine feel my aching muscles see my portly mustached coach and prepubescent teammates and hear the whistles and hollers from the parents in the stands",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel really honored to be given the opportunity to tell my story",
+            "output": "joy"
+        },
+        {
+            "input": "i feel surprised by my reaction because as a younger woman i always thought i would be a darling older woman",
+            "output": "surprise"
+        },
+        {
+            "input": "im moved in ive been feeling kind of gloomy",
+            "output": "sadness"
+        },
+        {
+            "input": "i cant help but feel someones going to end up pissed at me",
+            "output": "anger"
+        },
+        {
+            "input": "i say walking away and shaking my head feeling a little dazed to get the drinks",
+            "output": "surprise"
+        },
+        {
+            "input": "i was trapped in the mall and was starting to feel like a mallrat and i hated it",
+            "output": "anger"
+        },
+        {
+            "input": "i hardly feel they have any wow factor at all until i saw how stunned liv was at the entire concept",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel terribly burdened to have to deal with the results of it lol",
+            "output": "sadness"
+        },
+        {
+            "input": "im feeling especially festive since i am wait for it all done my christmas shopping",
+            "output": "joy"
+        },
+        {
+            "input": "i understand that every memory is something precious and that i should cherish it but at the moment i feel disgusted at how i had become during that time of my life",
+            "output": "anger"
+        },
+        {
+            "input": "i feel especially vulnerable to being treated as a second class citizen",
+            "output": "fear"
+        },
+        {
+            "input": "im just feeling so dazed everyday",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel devastated disgusted and betrayed",
+            "output": "sadness"
+        },
+        {
+            "input": "i am expected to be monogamous which to me feels like i am being faithful to someone who is with someone else",
+            "output": "love"
+        },
+        {
+            "input": "i feel ugly i mean i m being calle",
+            "output": "sadness"
+        },
+        {
+            "input": "i can listen to it and feel dissatisfied",
+            "output": "anger"
+        },
+        {
+            "input": "i feel its my job to let you know when you might have missed another holiday",
+            "output": "sadness"
+        },
+        {
+            "input": "im feeling rotten just talking about it",
+            "output": "sadness"
+        },
+        {
+            "input": "i declined this invitation but secretly i could not help but feel curious",
+            "output": "surprise"
+        },
+        {
+            "input": "i only find him when im feeling troubled",
+            "output": "sadness"
+        },
+        {
+            "input": "i know im making a big deal out of it but i feel quite shocked that i can drive",
+            "output": "surprise"
+        },
+        {
+            "input": "i wish to know whether i should feel sympathetic towards the airline american if say their plane is on fire or their pilot has exploded or whether i should want to set them on fire if say they just decided to walk on their obligations to save money",
+            "output": "love"
+        },
+        {
+            "input": "im feeling wimpy and whiny and generally tired",
+            "output": "fear"
+        },
+        {
+            "input": "i could feel myself getting that shaky feeling",
+            "output": "fear"
+        },
+        {
+            "input": "i was just telling you how i feel about you and all you reply back was just since when you started caring for me so much",
+            "output": "love"
+        },
+        {
+            "input": "i feel like were all pretty supportive of each other",
+            "output": "love"
+        },
+        {
+            "input": "i feel so amazed ive had views in the past week",
+            "output": "surprise"
+        },
+        {
+            "input": "im just tired of feeling bitchy and completely worthless",
+            "output": "anger"
+        },
+        {
+            "input": "i very much enjoyed the build up and the air of suspense and confusion throughout but i cant help but feel dissatisfied by the ending",
+            "output": "anger"
+        },
+        {
+            "input": "i would feel resentful toward patrick because i couldnt read avery her nightly books with just her and me",
+            "output": "anger"
+        },
+        {
+            "input": "i am no longer a virgin with girls i m starting to feel very indecisive once again",
+            "output": "fear"
+        },
+        {
+            "input": "i could feel myself hit this strange foggy wall",
+            "output": "surprise"
+        },
+        {
+            "input": "i do feel devastated",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel pressured to come up with something else funny to write about",
+            "output": "fear"
+        },
+        {
+            "input": "i think i still will be when they arrive and that makes me stress and makes me feel so unhappy",
+            "output": "sadness"
+        },
+        {
+            "input": "i was thankful for a slow sunday because i was not feeling so hot",
+            "output": "love"
+        },
+        {
+            "input": "im feeling so helpless clueless and homesick",
+            "output": "fear"
+        },
+        {
+            "input": "i really feel that when people consistently make us feel unimportant in the grand scheme of life",
+            "output": "sadness"
+        },
+        {
+            "input": "ive gone for my k training or a swim then i feel energised and be productive like actually cleaning my room",
+            "output": "joy"
+        },
+        {
+            "input": "i didn t feel amazed",
+            "output": "surprise"
+        },
+        {
+            "input": "i am left feeling rejected judged and deemed inadequate",
+            "output": "sadness"
+        },
+        {
+            "input": "i can sit here and cry and feel wronged but it wont change the outcome",
+            "output": "anger"
+        },
+        {
+            "input": "i do not feel rejected anymore for i decide what my value is",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel accepted there said panorma who is from indonesia",
+            "output": "love"
+        },
+        {
+            "input": "i can recall feelings of the time we were in coolum whilst laying in my own bed the other day and it s funny how he s calling me and we are speaking everyday now",
+            "output": "surprise"
+        },
+        {
+            "input": "i am feeling the strange mix of extremely proud relieved she is on the path to her fabulous future but gutted she has chosen to move out to live in halls of residence at uni",
+            "output": "fear"
+        },
+        {
+            "input": "i don t like feeling vulnerable or exposing all my worries and concerns mostly because i have felt the need to hold it together to be the strong one",
+            "output": "fear"
+        },
+        {
+            "input": "i invariably feel very optimistic and focused",
+            "output": "joy"
+        },
+        {
+            "input": "i used to feel from your music is now gone and it has been replaced by a bitter taste in my mouth and a lot of sadness",
+            "output": "anger"
+        },
+        {
+            "input": "i feel so helpless right now",
+            "output": "fear"
+        },
+        {
+            "input": "i feel one with everything i meet even here when i return to this body out with you my beloved father indeed am beginning to realize the meaning of that unearthly love which i have sought for so long",
+            "output": "love"
+        },
+        {
+            "input": "i got a very nasty electrical shock when i was tampering with some electrical applainces",
+            "output": "fear"
+        },
+        {
+            "input": "i feel as it is imprinted in my brain by now how vital stress in the college community",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling generous lets make that winners and",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling extraordinarily dazed and bewildered this arvo for no particular reason and my muscles all hurt even though i dont actually have any",
+            "output": "surprise"
+        },
+        {
+            "input": "i spent the following months in a drug induced haze incapable of thought or feeling but it wasn t anything as glamorous",
+            "output": "joy"
+        },
+        {
+            "input": "i was feeling rebellious because of what was happening to us as a family",
+            "output": "anger"
+        },
+        {
+            "input": "i really like it and am thrilled to see where all of this will take us but on another hand i feel that the drama seems a bit messy",
+            "output": "sadness"
+        },
+        {
+            "input": "i got home and told peter how i was feeling he wasnt shocked at all by what i was telling him",
+            "output": "surprise"
+        },
+        {
+            "input": "i love sunshine havent had much but the feeling of it on my shoulders as i walk around the yard is amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "im in the kitchen and glance over at that lovely robins egg blue binding i feel assured that anything i will ever need to know about food can be found within those pages",
+            "output": "joy"
+        },
+        {
+            "input": "i will tell ya i have been following a very norma inspired diet for a week tomorrow and i feel amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like a greedy ingrate for saying this but i felt kind of bad about my presents",
+            "output": "anger"
+        },
+        {
+            "input": "i have thankful for being able to feel thankful after getting through hardship",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like supporting a yorkshire team you never know they could be the surprise packet of the round ha ha ha",
+            "output": "joy"
+        },
+        {
+            "input": "i decided to lay down in my bed but then i started to feel really violent like i wanted to punch and kick things except i didnt wnat to hurt anything",
+            "output": "anger"
+        },
+        {
+            "input": "i am feeling much more myself again now and i would like to say thank you to everyone for the lovely get well wishes your lovely comments always mean so much to me",
+            "output": "love"
+        },
+        {
+            "input": "i feel that perfume ought to last all day long and never having to reapply which is certainly not the case with dorothy jessica parker s lovely",
+            "output": "love"
+        },
+        {
+            "input": "i wouldnt feel suspicious for muslim terrorist like to blow things up hijack planes kidnap use bio warfare and shoot",
+            "output": "fear"
+        },
+        {
+            "input": "i started feeling festive very soon right back in november and i suppose it was inevitable that i ran out of steam before the day itself im feeling all a bit hummpffff today you know so much to do so little time and its all going to be over in a flash",
+            "output": "joy"
+        },
+        {
+            "input": "i feel slightly emotional watching it",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling vulnerable nervous worried anxious and a bit lost",
+            "output": "fear"
+        },
+        {
+            "input": "i were to go overseas or cross the border then i become a foreigner and will feel that way but never in my beloved land",
+            "output": "love"
+        },
+        {
+            "input": "i guess ill just feel awkward with him for a while till i get over shit",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel more and more convinced especially after a very rough last year that finding someone you love and who loves you wholeheartedly in return can change the course of your life and give the spice and emotional support to live it",
+            "output": "joy"
+        },
+        {
+            "input": "i have a feeling some violent surprises are in the offing",
+            "output": "anger"
+        },
+        {
+            "input": "im sure youre not alone in feeling a little funny about enjoying art even black created and black endorsed art littered with a term that would brand you as hateful backward and racist with a capital r if you uttered it in conversation",
+            "output": "surprise"
+        },
+        {
+            "input": "i am starting to feel compassionate towards roslin again",
+            "output": "love"
+        },
+        {
+            "input": "im feeling really quite angry",
+            "output": "anger"
+        },
+        {
+            "input": "i talk to dogs as i feel they cannot understand words but they can read emotions and know how to be supportive i decided i should go home",
+            "output": "love"
+        },
+        {
+            "input": "i woke up this morning feeling like the unfortunate drain cover that a href http www",
+            "output": "sadness"
+        },
+        {
+            "input": "i felt humiliated and belittled me because it keyed into all of my trigger points it made me feel stupid and inarticulate and laughable and flattened about something i m passionate about knowledgeable about and see as my place in the world",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling a lil overwhelmed again",
+            "output": "surprise"
+        },
+        {
+            "input": "i think that our favorite activities as a child are often very telling and if someone is feeling a little unsure about their life s direction going back to those childhood favorite past times holds many rich clues",
+            "output": "fear"
+        },
+        {
+            "input": "im really feeling hot comfort foods this week",
+            "output": "love"
+        },
+        {
+            "input": "i wish santa claus was a real person cause i didnt feel as greedy when i was a kid and thought i was getting my loot for free",
+            "output": "anger"
+        },
+        {
+            "input": "i feel lousy on what happen",
+            "output": "sadness"
+        },
+        {
+            "input": "im also feeling pretty paranoid a lot and no i dont take drugs",
+            "output": "fear"
+        },
+        {
+            "input": "i feel very happy to have inspired is my little sis love of reading and writing",
+            "output": "joy"
+        },
+        {
+            "input": "i feel liked i talked about mass effect to death in these posts but i m going to have to again i m afraid",
+            "output": "love"
+        },
+        {
+            "input": "i think about talking to a lawyer and finishing this i feel anxious",
+            "output": "fear"
+        },
+        {
+            "input": "i would not knowingly wound the feelings of any not even one who may have wronged me but would seek to do him good and make him my friend",
+            "output": "anger"
+        },
+        {
+            "input": "i know it feels like youre dying when youre working out but the sweet refreshed feeling afterwards is all worth it",
+            "output": "love"
+        },
+        {
+            "input": "i feel all funny just thinking about it",
+            "output": "surprise"
+        },
+        {
+            "input": "i list them out i feel pretty lame whining",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling soooooooo giggly",
+            "output": "joy"
+        },
+        {
+            "input": "im not sure if anyone else will feel these but i was pleasantly surprised by my read of the first and second book",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel that way makes me even more angry",
+            "output": "anger"
+        },
+        {
+            "input": "i were discussing on freedom and economic growth in global civil society i cudnt help but feeling amazed our frens in da philippines dat they r happy maintain basic living condition without rapid development as long as their freedom is not being touched",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel a little disheartened but i dont think i feel bad as maybe i should",
+            "output": "sadness"
+        },
+        {
+            "input": "i have to report and suddenly your author feels bashful for his maniacal rants",
+            "output": "fear"
+        },
+        {
+            "input": "i always feel guilty and come to one conclusion that stops me emily would be so disappointed in me",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling like a delicate wee flower and have given myself permission to lay around drinking tea and eating cream buns and reveling in my passion for poetry",
+            "output": "love"
+        },
+        {
+            "input": "i thought i would i just feel blank",
+            "output": "sadness"
+        },
+        {
+            "input": "i had been really proud of myself but after how my husband had talked to me and talked about other girls i was really feeling disgusted about myself",
+            "output": "anger"
+        },
+        {
+            "input": "i have a great family and i feel as if she has missed a great deal by not electing to meet them",
+            "output": "sadness"
+        },
+        {
+            "input": "i was like oh thats awesome blah but then he was like reminding me hes interested in this other girl and i was like i know this but what concerns me more is if it makes you feel too weird to be with me like this",
+            "output": "surprise"
+        },
+        {
+            "input": "i am feeling a little apprehensive but i m sure that will pass once i have the first treatment and with your prayers",
+            "output": "fear"
+        },
+        {
+            "input": "i can feel pretty",
+            "output": "joy"
+        },
+        {
+            "input": "i felt disgust of dirty",
+            "output": "anger"
+        },
+        {
+            "input": "i didnt feel like explaining to her that im genuinely curious and want to learn and understand and at least have some idea of what people are saying to me",
+            "output": "surprise"
+        },
+        {
+            "input": "i am by no means complete spiritually or intellectually and believe you never should be however i find myself sometimes looking on others with a knowledge and sense of feeling superior in feeling that i am further along my journey than them",
+            "output": "joy"
+        },
+        {
+            "input": "i have been feeling crappy about myself for too long and its time for something to happen",
+            "output": "sadness"
+        },
+        {
+            "input": "i run to him when i feel threatened and insecure",
+            "output": "fear"
+        },
+        {
+            "input": "i must say it was first numb then ouch my head feel dazed",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel impatient to do a final post after four more weeks with tangible results so far its exciting to see how far the philips reaura can go in terms of firming and smoothing",
+            "output": "anger"
+        },
+        {
+            "input": "i have a feeling this is going to be really long and obnoxious",
+            "output": "anger"
+        },
+        {
+            "input": "i apologize to all the ppl i dragged along with me to see it i feel shamed img src rte emoticons smile embaressed",
+            "output": "sadness"
+        },
+        {
+            "input": "i like the three finger hands those simple details give it that otherworldliness feel again the paint choices while not terrible by any stretch of the imagination it doesn t blow me away and i would have liked to have seen these both in translucent blue",
+            "output": "sadness"
+        },
+        {
+            "input": "i drove away from today feeling overwhelmed with news that i have heard a trillion times and news that my heart knows already",
+            "output": "fear"
+        },
+        {
+            "input": "i feel my lip curl up into a half smile amused at the way he s put it",
+            "output": "joy"
+        },
+        {
+            "input": "i vow to be gasp nicer to everyone not just a select few marybeth and isabella lol i will say what i feel and not cover up something sweet with something shitty",
+            "output": "love"
+        },
+        {
+            "input": "i feel like the supporting literature cited in this section is not only scarce but also badly presented",
+            "output": "love"
+        },
+        {
+            "input": "i meet in supermarkets banks dentists etc make me feel like im weird",
+            "output": "fear"
+        },
+        {
+            "input": "i feel shy when people reading these but i am writing it here so brothers and sisters would see how real life works",
+            "output": "fear"
+        },
+        {
+            "input": "i feel tortured the one thing i love is the one thing that wont support me financially but i cringe when i think of spending years chained to a desk performing a job by wrote with little or no room for creativity or for anything else that matters",
+            "output": "anger"
+        },
+        {
+            "input": "i decided to see if i could locate margaret or jeff as i feel a longing to know how they are",
+            "output": "love"
+        },
+        {
+            "input": "i know it can take weeks for a book to go free on amazon and barnes amp noble and in this age where cents can buy a full length ebook i feel a little funny charging even cents for a work that is almost certain to be under pages possibly under",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel kinda weird when andrea tries to talk to me about chris",
+            "output": "fear"
+        },
+        {
+            "input": "i do i feel very impressed with the one who made the story",
+            "output": "surprise"
+        },
+        {
+            "input": "i am feeling amazed to see what god is doing new friends who aren t only amazing but get me who don t run and hide in a dark room unless i am there and they are joining me",
+            "output": "surprise"
+        },
+        {
+            "input": "i started feeling funny last monday i just knew i was pregnant",
+            "output": "surprise"
+        },
+        {
+            "input": "i am feeling quite impressed with myself because i went two directions across the top row and down the left column",
+            "output": "surprise"
+        },
+        {
+            "input": "i dont want this blog to be too similar to many others but i may occasionally post a picture of something i feel is an accomplishment or something i am proud of",
+            "output": "joy"
+        },
+        {
+            "input": "i feel back onto my bed caring for my stinging eye",
+            "output": "love"
+        },
+        {
+            "input": "i was feeling adventurous and took the stairs",
+            "output": "joy"
+        },
+        {
+            "input": "i could look for solutions instead of just feeling helpless actually made a big difference",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like i have weird sugar issues that my hunger is all over the place",
+            "output": "surprise"
+        },
+        {
+            "input": "i also feel it can be rude to see your family doctor out and about and approach them together with your ailments",
+            "output": "anger"
+        },
+        {
+            "input": "i was sent home still feeling a bit shaky and dizzy",
+            "output": "fear"
+        },
+        {
+            "input": "i feel quite reluctant to pick up a dance with dragons book because once i m done with that who knows how long i d have to wait for martin to finish his next installment it took him years to release a dance with dragons after a feast for crows",
+            "output": "fear"
+        },
+        {
+            "input": "i would feel terrified for them and enjoy this movie a little better",
+            "output": "fear"
+        },
+        {
+            "input": "i can pay the bills and still have some cash in the bank should leave me feeling pretty satisfied right",
+            "output": "joy"
+        },
+        {
+            "input": "i bought a virtually fat free thousand islands and feeling very impressed with myself hold large quantities of this substance on the leaves of lettuce and cucumber with my friend but it will be total sugar becomes if you do not burn fat",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel resentful of him trying to control what i do but i also don t want to do anything rash",
+            "output": "anger"
+        },
+        {
+            "input": "i need to act cool act unconcern to him so that he wont feel he is special he is appreciated so that i feel safe that he couldnt see the truth sides of me im so tired of covering all the real feelings",
+            "output": "joy"
+        },
+        {
+            "input": "i love and captured an atmospheric feeling in their landscapes that really impressed me",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel that as we study him we find that he was indeed a perfect example of what any christian and especially a latter day saint should be",
+            "output": "joy"
+        },
+        {
+            "input": "i must say im not feeling very optimistic",
+            "output": "joy"
+        },
+        {
+            "input": "i feel a little bit weird",
+            "output": "fear"
+        },
+        {
+            "input": "im feeling less impressed with the speech this morning than i was last night",
+            "output": "surprise"
+        },
+        {
+            "input": "im wanting you to look at me that it makes people feel ok to ask questions",
+            "output": "joy"
+        },
+        {
+            "input": "i read through the ol feefyefo space i feel amazed at how much i could blabber and how transparent i was with my life",
+            "output": "surprise"
+        },
+        {
+            "input": "i have just been wandering around santa cruz and thinking about this being the last time in a while that i m seeing all those meaningful streets squares shops caf s where i have spent so much time with my friends makes me feel almost heartbroken",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel foolish for all these long runs and extra miles if the best i can muster is nearly seconds per mile slower than i was a year ago",
+            "output": "sadness"
+        },
+        {
+            "input": "i growled at her i began to feel extremely annoyed with her",
+            "output": "anger"
+        },
+        {
+            "input": "i didn t feel like she was shy so much as taking it all in as her mother has described her",
+            "output": "fear"
+        },
+        {
+            "input": "i still adhere to this to a certain extent i feel that there is a fine line",
+            "output": "joy"
+        },
+        {
+            "input": "i still feel somewhat dissatisfied with myself",
+            "output": "anger"
+        },
+        {
+            "input": "i feel that these children will become violent and mentally unsafe as they get older because they are constantly in a dangerous environment",
+            "output": "anger"
+        },
+        {
+            "input": "i feel so impressed by a dental work in front of me as well as a cost which we am deliberation suicide",
+            "output": "surprise"
+        },
+        {
+            "input": "i think are close to me as online friends also feel they still very curious about me",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like most books will contain some kind of romantic undercurrent and while this one did it was a lot more subtle than other books are about it",
+            "output": "love"
+        },
+        {
+            "input": "im feeling particularly dangerous a chocolate cookie",
+            "output": "anger"
+        },
+        {
+            "input": "i feel betrayed and angry and sad at the same time dammit",
+            "output": "anger"
+        },
+        {
+            "input": "i don t have the longevity or experience in the field to get a feeling for that and i m curious as to what the speculation might be",
+            "output": "surprise"
+        },
+        {
+            "input": "i was overwhelmed by the feeling of being impressed i think these kids theyre years younger than me i can call them kids right",
+            "output": "surprise"
+        },
+        {
+            "input": "i wasnt feeling all that hot and i was moving well",
+            "output": "love"
+        },
+        {
+            "input": "im feeling is funny because its totally unnecessary",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like a petty murder shoudlnt be punished nearly as heavily as human beings who are constantly shitty to other human beings",
+            "output": "anger"
+        },
+        {
+            "input": "i have i feel pathetic for lying if i say no",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel less shy about exploring roles in more physical ways",
+            "output": "fear"
+        },
+        {
+            "input": "i shall never feel like i am less than a valued human but i will always know that my needs can and will be met by gods people if i get rid of my pride and ask",
+            "output": "joy"
+        },
+        {
+            "input": "i wasn t feeling hot i knew that i needed to cool my body temperature and drink more fluids",
+            "output": "love"
+        },
+        {
+            "input": "i felt the bubbling feeling and pretty soon i was at my peek and climaxed on her hands and her cute little dress",
+            "output": "joy"
+        },
+        {
+            "input": "i feel your prick every night when you re dreaming about me and i she paused dramatically i am not impressed",
+            "output": "surprise"
+        },
+        {
+            "input": "i had a hard time focusing on my life and walked around feeling dazed and confused",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so horny horny",
+            "output": "love"
+        },
+        {
+            "input": "i feel fearful",
+            "output": "fear"
+        },
+        {
+            "input": "i feel curious reserved habits was nothing else",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel strongly that by supporting because i am a girl we can have a positive impact on girls both on and off the soccer field said christine sinclair captain canadian women s national team",
+            "output": "joy"
+        },
+        {
+            "input": "i immediately related to feeling curious about everything",
+            "output": "surprise"
+        },
+        {
+            "input": "i actually put forth the effort and stick to a routine though i am busier i feel less stressed and more fulfilled at the end of the day and am better able to enjoy the simple moments of motherhood",
+            "output": "sadness"
+        },
+        {
+            "input": "ill just have to make some local friends i can go to the movies with and know for a fact they wont even without meaning to cause i seriously doubt there was any actual intention to hurt my feelings or actually call me heartless a moral or brainless it just came across that way to me",
+            "output": "anger"
+        },
+        {
+            "input": "i almost didn t want to post these because i can sometimes feel intimidated by the amazingness of other mom bloggers who seem to have perfectly organized homes and entertained children",
+            "output": "fear"
+        },
+        {
+            "input": "i do think as he was feeling a bit of humiliated they did not have an excellent alternative they wanted all of us to clarify the fact that stop mortgage is working",
+            "output": "sadness"
+        },
+        {
+            "input": "i had been feeling was all my fault that i had wronged her and caused her to abandon me",
+            "output": "anger"
+        },
+        {
+            "input": "i feel amazed at the world",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so contented with my job",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like if you can t admit that you ve always been a little bit weird or a little bit quirky it s just taking yourself too seriously",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like texans are some of the most friendly and genuinely kind people you will ever meet but i still have my issues of old attitudes that just don t change nearly quickly enough for my taste",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling so irritable about todays class",
+            "output": "anger"
+        },
+        {
+            "input": "i had awesome workouts and feeling amazing",
+            "output": "joy"
+        },
+        {
+            "input": "i feel drained just looking at the date of my real last entry",
+            "output": "sadness"
+        },
+        {
+            "input": "i think i wake up every day feeling terrified in some way but then i feel totally exhilirated when facing things i ve always been scared to do",
+            "output": "fear"
+        },
+        {
+            "input": "i hope that you feeling fine well i wanna say happy birthday and that you realize your dreams and you always be happy because you are a perfect person and you deserves the best",
+            "output": "joy"
+        },
+        {
+            "input": "i cant decide how i feel about some of the supporting roles particularly the girlfriend and alfred molina both quite funny but were they one dimensional caricatures or legitimate characters simply overshadowed by a fantastic lead",
+            "output": "love"
+        },
+        {
+            "input": "im starting to feel like you my faithful reader are my wife or something ie the one i bitch to while everyone else gets to see the better angel of my nature haha",
+            "output": "love"
+        },
+        {
+            "input": "i only have three words to describe my feelings after viewing them im not impressed",
+            "output": "surprise"
+        },
+        {
+            "input": "i had to get up soon for choir so i dealt with the feeling of a headache thats not killer but could get that way if you angered it for most of the evening",
+            "output": "anger"
+        },
+        {
+            "input": "i almost feel too stubborn to come back as i said that i was leaving",
+            "output": "anger"
+        },
+        {
+            "input": "i feel fairly calm",
+            "output": "joy"
+        },
+        {
+            "input": "i punched out of work sunday sighed and the brunch trumpeter waldo carter said from behind i know exactly how you feel this startled me and i flinched",
+            "output": "fear"
+        },
+        {
+            "input": "i feel stressed i tend to scrapbook and make cards",
+            "output": "anger"
+        },
+        {
+            "input": "i feel so honored and grateful to have met kassim selamat of the swallows during my trip",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling hopeful that the last piece in the lighting jigsaw may be finally complete",
+            "output": "joy"
+        },
+        {
+            "input": "i call my ex so i don t have to feel guilty about all the other men i m sleeping with whilst he s doing a four year stretch",
+            "output": "sadness"
+        },
+        {
+            "input": "ill tell you what its about as soon as im sure then well talk about how you can purchase it without feeling that youre in any way supporting me or what i do",
+            "output": "joy"
+        },
+        {
+            "input": "i must tell you that i have been doing much more yoga lately and i feel all lovely and loose in my joints and muscles",
+            "output": "love"
+        },
+        {
+            "input": "i feel like popping them in the face with my fist because they re obnoxious",
+            "output": "anger"
+        },
+        {
+            "input": "ive been experimenting with lemony cakes and after several tests i feel i must share with you the recipe for this lemon and vanilla buttermilk cake because it is utterly delicious",
+            "output": "joy"
+        },
+        {
+            "input": "i began training in january or at least mentally preparing myself to train and can remember specifically feeling apprehensive about the running a spring marathon",
+            "output": "fear"
+        },
+        {
+            "input": "i was however totally petrified of feeling it scared to death of giving in and releasing it and afraid i wouldnt be able to cap it again",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like a failure like i m so fucked up that i have to be medically managed",
+            "output": "anger"
+        },
+        {
+            "input": "i feel hot irritated and tired",
+            "output": "love"
+        },
+        {
+            "input": "i go to sleep i feel as if i m giving up precious time to do something else with my life",
+            "output": "joy"
+        },
+        {
+            "input": "i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot",
+            "output": "fear"
+        },
+        {
+            "input": "i wonder how it feels to be loved by someone you love",
+            "output": "love"
+        },
+        {
+            "input": "im really not feeling that passionate about this one",
+            "output": "love"
+        },
+        {
+            "input": "i always feel this tangle in my stomach i never just feel content and wanted",
+            "output": "joy"
+        },
+        {
+            "input": "i need to move past the grief and maybe even feel angry",
+            "output": "anger"
+        },
+        {
+            "input": "i feel he became frightened at the thought that i was putting my best foot forward",
+            "output": "fear"
+        },
+        {
+            "input": "i feel content without knowing the rest of their story",
+            "output": "joy"
+        },
+        {
+            "input": "i almost never pull all nighters so im feeling a little groggy today",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel tortured by my self inducing deprecation and resentment",
+            "output": "fear"
+        },
+        {
+            "input": "i have said many times i don t want it to feel fake or overdone",
+            "output": "sadness"
+        },
+        {
+            "input": "i realized my mistake and i m really feeling terrible and thinking that i shouldn t do that",
+            "output": "sadness"
+        },
+        {
+            "input": "i wanna go to work feeling bouncy and happy",
+            "output": "joy"
+        },
+        {
+            "input": "i feel amazed to say that i am doing what i only dreamed of doing again",
+            "output": "surprise"
+        },
+        {
+            "input": "i know that i am even more unworthy to facilitate your children and i feel truly anguished that my interference with your work has stunted damaged or destroyed the promise once instilled by your spirit in to them",
+            "output": "sadness"
+        },
+        {
+            "input": "i was feeling relatively indecisive and not very hungry until we walked past a barbeque place",
+            "output": "fear"
+        },
+        {
+            "input": "i feel very romantic now all i have left to try out is barry m almond from the same range",
+            "output": "love"
+        },
+        {
+            "input": "i will enclose her verses on her could not weigh much more thinking and feeling curious to hear the odd couple",
+            "output": "surprise"
+        },
+        {
+            "input": "i really thought i was ok with how things are but here i am out of no where crying and feeling empty and sorry for myself shame on me",
+            "output": "sadness"
+        },
+        {
+            "input": "i hate feeling this pathetic",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel as uncomfortable now as if i were carrying a volvo but my belly is nice and tidy and looks not unsimilar to the beer gut my dad has nice and hard and round and i waddle just like he does",
+            "output": "fear"
+        },
+        {
+            "input": "i just don t feel as impressed and as happy with things like i used to",
+            "output": "surprise"
+        },
+        {
+            "input": "i can honestly say that every good thing in my life right now is crashing down and i feel too stubborn to ask for help",
+            "output": "anger"
+        },
+        {
+            "input": "i feel frightened or anxious",
+            "output": "fear"
+        },
+        {
+            "input": "i mean i feel i feel like the i feel the burden i cant breathe and suddenly im terrified of october what have i been doing the past weeks",
+            "output": "fear"
+        },
+        {
+            "input": "i remember feeling acutely distressed for a few days",
+            "output": "fear"
+        },
+        {
+            "input": "i feel in the long run this hurts paulie as you could visibly see how distraught he was with the result and the perception of his performance",
+            "output": "fear"
+        },
+        {
+            "input": "i am normally better at avoiding the expensive pre packaged products when i go to waitrose but i was still feeling a bit shaken up from the parking issues so bought some extra bits to calm my nerves",
+            "output": "fear"
+        },
+        {
+            "input": "i know its easy to feel a little envious of me and i cant tell you that you shouldnt",
+            "output": "anger"
+        },
+        {
+            "input": "i feel terribly unkind to say it span style font size",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like i am abandoning him in a way but he is so supportive of the move",
+            "output": "love"
+        },
+        {
+            "input": "i feel less hesitant predicting that the oeuvre of nick dewitt will continue to bear fruits that seem to come from distant times forward and or back",
+            "output": "fear"
+        },
+        {
+            "input": "i wonder if he feels like i dont care about him when i stop caring about me",
+            "output": "love"
+        },
+        {
+            "input": "i feel sort of dazed and cross eyed",
+            "output": "surprise"
+        },
+        {
+            "input": "i awoke an hour after feeling groggy",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel that sometimes my lessons are too boring to post here buuuuuut i have a dear friend rach who is a new sunday school teacher and wanting to see what ive been doing so ill still post my lessons up here",
+            "output": "sadness"
+        },
+        {
+            "input": "i pay attention it deepens into a feeling of being invaded and helpless",
+            "output": "fear"
+        },
+        {
+            "input": "i feel almost outraged that such a crap day should fall on my most favourite of days",
+            "output": "anger"
+        },
+        {
+            "input": "i feel scared and unsure and out of place",
+            "output": "fear"
+        },
+        {
+            "input": "i find that despite the fact that i feel like i really liked this book i certainly read through the entire thing like i had a physical need to find out what happens next i cant think of anything to say about it",
+            "output": "love"
+        },
+        {
+            "input": "i honestly was not sure if the pain i was feeling was a case of irritable bowels or indeed contractions",
+            "output": "anger"
+        },
+        {
+            "input": "i was constantly complaining of not feeling so hot",
+            "output": "love"
+        },
+        {
+            "input": "i wanted to go and ask him about my batting but was feeling hesitant about approaching such a big player",
+            "output": "fear"
+        },
+        {
+            "input": "i feel shocked his words very pure very self",
+            "output": "surprise"
+        },
+        {
+            "input": "im feeling a little overwhelmed here recently",
+            "output": "surprise"
+        },
+        {
+            "input": "i kind of feel fearful of starting",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling rather triumphant that i decided to disagree with davids notion that the real peak was further on and decided to give the side trail a chance",
+            "output": "joy"
+        },
+        {
+            "input": "i always tell people my brd armor sucks since i totally feel it does so i was amazed to see some of the crap some brds wear",
+            "output": "surprise"
+        },
+        {
+            "input": "i don t feel bitter about my lot nor do i wish any other mother s son was in my place",
+            "output": "anger"
+        },
+        {
+            "input": "i have to admit that i was feeling distracted by the fact that i was blocking traffic",
+            "output": "anger"
+        },
+        {
+            "input": "i end up feeling so unwelcome i go into a spare bedroom being used as a coat closet take the xanax i had been saving the entire time and pass out",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel so dumb photographing myself okay i even feel dumb trying to smile for justin",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel grouchy now the football fans have woken me up from the customary sunday siesta",
+            "output": "anger"
+        },
+        {
+            "input": "i am feeling incredibly restless",
+            "output": "fear"
+        },
+        {
+            "input": "i don t feel that my society has accepted me whole heartedly",
+            "output": "love"
+        },
+        {
+            "input": "i know a lot of councillors who do not feel they get a sympathetic hearing from their local newspapers",
+            "output": "love"
+        },
+        {
+            "input": "in sweden",
+            "output": "fear"
+        },
+        {
+            "input": "i would buy something from tropical smoothie and eat half of it and then feel like i was disgusted to even take an extra sip or bite",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like i have been screaming at a blank and very solid wall",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel uncomfortable when i wear lenses that are not brown but these lenses make me want to get more blue lenses",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like ive been kinda listless",
+            "output": "sadness"
+        },
+        {
+            "input": "im feeling absolutely amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "i myself smiling through loving simple dialog child logic explain situation feelings it s funny",
+            "output": "surprise"
+        },
+        {
+            "input": "i am feeling resentful it is my choice and i can choose to do things differently next time or even change my choice now",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like i am very passionate about youtube and so id quite like to explain why i think youtube is the next best thing for entertainment",
+            "output": "love"
+        },
+        {
+            "input": "i still feel very very disheartened",
+            "output": "sadness"
+        },
+        {
+            "input": "i just feel you so so dont be afraid and pray again i need you go back in time forgive my sins so so sloth",
+            "output": "fear"
+        },
+        {
+            "input": "i don t know how sasha fierce feels i m definitely curious about the future of beyonc s sound",
+            "output": "surprise"
+        },
+        {
+            "input": "i finish a steinbeck i feel invigorated and enriched",
+            "output": "joy"
+        },
+        {
+            "input": "i feel that im not talented in baking",
+            "output": "joy"
+        },
+        {
+            "input": "i can almost feel your delicate heart breaking",
+            "output": "love"
+        },
+        {
+            "input": "i like to do things that leave others feeling surprised and delighted",
+            "output": "surprise"
+        },
+        {
+            "input": "i sometimes feel like the heroine who is never stressed or teary or worn out with all the hardship is pretty shallow",
+            "output": "sadness"
+        },
+        {
+            "input": "i often pass by the streets of jurer and feel impressed by some nice constructions and safe atmosphere it has",
+            "output": "surprise"
+        },
+        {
+            "input": "i get people asking me what it feels like to be the most hated man in dallas county said assessor steve helm",
+            "output": "sadness"
+        },
+        {
+            "input": "i do not like feeling unsure and uncertain",
+            "output": "fear"
+        },
+        {
+            "input": "im not quite sure what it is but its a feeling specially for you and its nothing hostile",
+            "output": "anger"
+        },
+        {
+            "input": "i just feel terrified",
+            "output": "fear"
+        },
+        {
+            "input": "i feel that wanatribe may become a vital link in my writing network",
+            "output": "joy"
+        },
+        {
+            "input": "i sit here tonight i m pensive tense and feeling a little fearful",
+            "output": "fear"
+        },
+        {
+            "input": "im feeling doubtful about all of the patterns and colors working together but we cant be sure until everything comes together",
+            "output": "fear"
+        },
+        {
+            "input": "im feeling really weird",
+            "output": "surprise"
+        },
+        {
+            "input": "ive got a off sale the ad says starting tomorrow but im feeling generous and started it now",
+            "output": "love"
+        },
+        {
+            "input": "i didnt feel too much it was just casual",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like beloved",
+            "output": "love"
+        },
+        {
+            "input": "i feel like it blog april a wonderful spring weekend filed under a href http karmardav",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling rebellious amp ive missed the last couple of ffs on twitter so i thought id share two blogs that ive been loving recently",
+            "output": "anger"
+        },
+        {
+            "input": "im already feeling less agitated",
+            "output": "anger"
+        },
+        {
+            "input": "i feel liked because people clicked like",
+            "output": "love"
+        },
+        {
+            "input": "i feel shocked have i become that old",
+            "output": "surprise"
+        },
+        {
+            "input": "i just feel pathetic holding on when theres obviously nothing for me to hold on to",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel like in a way i kinda shocked my body by changing my calorie intake",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so cranky and disconnected",
+            "output": "anger"
+        },
+        {
+            "input": "i refer to it as an addiction because no matter how many pairs i have i never feel satisfied",
+            "output": "joy"
+        },
+        {
+            "input": "i felt good before the race but once i started to run i guess i was feeling the effects of the cold and congestion i didnt really realize i still had",
+            "output": "anger"
+        },
+        {
+            "input": "i have come to a place in my life where i feel having a romantic partner is unnecessary",
+            "output": "love"
+        },
+        {
+            "input": "im feeling amorous tonight never again",
+            "output": "love"
+        },
+        {
+            "input": "i get to be creative if i feel like it or just sit and chat to customers the people are all lovely even kermit helps out see",
+            "output": "love"
+        },
+        {
+            "input": "i whipped my stuff up from my station and fled to the underbelly of grand central desperate to find a subway map feeling disgusted with how upset i was over my frazzle y meltdown",
+            "output": "anger"
+        },
+        {
+            "input": "i definitely feel he should get a title supporting and the picture for once",
+            "output": "joy"
+        },
+        {
+            "input": "i thinks this chiefs ccw should be yanked by the state as i feel threatened",
+            "output": "fear"
+        },
+        {
+            "input": "i kept doing research on bathroom renovations and all that research just resulted in me feeling more confused than ever about to how to go about tackling what to me felt like a mammoth task",
+            "output": "fear"
+        },
+        {
+            "input": "i have a bad feeling that i am going to get very aggravated again tomorrow",
+            "output": "anger"
+        },
+        {
+            "input": "i feel stressed out all the time i said and then i think about how people say stress causes cancer and i know it isn t true but i can t stop thinking that i need to relax or else my cancer will come back and then i get stressed out because i m stressed and it makes me feel worse",
+            "output": "sadness"
+        },
+        {
+            "input": "im feeling this little one move a lot now and im constantly surprised by his her little kicks",
+            "output": "surprise"
+        },
+        {
+            "input": "i lift different now because it hurt so bad the day it happened that i can t get it out of my mind and i feel myself being a bit timid",
+            "output": "fear"
+        },
+        {
+            "input": "i am happier this year in all ways i am just glad i am on english lit only i made good module choices i like my teachers the peeps in my class are not so snidey i feel more confident in my work and i am on top of it unlike last year when i was soooooooooooo behind to the point of doing zero",
+            "output": "joy"
+        },
+        {
+            "input": "i took a day off which is so unusual for me i almost feel naughty",
+            "output": "love"
+        },
+        {
+            "input": "i woke up feeling groggy and grumpy and like the last thing i wanted to do was make dinner",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel hated i feel angry i feel very sad i feel like im going to be abandoned i feel angry because i abandoned someone but in reality no one at this age can expect that neither party will be abandoned",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like death think feeling like death will make me a more compassionate psychologist",
+            "output": "love"
+        },
+        {
+            "input": "i feel students need compassionate strong and dedicated individuals who embrace the role of luminary with humility and a sense of adventure",
+            "output": "love"
+        },
+        {
+            "input": "i feel so vulnerable and yet so protective over her",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like having that sweet carby yet low glycemic meal not just at breakfast but often for dessert",
+            "output": "joy"
+        },
+        {
+            "input": "i feel neglectful that i have to skip over all the entries from this community and that i dont have the time to be as religious as i had been",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel pleased that i will resist it till i get these next four night shifts over with",
+            "output": "joy"
+        },
+        {
+            "input": "i get the feeling he has naughty intentions",
+            "output": "love"
+        },
+        {
+            "input": "i am feeling playful this morning",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like its at times like these when things seem a little more uncertain that i thank god more for the small things",
+            "output": "fear"
+        },
+        {
+            "input": "im feeling somewhat nostalgic about the game just from the fact that its star wars",
+            "output": "love"
+        },
+        {
+            "input": "i know both of them feel threatened by the job i do even after long years but i get really tired of the ganging up i get from them",
+            "output": "fear"
+        },
+        {
+            "input": "i know the pain parents feel when an enraged child becomes violent",
+            "output": "anger"
+        },
+        {
+            "input": "i get involved into a tale of good versus evil i want to feel afraid of the dark to a certain extent",
+            "output": "fear"
+        },
+        {
+            "input": "i feel less whiney since the sun came out here in the sf area",
+            "output": "sadness"
+        },
+        {
+            "input": "i was feeling some irritation and anger feeling being insulted",
+            "output": "anger"
+        },
+        {
+            "input": "i have been for my bloods which proved the reason i was feeling so lethargic and rubbish was that i am low on iron so i have now been prescribed iron tablets",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel surprised when i looked new",
+            "output": "surprise"
+        },
+        {
+            "input": "i havent been feeling fantastic this week so i thought id do something different and easier to write that i thought could be fun",
+            "output": "joy"
+        },
+        {
+            "input": "im shocked i feel my own little problems put into perspective and i feel heartache for the innocent lives that have been ended",
+            "output": "joy"
+        },
+        {
+            "input": "when my last years second semester results came through i was ecstatic",
+            "output": "joy"
+        },
+        {
+            "input": "i grow learn more and mature a little more which really makes me feel a sense of joyful peace within",
+            "output": "joy"
+        },
+        {
+            "input": "im still feeling annoyed though",
+            "output": "anger"
+        },
+        {
+            "input": "i feel me better cuz i listen to this song img src http ifyouwanttoknow",
+            "output": "joy"
+        },
+        {
+            "input": "i also feel like i have been keeping myself intentionally stupid behind slow in the past ive known that keeping up with gaga would require getting up to light speed which transforms you into an artist and im ready to do that now an hold nothing back",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel rather agitated by our sliding door that keeps getting stuck",
+            "output": "anger"
+        },
+        {
+            "input": "i read the sentinel article on hanford city councilman dan chins proposed media policy and the secret committee meetings my feelings could be summed up in a single word alarmed",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling terrified anxious excited and apprehensive among a million other things",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like taking a whack at someone s eye and spitting on it a cranky old lady i try to cheer myself up",
+            "output": "anger"
+        },
+        {
+            "input": "i am feeling rather overwhelmed with all that is on my to do list",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel about politics and i have been very shocked at myself for going into this realm though i think that it is at this time the most important considering everything that has been going on in the world stage and in the usa",
+            "output": "surprise"
+        },
+        {
+            "input": "i feeling strange energies",
+            "output": "surprise"
+        },
+        {
+            "input": "i love that i feel valuable i love making the choice i love that it s easy to make the choice to feel good",
+            "output": "joy"
+        },
+        {
+            "input": "i say i only sort of knew him and i don t want to make it like i m personally devastated by it i m certain those who were close with him are feeling devastated and i don t want to appropriate that or disrespect that grief",
+            "output": "sadness"
+        },
+        {
+            "input": "i was afraid of feeling helpless",
+            "output": "sadness"
+        },
+        {
+            "input": "i scare myself so much with these dreams wake up feeling out of control and convinced that ive hurt somebody",
+            "output": "joy"
+        },
+        {
+            "input": "i get to know about it the more guilty i feel for not being as faithful as these guys are",
+            "output": "love"
+        },
+        {
+            "input": "i feel a little overwhelmed this weekend i went out to the beach and just stood in the surf watching listening and feeling the waves come in and out",
+            "output": "surprise"
+        },
+        {
+            "input": "im sorry that there wasnt more humor in this post but im not feeling all that funny",
+            "output": "surprise"
+        },
+        {
+            "input": "i feels at all bitter over his treatment he gave no indication on monday night",
+            "output": "anger"
+        },
+        {
+            "input": "i usually ignore page invites that are irrelevant to me or facebook game invites because its impersonal and it feels insincere",
+            "output": "anger"
+        },
+        {
+            "input": "im already rereading what i just wrote and feeling like im portraying my sweet girl as a brat",
+            "output": "love"
+        },
+        {
+            "input": "i shy away from songs that talk about how i feel toward god or that maybe even talk about my faithful response toward god",
+            "output": "love"
+        },
+        {
+            "input": "im feeling less grumpy after that",
+            "output": "anger"
+        },
+        {
+            "input": "i feel pretty terrified immature and not ready",
+            "output": "fear"
+        },
+        {
+            "input": "i woke up feeling fabulous and im sure that half of that stems from the fact that ill be finishing my undergraduate studies in about weeks",
+            "output": "joy"
+        },
+        {
+            "input": "i am feeling cranky or not cooperative i should be allowed to sleep or relax and if i am not given this opportunity it s not my fault if i body slam my bosses or harass museum visitors",
+            "output": "anger"
+        },
+        {
+            "input": "i feel strongly about or a line that i want to draw in the sand so to speak i shouldn t be afraid especially at this point to bring up how i feel about what my conclusion should entail etc",
+            "output": "fear"
+        },
+        {
+            "input": "i mean fuck i feel like i was way more considerate with customers and concerned about appearance and sanitiation snoozel pm but fine",
+            "output": "love"
+        },
+        {
+            "input": "i was feeling quite impatient and must have hit the ad because thats when my internet died and vista virus pro started to bother me",
+            "output": "anger"
+        },
+        {
+            "input": "i do not agree with hirsi ali on policy matters and i do agree with much of what ingrid writes by contrast but having grown up in a country for which i feel little love and with the culture of which i do not identify in the least i can t help but to be sympathetic to her",
+            "output": "love"
+        },
+        {
+            "input": "im feeling a bit uncertain about the whole poem i think that will remain",
+            "output": "fear"
+        },
+        {
+            "input": "im not too psyched about any of those stops but thats kind of a good thing because i wont feel pressured to go see and do everything there is to do and i can just hopefully relax and focus on making it fun for the kids which by extension makes it fun for me",
+            "output": "fear"
+        },
+        {
+            "input": "i felt ashamed of these feelings and was scared because i knew that something wrong with me and thought i might be gay",
+            "output": "fear"
+        },
+        {
+            "input": "i fuck with that coat but i really still feel like she doesnt know how to rock this swag so just looks a little lame trying whatever though",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling humorous i put cold callers on hold",
+            "output": "joy"
+        },
+        {
+            "input": "i cant helped but to feel burdened and anxious about this",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel weird when yuuki talks to other girls",
+            "output": "fear"
+        },
+        {
+            "input": "i think we ll feel pretty good about that",
+            "output": "joy"
+        },
+        {
+            "input": "im not feeling overwhelmed by school just yet i only give that a week or so hah",
+            "output": "surprise"
+        },
+        {
+            "input": "i wrong to feel so aggravated",
+            "output": "anger"
+        },
+        {
+            "input": "i feel lovely",
+            "output": "love"
+        },
+        {
+            "input": "i feel is still really low in my abdomen",
+            "output": "sadness"
+        },
+        {
+            "input": "i am certified via ace and i love what i do but lately i feel like a fake",
+            "output": "sadness"
+        },
+        {
+            "input": "i ve been feeling a bit cranky with the kids this week cranky baby whiny year old demanding preschooler so i wanted to stop and remember how blessed i really am",
+            "output": "anger"
+        },
+        {
+            "input": "i have just got home tonight from a beautiful surprise party for a gorgeous friends birthday and can i tell you i am feeling so sentimental and awed and actually totally lost for words to really explain how i am feeling",
+            "output": "sadness"
+        },
+        {
+            "input": "i am just feeling overwhelmed and there is nothing i can do to fix it",
+            "output": "surprise"
+        },
+        {
+            "input": "i love the liz earle moisturizer it does really leave the skin feeling lovely but i think i will purchase the lighter version next time",
+            "output": "love"
+        },
+        {
+            "input": "im sure this silly little blog is ridiculous but sometimes i just feel so aggravated",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like i am doomed for the rest of my life",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel all people of reason have a duty to awaken these sincere mislead people to educate them to the fact that god gave us reason and ancient ignorant men gave us revealed religions",
+            "output": "joy"
+        },
+        {
+            "input": "i thought about it a lot this weekend because i watched the fault in our stars which is about two kids who have cancer so that made me feel really weird and anxious",
+            "output": "surprise"
+        },
+        {
+            "input": "i just feel like im going no where and that the period of time where i was so very much enthralled with life and the options it proposed is now over",
+            "output": "surprise"
+        },
+        {
+            "input": "i think i deserve for once this freedom makes me feel amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "i feeling soo agitated",
+            "output": "fear"
+        },
+        {
+            "input": "i sit and remember what longing felt like and what denial feels like it is so strange to think i couldnt have changed my own perspective the experience itself created my view of the world",
+            "output": "fear"
+        },
+        {
+            "input": "i still feel amazed by its beauty diversity and joie de vivre",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel cold few days",
+            "output": "anger"
+        },
+        {
+            "input": "i always feel invigorated while listening to her that we can win this war against predatory school deform",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like a rag doll badly abused",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel soo disturbed by it",
+            "output": "sadness"
+        },
+        {
+            "input": "i could feel blake more sharply and i felt a little more delicate i guess you could say",
+            "output": "love"
+        },
+        {
+            "input": "i bore my testimony that listening is one of the most important things we can do and if we feel impressed to do something even if we are unsure about it by learning to follow those impressions we will learn whether it is of ourselves or of the spirit",
+            "output": "surprise"
+        },
+        {
+            "input": "i am feeling a little bit nostalgic",
+            "output": "love"
+        },
+        {
+            "input": "im also feeling overwhelmed by how often im saying im too old for that shit",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like such a pathetic talentless unloveable loser",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel the more im convinced that i dont want to let this go",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling a little shaky because im going to give a speech at jens retirement lunch shortly and i dont want to cry",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like i havent sit still since my birthday which i am loving",
+            "output": "love"
+        },
+        {
+            "input": "i decided that this one lesson i had had was enough practise for me so its fair to say i was feeling slightly apprehensive walking over to the nursery slopes",
+            "output": "fear"
+        },
+        {
+            "input": "i feel unwelcome when i am with her",
+            "output": "sadness"
+        },
+        {
+            "input": "i was talking to elder ditlevsen the other day about my plans at college and things and how you guys were all way excited for me to get back and he told me that he remembered feeling a little nervous as a parent",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling a little dissatisfied with my pictures for the last couple of months",
+            "output": "anger"
+        },
+        {
+            "input": "i feel weird in the companies of those who approve and disapprove of dot com marriages",
+            "output": "surprise"
+        },
+        {
+            "input": "i mean architectural wonders just make you feel wowed impressed and you just end up really respecting the people who built them but nature just makes you feel so much more aware of the world around you without actually actively doing anything because they were always there you know",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel for you my beloved master time will tell you this is true",
+            "output": "joy"
+        },
+        {
+            "input": "i am feeling confident that i will be able to get to the back door before dinner time",
+            "output": "joy"
+        },
+        {
+            "input": "i ignored her minor tantrum and jumped down from the table beginning to pace again and feeling agitated",
+            "output": "fear"
+        },
+        {
+            "input": "i feel heartbroken that a group of my fellow americans fell for the prosecutions fear mongering theory elashis daughter noor said outside the courthouse late monday",
+            "output": "sadness"
+        },
+        {
+            "input": "i am a small town girl and feel very satisfied with staying in my comfort zone but with jene having to work today the boys and i braved the windy city on our own",
+            "output": "joy"
+        },
+        {
+            "input": "i started feeling very gentle contractions about minutes apart",
+            "output": "love"
+        },
+        {
+            "input": "i feel i owe my adoring fans a lj entry every once and a while",
+            "output": "love"
+        },
+        {
+            "input": "i even cry over you when you never once made me feel happy for a whole day",
+            "output": "joy"
+        },
+        {
+            "input": "diagnosis that i have a stomache ulcer",
+            "output": "fear"
+        },
+        {
+            "input": "i went to pick up the kids feeling scared and trembly and very self critical for my stupidity",
+            "output": "fear"
+        },
+        {
+            "input": "i feel very tender for anyone who is upset by the bee movie sort of like how you feel about old aunts who dont realize how prickly their whiskers are getting slightly repulsed but very sad for their decline",
+            "output": "love"
+        },
+        {
+            "input": "i had ritz crackers in my desk drawer because theyre something ill eat even when i feel crappy and or dont feel like eating",
+            "output": "sadness"
+        },
+        {
+            "input": "i thought it d be and i got full marks on the questions which makes me feel quite clever",
+            "output": "joy"
+        },
+        {
+            "input": "i feel a bit dazed but so excited i am going to be so protective she is not going to be let out until she is",
+            "output": "surprise"
+        },
+        {
+            "input": "i was up early today to vote before the lines got too long and i didnt have that feeling at all but i was uncomfortable for another reason",
+            "output": "fear"
+        },
+        {
+            "input": "i am also noticing that i can only handle so much incoming information or i start to feel overwhelmed",
+            "output": "surprise"
+        },
+        {
+            "input": "im feeling as if im not caring and i dont want to fail my finals",
+            "output": "love"
+        },
+        {
+            "input": "i feel like its a lifestyle change i could genuinely live with without feeling deprived",
+            "output": "sadness"
+        },
+        {
+            "input": "i still have cramps plus i get really dizzy when i stand up and my whole body is aching and i just generally feel extremely uncomfortable",
+            "output": "fear"
+        },
+        {
+            "input": "i mean im actually feeling productive in the area of quilting and sewing but havent felt lik",
+            "output": "joy"
+        },
+        {
+            "input": "i will put my hand on his scar covered chest and feel that half of a heart beating oh its in there beating and feel the sweet rhythm and remind him that we are not alone",
+            "output": "love"
+        },
+        {
+            "input": "i can like tbt when i m feeling nostalgic",
+            "output": "love"
+        },
+        {
+            "input": "i was feeling quite grumpy when ajmed parked the jeep in front of yet another huge rock in the early dusk",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like a worthless ugly fat unattractive piece of shit",
+            "output": "sadness"
+        },
+        {
+            "input": "i relaxed and nodded feeling assured that someone i love is safe and pampered even if he s no longer with me",
+            "output": "joy"
+        },
+        {
+            "input": "i really shut myself off a lot at the end of my pregnancy when i was feeling even more irritable and anxious so maybe now i need to bounce back from that and get back to normal again",
+            "output": "anger"
+        },
+        {
+            "input": "i am feeling a curious sense of relief a lightness that i never thought possible back when sex seemed to be the most desirable of desires and the ultimate act of self validation",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel rebellious i wish i could do things legally i cant smoke drink or drive",
+            "output": "anger"
+        },
+        {
+            "input": "i still want to be a lady who likes ladies who does not feel inhibited to kiss another woman in public but i guess i will just have to disregard societal views that pertain to my sexual preferences and how i portray them",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel like this is something i can do well and its helped me out of tough spots before",
+            "output": "joy"
+        },
+        {
+            "input": "i think if youre sad a top tip is to eat lots and lots and lots and lots of it until you feel very satisfied and a maybe a bit queasy",
+            "output": "joy"
+        },
+        {
+            "input": "i usually love winter but am feeling a longing for spring",
+            "output": "love"
+        },
+        {
+            "input": "i saw them that anything was wrong they told me some excuses but i am feeling truly insulted and i am feeling desperate again",
+            "output": "anger"
+        },
+        {
+            "input": "i still end up feeling a bit dazed from sheer sensory overload after spending an extended time in a very crowded area but today it wasnt too bad and the good company more than made up for it",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel such gratitude for the generous gifts we received on our wedding day over years ago",
+            "output": "love"
+        },
+        {
+            "input": "i feel many readers are amazed by the many ways the whitley family has influenced hollywood and continues to influence today",
+            "output": "surprise"
+        },
+        {
+            "input": "i was still feeling weepy and strung out so maggie treated me to ice cream and a movie a href http www",
+            "output": "sadness"
+        },
+        {
+            "input": "i remember feeling completely hopeless and wondering what the heck i was even doing there at miss idaho with women who were totally in a different league",
+            "output": "sadness"
+        },
+        {
+            "input": "i added muas primer to mine and it makes my skin feel lovely",
+            "output": "love"
+        },
+        {
+            "input": "i really need to be at church to feel gods gentle touch in my life",
+            "output": "love"
+        },
+        {
+            "input": "i was feeling rather smug about being a black toenail virgin despite having run for a little over years now",
+            "output": "joy"
+        },
+        {
+            "input": "i want people to feel brave and i want society to accept us as disabled people amongst us who deserve dignity and respect not to be shunned and laughed at",
+            "output": "joy"
+        },
+        {
+            "input": "i feel pathetic i can t live like this anymore",
+            "output": "sadness"
+        },
+        {
+            "input": "i am a passionate obama supporter but as a woman i feel twinges of guilt at times about the fact that i am not supporting the first woman with a real shot at the presidency",
+            "output": "love"
+        },
+        {
+            "input": "i must feel loving toward everyone",
+            "output": "love"
+        },
+        {
+            "input": "i can tell myself that i feel like i trust others and yet what i am actually feeling is loyal which can cause me to pretend that there is trust when there is none",
+            "output": "love"
+        },
+        {
+            "input": "im not quite sure why and she treated me well but the entire time i was there i got this distinct feeling that she wasnt impressed",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel a bit jealous because i been trying to date him long time ago but he doesnt want me",
+            "output": "anger"
+        },
+        {
+            "input": "i do hope that some simply transferred to another benedictine monastery that they didn t all feel so disillusioned that they walked away from monastic life altogether",
+            "output": "sadness"
+        },
+        {
+            "input": "i want you to know that if i become prime minister in less than a year s time i will be proud to do so as a friend of israel a jew and most of all someone who feels so proud to be part of the community gathered here today",
+            "output": "joy"
+        },
+        {
+            "input": "i feel can be even more dangerous though because when youre pouring all time into ministry it can be accompanied with self righteousness or self satisfaction",
+            "output": "anger"
+        },
+        {
+            "input": "i remember what this feels like from a fan perspective because i lived in chicago all through the michael jordan chicago bulls era and i still have fond memories of those days but today belongs to the celtics and i tip my cap to them",
+            "output": "love"
+        },
+        {
+            "input": "ive also made it with both sugar measurements but i feel like cup is just too sweet for me",
+            "output": "love"
+        },
+        {
+            "input": "i can breathe his scent the first time i will feel his embrace if only in a friendly hug in five years",
+            "output": "joy"
+        },
+        {
+            "input": "i feel stumped something comes out of my pen and im always a little amazed by this",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel that this is something i m curious about as someone who listens to current music but i realized that songs become weird and their unique vibe gets lost when non korean songs are translated into korean",
+            "output": "surprise"
+        },
+        {
+            "input": "i think it is easy to feel afraid when one considers the nuclear weapons the weather the protests the riots the police reactions the governments responses or the laws being passed",
+            "output": "fear"
+        },
+        {
+            "input": "i feel that someone is trying to pry out of my hands something that is very precious to me",
+            "output": "joy"
+        },
+        {
+            "input": "i cant help but feel a bi jealous of their professional organization good support system and comfortable living situation",
+            "output": "anger"
+        },
+        {
+            "input": "i feel uptight my day is complete when hes around i feel so right a little nervs i dream about what we can do date and all the things we can pursue wedding i always dream that your mine very day min",
+            "output": "fear"
+        },
+        {
+            "input": "i am seeing neurosurgeons document conversations regarding the safety of patients relationships and whether or not they feel threatened",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like i am supposed to be faithful to her",
+            "output": "love"
+        },
+        {
+            "input": "i should not have shared my feelings with him but i was shocked by them too",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like the helpless duckie target for the commies and feds while at other times i want to run and hide",
+            "output": "fear"
+        },
+        {
+            "input": "i can t help but feel a little hesitant towards lily",
+            "output": "fear"
+        },
+        {
+            "input": "i feel honored that my art is going to fill a room where sick children need all the joy they can get",
+            "output": "joy"
+        },
+        {
+            "input": "i feel unsure or neutral about changing but really does not want to change",
+            "output": "fear"
+        },
+        {
+            "input": "i resent you as much as i do that i feel needlessly and unreasonably angry whenever you re around that the slightest idiosyncrasies of yours make me sick",
+            "output": "anger"
+        },
+        {
+            "input": "i was once told that while science explains the how religion explains the why and i feel this is the real reason that intelligent design is not and should not be accepted as a scientific theory on the basis of it not actually explaining how something works or how something was created",
+            "output": "joy"
+        },
+        {
+            "input": "i pick up the cards i feel a shiver go up my spine and i just feel so curious",
+            "output": "surprise"
+        },
+        {
+            "input": "i went in there feeling a little hostile because it felt like they didnt really care about me",
+            "output": "anger"
+        },
+        {
+            "input": "i feel to it and it benefits from a generous budget for exotic sets and gorgeous matte paintings",
+            "output": "love"
+        },
+        {
+            "input": "i always feel a little weird writing about a guy ive dated because i dont want to do them an injustice or have them come across in a negative way",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel for this little pound lovely is truly a gift",
+            "output": "love"
+        },
+        {
+            "input": "i ever want to feel that vulnerable",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling a bit groggy today",
+            "output": "sadness"
+        },
+        {
+            "input": "i can run and it feels amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "i wanted to make him feel special on his birthday particularly as he was going to be putting in a looooong day at work",
+            "output": "joy"
+        },
+        {
+            "input": "i feel that the leader i admired is being selfish",
+            "output": "love"
+        },
+        {
+            "input": "i am feeling doubtful that nutritional methods alone will solve the problems",
+            "output": "fear"
+        },
+        {
+            "input": "i feel so scared for him",
+            "output": "fear"
+        },
+        {
+            "input": "i feel for loving you",
+            "output": "love"
+        },
+        {
+            "input": "i am just waking up with not nearly enough sleep and feeling dazed",
+            "output": "surprise"
+        },
+        {
+            "input": "i cant help but feel that youll just break me again and that you might not be as faithful as you seem",
+            "output": "love"
+        },
+        {
+            "input": "i lose friends because they apparently dont like that i tell people how i feel its funny how that works",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so dumb for being honest",
+            "output": "sadness"
+        },
+        {
+            "input": "i will choose not to focus on him instead focusing on how i feel i will try not to focus on him and instead of being agitated by him i will choose to let the negative feeling go",
+            "output": "fear"
+        },
+        {
+            "input": "i feel homesick i read this collection of stories",
+            "output": "sadness"
+        },
+        {
+            "input": "i wear makeup not only to reflect how beautiful i truly feel on in the inside but also to break the stereotype of the nerdy timid out of the loop woman in the sciences",
+            "output": "fear"
+        },
+        {
+            "input": "id just had a terrible nightmare and was feeling a little disturbed",
+            "output": "sadness"
+        },
+        {
+            "input": "i wish i could be there for all the people who i feel i should be there for and supporting in these times",
+            "output": "love"
+        },
+        {
+            "input": "i do feel irritated at times because he tried to hold me and stuff ill push away or not throw temper and shout at him",
+            "output": "anger"
+        },
+        {
+            "input": "i am feeling rebellious i will start from the end instead of the beginning a very good place to start",
+            "output": "anger"
+        },
+        {
+            "input": "i just yearned for that homey feeling where you are sitting at the river with friends and the sun is hot and warming your skin and you are wearing jean shorts and life is perfect for a day",
+            "output": "love"
+        },
+        {
+            "input": "i don t know it s just that it was like on top of our head so much of yesterday that it was really bothersome and we re still feeling a little mad about it",
+            "output": "anger"
+        },
+        {
+            "input": "i have been conveniently uninformed of the specifics of the situation i am left feeling helpless and wanting more than ever to get away",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like im being petty about this",
+            "output": "anger"
+        },
+        {
+            "input": "i do feel a bit rotten",
+            "output": "sadness"
+        },
+        {
+            "input": "i was feeling kind of hostile anyway so that was okay with me",
+            "output": "anger"
+        },
+        {
+            "input": "i feel honored by it",
+            "output": "joy"
+        },
+        {
+            "input": "i have reported feeling marginalized intimidated and or subjected to threats of retaliation",
+            "output": "fear"
+        },
+        {
+            "input": "i feel i have talented people around us in the organization",
+            "output": "joy"
+        },
+        {
+            "input": "i feel reassured that fashion sometimes takes itself not so seriously and i can smile and feel better about the whole deal",
+            "output": "joy"
+        },
+        {
+            "input": "i simply cannot imagine me feeling cleaning caring for a baby",
+            "output": "love"
+        },
+        {
+            "input": "i feel about myself is so fucked up",
+            "output": "anger"
+        },
+        {
+            "input": "i help my daughter when she is feeling angry",
+            "output": "anger"
+        },
+        {
+            "input": "i feel as if i am on hold somehow that ive been given a time for contemplation consolidation and it is a most curious feeling",
+            "output": "surprise"
+        },
+        {
+            "input": "i remember amsterdam where the circumstances were difficult and i was feeling melancholy",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel when my socks bunch up under my feet that it makes me cranky and liable to bite someone s head off for saying hello",
+            "output": "anger"
+        },
+        {
+            "input": "im not a huge history buff but i do feel emotional when i think of my great uncle",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling very sentimental and i am going to miss college i am thrilled about this new upcoming adventure",
+            "output": "sadness"
+        },
+        {
+            "input": "i go to sleep as soon as my head hits the pillow i sleep deeply all night and i wake up feeling a lot less lethargic then usual",
+            "output": "sadness"
+        },
+        {
+            "input": "i provided dinner alcohol and a place to crash and all i got in return was the feeling of being completely unwelcome in my own apartment",
+            "output": "sadness"
+        },
+        {
+            "input": "i still feel sleep deprived she is almost sleeping through the night giving us",
+            "output": "sadness"
+        },
+        {
+            "input": "i kept waiting to feel the water and when i did i was surprised at the velocity i gained",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so greedy of holidays and forgetting my responsibilities",
+            "output": "anger"
+        },
+        {
+            "input": "i feel paranoid that every time i log onto facebook or attend church that im about to find out yet another friend is pregnant",
+            "output": "fear"
+        },
+        {
+            "input": "i feel like im in some weird dreamworld where i can do absolutely anything",
+            "output": "surprise"
+        },
+        {
+            "input": "i just feel more dazed and alone in the end",
+            "output": "surprise"
+        },
+        {
+            "input": "im not feeling like the meetings are a particularly supportive environment how does she expect to be treated when she has lost the weight she wants to lose",
+            "output": "love"
+        },
+        {
+            "input": "i am not normally the kind of person who gets emotional upon meeting a public figure but as strange as it sounds seeing you yesterday for the first time ever the feeling came over me was the feeling one might feel upon seeing a beloved favorite loving aunt lol",
+            "output": "love"
+        },
+        {
+            "input": "i could better understand and feel the desires of his most sweet heart",
+            "output": "love"
+        },
+        {
+            "input": "i had hoped to not feel the weakness to not be bothered by every song every joke i hear",
+            "output": "anger"
+        },
+        {
+            "input": "when i was subjected to a very nasty joke by a group of friends",
+            "output": "anger"
+        },
+        {
+            "input": "i feel tender just now and i am fine with that",
+            "output": "love"
+        },
+        {
+            "input": "i am afraid that i will feel very regretful at that time",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel that the moment you adopt a sense of caring for others it brings you inner strength",
+            "output": "love"
+        },
+        {
+            "input": "i can t believe it i feel so nervous but my father reassures me that there is nothing to be nervous about which only makes me more nervous",
+            "output": "fear"
+        },
+        {
+            "input": "i feel almost weird that someone i didnt know has impacted me emotionally these last few days",
+            "output": "surprise"
+        },
+        {
+            "input": "i find myself feeling shocked hearing that word spoken out loud in my own lounge room",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel really bitter",
+            "output": "anger"
+        },
+        {
+            "input": "i definitely feel that my poems are in conversation with nature poetry but in the way that a rebellious activist might be in conversation with a government official",
+            "output": "anger"
+        },
+        {
+            "input": "i want someone i know to know all my thoughts and feelings or do i want to keep all my loyal and faithful readers",
+            "output": "love"
+        },
+        {
+            "input": "i feel surprised because i didnt expect it",
+            "output": "surprise"
+        },
+        {
+            "input": "i am feeling a tad smug right now",
+            "output": "joy"
+        },
+        {
+            "input": "i read premonition i had this rare feeling that i was caught by how dewi lestari plays with metaphors crazily in her charming words",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like even though i dont buy into societys ideas about what a woman should look like i am still constantly unhappy with myself",
+            "output": "sadness"
+        },
+        {
+            "input": "i had promised her i will buy their cupcake bt im feeling shy to face her n thn miss it",
+            "output": "fear"
+        },
+        {
+            "input": "i feel irritated and helpless",
+            "output": "anger"
+        },
+        {
+            "input": "i get an idea something i want to write and i feel passionate about it and sculpt some great sentences",
+            "output": "joy"
+        },
+        {
+            "input": "i feel defeated conflicted poor lonely rejecte",
+            "output": "sadness"
+        },
+        {
+            "input": "i feared i would feel resentful of her or this process but i dont and i am so happy about that",
+            "output": "anger"
+        },
+        {
+            "input": "i already did feel deprived when after claire was born i reacted to the epidural and experienced extreme shakes for a couple of hours and was unable to hold her during that special quiet alertness newborns experience",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel a bit uncertain really shes a nice girl and good friend material",
+            "output": "fear"
+        },
+        {
+            "input": "i feel cranky and annoyed when i dont",
+            "output": "anger"
+        },
+        {
+            "input": "i have a feeling they might be pleasantly surprised",
+            "output": "surprise"
+        },
+        {
+            "input": "i had picked oxbow in the kentucky derby two weeks ago but he turned up as the longest bet for the preakness today and i just had a feeling that the lucas stevens combination wouldnt be beaten",
+            "output": "sadness"
+        },
+        {
+            "input": "im feeling terribly impatient",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like im not gonna lie im really surprised that i feel like i should share this",
+            "output": "surprise"
+        },
+        {
+            "input": "i could be feeling this way from the cold medicine ive been taking for this chest sinus cold",
+            "output": "anger"
+        },
+        {
+            "input": "i feel a little glamorous i wet the brush",
+            "output": "joy"
+        },
+        {
+            "input": "i was feeling hesitant to part with any more money after my spendy trip to melbourne i chose instead to modify my existing copy of a href http www",
+            "output": "fear"
+        },
+        {
+            "input": "i really do feel as if i can finally create something lovely in my new room",
+            "output": "love"
+        },
+        {
+            "input": "i first entered the clinic i feel very welcomed by the beautiful ivory themed furnitures because the whole clinic look very clean spacious and professional and the cheerful consultants awaiting for me at the reception with a smile of course",
+            "output": "joy"
+        },
+        {
+            "input": "i use vegetable glycerin in my oil cleansing mixture each night and my skin always feels amazing when i use glycerin",
+            "output": "surprise"
+        },
+        {
+            "input": "i can go from elated laughing to plunging back into my extreme misery at a simple exchange that it feels so dangerous now",
+            "output": "anger"
+        },
+        {
+            "input": "im old enough that graduation and yk feels like just yesterday i find myself a bit stunned by this",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like a less melancholy holden caulfield",
+            "output": "sadness"
+        },
+        {
+            "input": "i used string and pins but i feel they get too messy and cluttered looking",
+            "output": "sadness"
+        },
+        {
+            "input": "i want to get up in the mornings feeling excited about going to work instead of wanting to hit the snooze button",
+            "output": "joy"
+        },
+        {
+            "input": "i feel dumb putting so much thought to such a stupid little thing but its getting to me",
+            "output": "sadness"
+        },
+        {
+            "input": "i have been going around feeling like i have roundly abused my poor tongue so ravaged by hops has it become i think it is a challenge to think of taste as a really physical sensation",
+            "output": "sadness"
+        },
+        {
+            "input": "im thinking and my way of doing things while i dun understand his feelings not considerate and always assume im right thinking that hes unreasonable and demanding sometimes possesive",
+            "output": "love"
+        },
+        {
+            "input": "i feel i am shy and i am afraid of keeping my point of view",
+            "output": "fear"
+        },
+        {
+            "input": "i feel so empty idk i came home early from school",
+            "output": "sadness"
+        },
+        {
+            "input": "i didnt feel as intimidated as i had felt at the beginning of class",
+            "output": "fear"
+        },
+        {
+            "input": "i always had this negative perception when i was asked about getting pregnant and my misscariage i always walked away from those conversations feeling somewhat offended",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like i m giving a speech after receiving an award or something but i would like to publicly thank mark for being so supportive",
+            "output": "love"
+        },
+        {
+            "input": "i feel about strange brew",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel more shitty and emotional and helpless",
+            "output": "sadness"
+        },
+        {
+            "input": "i felt so good in fact i went to zumba half an hour later for an hour and then left there feeling even more energetic if that was possible",
+            "output": "joy"
+        },
+        {
+            "input": "i know who all think this way so i ve always feel skeptical about painting my nails red since i also have light skin so the red is really going to stand out is there a cute way for a year old to wear red nails without looking like she s trying too hard or looking like a hooker",
+            "output": "fear"
+        },
+        {
+            "input": "i often find my self feeling offended myself when i hear people who i believe to be otherwise brilliant people following what i consider odd superstitions and strange rituals",
+            "output": "anger"
+        },
+        {
+            "input": "i feel my heart is tortured by what i have done",
+            "output": "anger"
+        },
+        {
+            "input": "i am however caught by the feeling that i missed out on a lot of interesting conversational banter by reading dead writers write about deader writers",
+            "output": "sadness"
+        },
+        {
+            "input": "i didnt feel so hot",
+            "output": "love"
+        },
+        {
+            "input": "i feel he just broke up with his girlfriend",
+            "output": "sadness"
+        },
+        {
+            "input": "im not sure your going to feel so gracious in return",
+            "output": "joy"
+        },
+        {
+            "input": "i need to manage my spending money more wisely but im feeling uncertain and stressed as of late",
+            "output": "fear"
+        },
+        {
+            "input": "i feel so weird about it",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like thats petty so i convince myself that i dont give a shit",
+            "output": "anger"
+        },
+        {
+            "input": "i would pick out for myself but i will give them a try when i am feeling adventurous",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like i would order carryout from if i lived in the area i am still curious to try some of their other tacos",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel like some of you have pains and you cannot imagine becoming passionate about the group or the idea that is causing pain",
+            "output": "love"
+        },
+        {
+            "input": "im feeling quite lonely here now and its only monday of half term",
+            "output": "sadness"
+        },
+        {
+            "input": "i tuck the fear back into a quiet chamber of my heart to ponder it for another day when i am feeling less brave",
+            "output": "joy"
+        },
+        {
+            "input": "i basically have a gut feeling of whether i think that person is genuinely sincere or not",
+            "output": "joy"
+        },
+        {
+            "input": "i feel shocked that you d stoup to destinys child b",
+            "output": "surprise"
+        },
+        {
+            "input": "id feel completely lost without him",
+            "output": "sadness"
+        },
+        {
+            "input": "i see lyman i just feel more and more amazed about us",
+            "output": "surprise"
+        },
+        {
+            "input": "im feeling all triumphant you may high five me if you choose mind you ill laugh at you but",
+            "output": "joy"
+        },
+        {
+            "input": "i have been feeling pleased with myself for being really healthy this pregnancy",
+            "output": "joy"
+        },
+        {
+            "input": "i feel intimidated by the wide open design and therefore find it hard to write",
+            "output": "fear"
+        },
+        {
+            "input": "i actually found myself resenting the song for making me feel which is weird for me because i used to play guitar and sing in church like all the time and music was a huge part of my life in college and high school",
+            "output": "surprise"
+        },
+        {
+            "input": "i know thats not true but thats how i feel i get scared",
+            "output": "fear"
+        },
+        {
+            "input": "i love this song and it always makes me feel happy",
+            "output": "joy"
+        },
+        {
+            "input": "i feel so privileged to have been able to see this amazing exhibit",
+            "output": "joy"
+        },
+        {
+            "input": "i always feel very afraid as i work on books egan tells kurt",
+            "output": "fear"
+        },
+        {
+            "input": "i don t feel like creating another religion that will cause trouble to the troubled souls of many",
+            "output": "sadness"
+        },
+        {
+            "input": "ive been feeling groggy the whole day",
+            "output": "sadness"
+        },
+        {
+            "input": "i discovered that it gave me a great feeling of satisfaction to produce a blog post a delicious dish a few photos a written recipe that tangible job completed feeling that s rare in my life as a stay at home mom",
+            "output": "joy"
+        },
+        {
+            "input": "ill add i havent tried all that time but i do feel as i adapt and pick up techniques quickly this is one of the things im amazed that its taken me this long",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel a bit funny actually",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel dumb for even liking you",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel no shame whatsoever in longing for iron man at my local cineworld",
+            "output": "love"
+        },
+        {
+            "input": "i have a feeling i will be dissatisfied several times",
+            "output": "anger"
+        },
+        {
+            "input": "i feeling shy",
+            "output": "fear"
+        },
+        {
+            "input": "im sick of feeling crappy",
+            "output": "sadness"
+        },
+        {
+            "input": "i break down and it leaves me feeling bitter",
+            "output": "anger"
+        },
+        {
+            "input": "i would feel a violent stab of loneliness",
+            "output": "anger"
+        },
+        {
+            "input": "i close my eyes for a moment just to let myself feel the gentle warmth of his hands overlapping mine guiding me",
+            "output": "love"
+        },
+        {
+            "input": "i would feel productive",
+            "output": "joy"
+        },
+        {
+            "input": "i didnt like that she was intent on getting in between them when they were first starting to have feelings for each other but i liked how she backed off when she realized just how strongly leo felt for clara",
+            "output": "love"
+        },
+        {
+            "input": "i have stopped feeling surprised",
+            "output": "surprise"
+        },
+        {
+            "input": "im feeling a little apprehensive as we come near the time we go back to mayo clinic",
+            "output": "fear"
+        },
+        {
+            "input": "i feel very shocked by how many people i talk to who havent seen this movie",
+            "output": "surprise"
+        },
+        {
+            "input": "i remember that we would always pat my head ahaha lt i feel like a puppy and this other guy that liked me kindaish also patted me on the head too so i guess that s a good sign of harry liking me if he patted my head maybe he thinks my hair is soft sighhh",
+            "output": "love"
+        },
+        {
+            "input": "i admit to feeling bitterly surprised at how rapidly they have thrown in the towel",
+            "output": "surprise"
+        },
+        {
+            "input": "im normally a strict pray gods best girl but i can barely handle the torment i feel wrestling in sweet boys heart",
+            "output": "love"
+        },
+        {
+            "input": "i feel for my sweet boy",
+            "output": "love"
+        },
+        {
+            "input": "i feel so contented just by relieving the scene in my mind",
+            "output": "joy"
+        },
+        {
+            "input": "i feel it is unfortunate that i have had to take these drastic measures and post this notice as i truly loved posting my new work to flickr and interacting with new people from all over the world",
+            "output": "sadness"
+        },
+        {
+            "input": "i am not a vegetarian and probably never will but i am feeling increasingly sympathetic towards those who are and towards the animals being slaughtered for our benefits",
+            "output": "love"
+        },
+        {
+            "input": "i do want to feel loved and cherished by someone",
+            "output": "love"
+        },
+        {
+            "input": "i feel like i can trust my faithful blogstalkers",
+            "output": "love"
+        },
+        {
+            "input": "i feel ugly and hated",
+            "output": "sadness"
+        },
+        {
+            "input": "i think and feel its funny its sad its weird but more than any of that its the truth",
+            "output": "surprise"
+        },
+        {
+            "input": "i will not feel so alone anymore",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel you i can t take more than mg of seroquel either because the restless leg syndrome keeps me awake all night",
+            "output": "fear"
+        },
+        {
+            "input": "i feel it like you target blank class di title bookmark on del",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel a longing to begin and to be there even right now",
+            "output": "love"
+        },
+        {
+            "input": "i feel so absolutely stumped on the floor when you dance you re charming and you re gentle specially when you do the continental but this feeling isn t purely mental for heaven rest us i am not asbestos and that s why i won t dance why should i",
+            "output": "joy"
+        },
+        {
+            "input": "i learned the hard way and after being here for about three hours you ll feel like you ve been here for months from all the friendly people you ll stop and talk to",
+            "output": "joy"
+        },
+        {
+            "input": "i didn t feel particularly mad of course they say that when you are going crazy you really feel like you are becoming more sane",
+            "output": "anger"
+        },
+        {
+            "input": "i didnt want others negative energy weighing us down and influencing my feelings and thought process during this special time",
+            "output": "joy"
+        },
+        {
+            "input": "i remember feeling envious but then why would a young healthy person envy someone who s just barely survived",
+            "output": "anger"
+        },
+        {
+            "input": "i see wonderful godly parents taking care of their childrens i praise god even though i feel jealous",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like offended with such question",
+            "output": "anger"
+        },
+        {
+            "input": "i feel im being punished for not being able to do my dailies",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel as a child innocent feelings illustrating a",
+            "output": "joy"
+        },
+        {
+            "input": "i have no strong feelings for this book neither hated nor loved it",
+            "output": "anger"
+        },
+        {
+            "input": "i cant be a counselor for you in the way i feel i should i am too damaged myself",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel empty a href http mohdashif",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel pretty posted on a href http playhousecomm",
+            "output": "joy"
+        },
+        {
+            "input": "i wanted to feel like i could depend on you and put in ur care and dare i say tender hands some of the things i hold dear u like a winter never seen in these lands became so cold",
+            "output": "love"
+        },
+        {
+            "input": "i was feeling pretty gloomy when i started writing this it s that dreaded time of year of course i burnt the nd set of cake pops that i was baking and i just lost a game of monopoly that game sucks",
+            "output": "sadness"
+        },
+        {
+            "input": "im postponing feeling virtuous about this labor",
+            "output": "joy"
+        },
+        {
+            "input": "i feel pretty passionate about is helping people",
+            "output": "joy"
+        },
+        {
+            "input": "i was feeling amorous",
+            "output": "love"
+        },
+        {
+            "input": "i do like riding on brooms but there is something about just sitting and holding colin and feeling the wind in my hair that is quite pleasant",
+            "output": "joy"
+        },
+        {
+            "input": "i have been aware of one traumatic memory that has been surfacing on and off leaving me feeling nauseas and gently terrified always",
+            "output": "fear"
+        },
+        {
+            "input": "i had to work in one i would not feel quite so affectionate",
+            "output": "love"
+        },
+        {
+            "input": "i got the feeling she really liked her new quilt",
+            "output": "love"
+        },
+        {
+            "input": "when i damaged my wristwatch which i liked very much",
+            "output": "anger"
+        },
+        {
+            "input": "i have to admit i am afraid that i cannot do that one thing that can make you feel contented",
+            "output": "joy"
+        },
+        {
+            "input": "i just got back from another miler faster than yesterday and im feeling amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "i put up my christmas tree and im feeling fairly festive",
+            "output": "joy"
+        },
+        {
+            "input": "i do not feel frantic",
+            "output": "fear"
+        },
+        {
+            "input": "i have been feeling so bad that he has to be coherent and deal with teenagers all week",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel so disgusted when i see blood and feel like faiting and also when people eat raw meat in front of me",
+            "output": "anger"
+        },
+        {
+            "input": "i feel ecstatic relived and most of all from the bottom of my heart truely grateful to",
+            "output": "joy"
+        },
+        {
+            "input": "i always feel like they love to annoy us especially when were doing something and we dont like to be disturbed by anybody",
+            "output": "sadness"
+        },
+        {
+            "input": "i remember feeling loved and beautiful and special and sweaty to be honest",
+            "output": "love"
+        },
+        {
+            "input": "i can remember what it feels like to be enthralled by him i cant actually feel it",
+            "output": "surprise"
+        },
+        {
+            "input": "i cant explain how i truly feel but some words that encapsulate some of my me ness currently ecstatic happy bouncy relieved energised in a mood to dance wanting chocolate wanting to socialise right now smiley and about here i lose words that express but bah so emo",
+            "output": "joy"
+        },
+        {
+            "input": "i wonder what the other students in my classes feel of my being fearless to throw answers out there",
+            "output": "joy"
+        },
+        {
+            "input": "i im feeling rot im feeling rotten today i guess i forgot i am shot im not o",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel this way about all relationships romantic platonic and friend zoned friends that dissolve",
+            "output": "love"
+        },
+        {
+            "input": "i probably missed you too much jongwoon teases but ryeowook doesn t have to hear him say it to know it s truth feeling it in his kisses the gentle touches up his spine warm breath ghosting over his ear",
+            "output": "love"
+        },
+        {
+            "input": "i feel everything around me is fucked everyone around me is falling to pieces",
+            "output": "anger"
+        },
+        {
+            "input": "i don t ever have to fully feel any unpleasant emotion",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel super warm and nice so i smile or i cry",
+            "output": "joy"
+        },
+        {
+            "input": "i would feel more peaceful and easygoing",
+            "output": "joy"
+        },
+        {
+            "input": "im feeling that kind of feeling when you are confused yet like bleh",
+            "output": "fear"
+        },
+        {
+            "input": "i aint pissed angry mad or anything i just feel pretty much fuckin insulted",
+            "output": "anger"
+        },
+        {
+            "input": "i talked with the zone leader this morning he listened carefully as i explained what i was feeling and then reassured me that everything i was feeling was okay and normal and that in fact im supposed to be feeling this way right now",
+            "output": "joy"
+        },
+        {
+            "input": "i couldn t see a future without the pain and i was feeling heartbroken i d gone from being a very happy and active mum doing lots of outdoor activities with my children",
+            "output": "sadness"
+        },
+        {
+            "input": "i do feel offended and i think justly",
+            "output": "anger"
+        },
+        {
+            "input": "i feel overwhelmed and humbled but i am alive to keep slugging and i m grateful for the chance",
+            "output": "surprise"
+        },
+        {
+            "input": "i just know i feel like i m on potentially shaky ground",
+            "output": "fear"
+        },
+        {
+            "input": "i cant even remember what it feels like to be loved",
+            "output": "love"
+        },
+        {
+            "input": "i feel hopeless right",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling terrific now that my morning all day sickness has left",
+            "output": "joy"
+        },
+        {
+            "input": "i also feel like a sophist half the time when im looking for supportive examples",
+            "output": "love"
+        },
+        {
+            "input": "i have no better word to describe the way i feel than heartbroken",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel overwhelmingly remorseful and guilty when i watch too much news or too many sad movies or television dramas",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel disturbed and sad",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling extraordinarily jolly today",
+            "output": "joy"
+        },
+        {
+            "input": "i lay reading by headlamp and feeling the tent shaken as if by a giant hand",
+            "output": "fear"
+        },
+        {
+            "input": "i really didn t know what i was feeling my mind was blank i was confused and numb",
+            "output": "sadness"
+        },
+        {
+            "input": "im not feeling jolly in the least",
+            "output": "joy"
+        },
+        {
+            "input": "i suppose thats why i feel so melancholy about the whole thing",
+            "output": "sadness"
+        },
+        {
+            "input": "im feeling naughty i like to add a little bourbon",
+            "output": "love"
+        },
+        {
+            "input": "i feel fearful because i dont know what is going to happen next in the course of me recovering",
+            "output": "fear"
+        },
+        {
+            "input": "i feel virtuous and tough when i wear a hat jeans and a tshirt without worrying",
+            "output": "joy"
+        },
+        {
+            "input": "i told him that i was willing to do whatever it took for me to not have to feel this horrible every day",
+            "output": "sadness"
+        },
+        {
+            "input": "i did restart my gallery but only because i was feeling very vain and gorgeous at the time",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel so fucked up now i want to shut myself up",
+            "output": "anger"
+        },
+        {
+            "input": "i would never be able to feel like i do today buoied up by sense of peace and calm that can only come through hope",
+            "output": "joy"
+        },
+        {
+            "input": "i would like to reduce the amount of jealousy i feel god commands us not to be jealous and i feel that every jew religious or not should obey that prohibition",
+            "output": "anger"
+        },
+        {
+            "input": "i go home feeling simultaneously gutted and determined",
+            "output": "joy"
+        },
+        {
+            "input": "i feel fearful of being near them",
+            "output": "fear"
+        },
+        {
+            "input": "i am sitting here taking it all in and feeling blessed",
+            "output": "love"
+        },
+        {
+            "input": "ive read from others who have gone through similar circumstances it appears quite common and helps me feel less neurotic",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling very smug as i am continuing my resolution to use up some of this huge paper stack that i own and never cut into so heres the latest offering using more of my graphic curtain call papers",
+            "output": "joy"
+        },
+        {
+            "input": "i now feel less doubtful towards that person about his her sincerity in rebuilding our relationship",
+            "output": "fear"
+        },
+        {
+            "input": "i also feel terrified but i ve found that since i ve started saying i m terrified out loud i feel less terrified",
+            "output": "fear"
+        },
+        {
+            "input": "i feel so dazed a href http twitter",
+            "output": "surprise"
+        },
+        {
+            "input": "i can feel the cold of winter",
+            "output": "anger"
+        },
+        {
+            "input": "i might go out of existance i smile pick up my pen and fill the page with the things that you say the thoughts you obtain the moments you refrain far away its cause youre going insane and suddenly im left afraid because im not feeling that way instead im amazed why you gotta be that way",
+            "output": "surprise"
+        },
+        {
+            "input": "i overly pc in feeling a little shocked",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel that the spirit of the competition in many cases has become lost in the revenue generation machine",
+            "output": "sadness"
+        },
+        {
+            "input": "i was feeling pretty anxious and overwhelmed as a friend rightly noted probably because i was on a boat with my mom grandmother and great aunt and no where to flee except the damn cold baltic sea",
+            "output": "fear"
+        },
+        {
+            "input": "im going to be very honest with you it feels amazing",
+            "output": "surprise"
+        },
+        {
+            "input": "i am so tired about it and i feel so fucked up",
+            "output": "anger"
+        },
+        {
+            "input": "i am left feeling underwhelmed and ungrateful",
+            "output": "sadness"
+        },
+        {
+            "input": "i wrote words without really feeling all that distressed about it",
+            "output": "fear"
+        },
+        {
+            "input": "i can feel what it feels like being a girl in hypnosis only and be perfect and normal in real life",
+            "output": "joy"
+        },
+        {
+            "input": "i was starting to feel alarmed",
+            "output": "fear"
+        },
+        {
+            "input": "im more scared of like dramas or thrillers that are actually capable of happening and so leave me feeling disturbed i",
+            "output": "sadness"
+        },
+        {
+            "input": "i started to develop feelings for you they scared me and i freaked out but you promised me that i was safe",
+            "output": "fear"
+        },
+        {
+            "input": "i feel cold in",
+            "output": "anger"
+        },
+        {
+            "input": "i got this very sexy latex outfit from their lucky chair it made me feel very naughty the hair is called hungover and it is free by a href https marketplace",
+            "output": "love"
+        },
+        {
+            "input": "i feel like im getting there i have to admit i was stunned when i realized my list my entire laundry list of here to for impossible pie in the sky dreams",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so blessed to be a part of your days",
+            "output": "love"
+        },
+        {
+            "input": "i can feel the cold wind",
+            "output": "anger"
+        },
+        {
+            "input": "i was tossing and turning and feeling very anxious about the fact that i was not doing this work that i felt needed to be done",
+            "output": "fear"
+        },
+        {
+            "input": "i hope not pagetitle khatsii feeling fearful",
+            "output": "fear"
+        },
+        {
+            "input": "i still feel so amazed knowing i stood right in front of jason",
+            "output": "surprise"
+        },
+        {
+            "input": "i was feeling kind of rebellious and my post was a little on the",
+            "output": "anger"
+        },
+        {
+            "input": "im just thinking back and feeling utterly amazed and grateful that we live in a time when four people who needed a family could find each other despite being thousands of miles apart",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel so blessed to have both lisa and god as friends in this life",
+            "output": "joy"
+        },
+        {
+            "input": "i did develop unknown feelings for him i think thats the reason why i feel like ive been settling for all the other guys who liked me",
+            "output": "love"
+        },
+        {
+            "input": "i finally fell asleep feeling angry useless and still full of anxiety",
+            "output": "anger"
+        },
+        {
+            "input": "i found myself feeling shaky and dizzy while i exercised and a part of my weight loss could have been due to getting a throat infection",
+            "output": "fear"
+        },
+        {
+            "input": "i mostly feel this as a cause of hateful memories of that girl who used to run the everchanging sailormoon gateway who i think is still making a name for herself by being stupid and mean",
+            "output": "anger"
+        },
+        {
+            "input": "i tend to stop breathing when i m feeling stressed",
+            "output": "sadness"
+        },
+        {
+            "input": "i even like to play with my negative feelings by becoming curious",
+            "output": "surprise"
+        },
+        {
+            "input": "i continue to feel nervous inside and long to talk sensibly even just one time around someone its so wrong to have these feelings for on so many levels i have no clue",
+            "output": "fear"
+        },
+        {
+            "input": "i feel pressured to do well and i fe",
+            "output": "fear"
+        },
+        {
+            "input": "i am feeling a bit unsure about some of these im going to give it a try anyway",
+            "output": "fear"
+        },
+        {
+            "input": "i try to describe my experience in words it feels like trying to shove tender little baby feet into high tops that are too small for them",
+            "output": "love"
+        },
+        {
+            "input": "i find myself whinging about the temperature every day at the moment but it does feel ridiculously hot",
+            "output": "love"
+        },
+        {
+            "input": "i remember laying in the bath feeling really emotional knowing that i was going to bring my baby into the world on the day that miss cook was laid to rest",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel sooo soo lucky",
+            "output": "joy"
+        },
+        {
+            "input": "i decided to try the zipline in picnic grove since we are feeling a bit of adventurous that day",
+            "output": "joy"
+        },
+        {
+            "input": "i don t feel insulted because it doesn t sound insulting at all",
+            "output": "anger"
+        },
+        {
+            "input": "i fight for him when i feel it is just he said and alexander s gaze seemed to turn curious",
+            "output": "surprise"
+        },
+        {
+            "input": "i had a trainer i dont think i ever weighed as little as i do now so im feeling pretty excited",
+            "output": "joy"
+        },
+        {
+            "input": "i know they mean no harm but i cant help but feel offended",
+            "output": "anger"
+        },
+        {
+            "input": "im still feeling a little shaky as i write this post",
+            "output": "fear"
+        },
+        {
+            "input": "i walked into the dawn treader feeling fairly skeptical and walked out with three great books one was a hardcover book in japanese that i picked up for my mom for",
+            "output": "fear"
+        },
+        {
+            "input": "i believed it was true love and feel devastated i wanted to settle down and have the whole marriage and kids thing with him",
+            "output": "sadness"
+        },
+        {
+            "input": "i was constantly amazed by the world building maybe because it came hand in hand with the gripping pace in the books i feel like there are your sections devoted to character your sections devoted to world building and specific small sections devoted to plot",
+            "output": "love"
+        },
+        {
+            "input": "i am able to write a full letter in insular minuscule and i will probably never have the skill of xviith century writing masters such as maria strick or jan van den velde but i feel that learning a craft is a worthwhile effort in and for itself",
+            "output": "joy"
+        },
+        {
+            "input": "i sort of hate glasses because they make my eyes look small and since huge eyes is all i have going for me it was quite an upset but im hoping these bigger frames will make me feel less paranoid",
+            "output": "fear"
+        },
+        {
+            "input": "i feel victimized by the drag on our country with heads in the sand traditionalists i hesitate to call them conservatives for fear of offending real honest to god conservatives who still think the world was created years ago and that stuff like skeletal remains are some kind of hoax",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel disheartened because i trust people to try to want to get to know me to not see through me and think i am boring or anything",
+            "output": "sadness"
+        },
+        {
+            "input": "i hate being in an environment where im constantly feeling rejected cast aside and forgotten e",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel like such a goof ball for the things i am curious about but i see life as this adventure that i get to embark on and i want to squeeze every ounce of good from it",
+            "output": "surprise"
+        },
+        {
+            "input": "im really praying and concentrating and im just inundated in thoughts that i feel should be devoted much time to",
+            "output": "love"
+        },
+        {
+            "input": "i will share my home my life and what i feel is gorgeous fun and noteworthy all the while tracking my existence day to day",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like i do for every one and the only one who does for me does it with an attitude and is aggravated to be asked",
+            "output": "anger"
+        },
+        {
+            "input": "i get the impression that banjo was really feeling it but molly still prefers her beloved katy perry purrrr",
+            "output": "love"
+        },
+        {
+            "input": "i feel treasured i feel loved i feel ive done more than just pursue the craft i adore and make a living from it and more than just fulfil the only real ambition ive ever had of becoming a professional writer",
+            "output": "love"
+        },
+        {
+            "input": "i confused my feelings with the truth because i liked the view when there was me and you i cant believe that i could be so blind its like you were floating when i was falling and i didnt mind because i like the view i thought you felt it too when there was me and you lyrics from a href http www",
+            "output": "love"
+        },
+        {
+            "input": "i drove to pay her for the snack she was looking at me wearily and i was feeling dazed by what just had happened and felt a confidence that is unusual and rare",
+            "output": "surprise"
+        },
+        {
+            "input": "i wont give you too much in case you feel greedy",
+            "output": "anger"
+        },
+        {
+            "input": "i could get fucking stuffed in fucking chocolate without feeling weird and fat do you have troubles sleeping at night",
+            "output": "surprise"
+        },
+        {
+            "input": "i wont let me child cry it out because i feel that loving her and lily when she was little was going to be opportunities that only lasted for those short few months",
+            "output": "love"
+        },
+        {
+            "input": "i feel like they are more boring to paint than a bunch of fruit",
+            "output": "sadness"
+        },
+        {
+            "input": "i still feel quite amazed at how silent snow is compared to rain",
+            "output": "surprise"
+        },
+        {
+            "input": "i said earlier our bodies have gotten used to the heat and the curiosity of what degrees feels like keeps me eager for the next summer day",
+            "output": "joy"
+        },
+        {
+            "input": "i feel impressed by the professionalism and specifications the maintenance sets itself",
+            "output": "surprise"
+        },
+        {
+            "input": "i look back on that i feel amazed that at such a young age i could just pull it together like that",
+            "output": "surprise"
+        },
+        {
+            "input": "i was on to stop labor made me feel terrible",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel like im caring about my body not in just an attempt to be the right size but to feel good and have a full life",
+            "output": "love"
+        },
+        {
+            "input": "i began to feel curious and tried to percieve who i was beneath my pride and why i am who i am",
+            "output": "surprise"
+        },
+        {
+            "input": "i know so many people rave about it that i m feeling a bit weird",
+            "output": "surprise"
+        },
+        {
+            "input": "i hope all knitters will rise above their hurt feelings and will show that they are loving caring people by supporting the olympians this summer",
+            "output": "love"
+        },
+        {
+            "input": "i think maybe the person gives a fake hope just because he doesnt want to show his feeling just because he is to afraid about the girl reactions",
+            "output": "fear"
+        },
+        {
+            "input": "i also feel i do not deserve anyones sympathy or help or caring because i do not feel worthy of anything",
+            "output": "love"
+        },
+        {
+            "input": "i feel like i enter his class petrified that im going to do or say something that will make him think less of me",
+            "output": "fear"
+        },
+        {
+            "input": "ive gotten so used to them to the extent that im actually feeling weird without them",
+            "output": "surprise"
+        },
+        {
+            "input": "i did feel very very heartbroken that i did not enter semipro",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel like i am getting fucked",
+            "output": "anger"
+        },
+        {
+            "input": "i feel you in every vain in every beating of my heart each breath i take pagetitle behind blue eyes",
+            "output": "sadness"
+        },
+        {
+            "input": "i have been met at the airport and taken under lucy s wing to feel welcomed and looked after",
+            "output": "joy"
+        },
+        {
+            "input": "i really have much of a clue how my ex actually feels or felt about anything really except that he hated it when i didnt screw the lids back on jars in the kitchen",
+            "output": "anger"
+        },
+        {
+            "input": "i feel i wear what i wear to show other girls at my school who are timid when it comes to fashion that you won t look weird if you walk around with your head held high",
+            "output": "fear"
+        },
+        {
+            "input": "im feeling irritated by her friggin name",
+            "output": "anger"
+        },
+        {
+            "input": "i feel so fucked up from what happened on thursday",
+            "output": "anger"
+        },
+        {
+            "input": "i feel passionate about sharing it with you",
+            "output": "love"
+        },
+        {
+            "input": "i also feel paranoid and anxious",
+            "output": "fear"
+        },
+        {
+            "input": "i have to fight from feeling overwhelmed by it all",
+            "output": "surprise"
+        },
+        {
+            "input": "i was feeling paranoid as fuck thinking people would be out looking for me",
+            "output": "fear"
+        },
+        {
+            "input": "i havent exactly felt too positive lately so feel free to remind me of things ive missed in the comments if youd like",
+            "output": "joy"
+        },
+        {
+            "input": "i have angel alone and although i feel a little more relaxed i know im still stressing majorly about travelling tomorrow and all of the things we need to do before tomorrow",
+            "output": "joy"
+        },
+        {
+            "input": "listening to my roommate boasting about her new clothes",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like a dumb blonde she mumbled not realizing that alli was standing right next to her she desperately hoped she hadn t heard her say that",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling overwhelmed with excitement and anxiety as i prepare for my flight to florence in a few hours",
+            "output": "fear"
+        },
+        {
+            "input": "i just plain feel envious of the self confidence they had",
+            "output": "anger"
+        },
+        {
+            "input": "i still had the feeling and it surprised me",
+            "output": "surprise"
+        },
+        {
+            "input": "i have stayed at heritage christian because of the fulfillment that i feel in doing christ s work in action by being the hands the eyes the legs and the voice of supporting the individuals that i have been blessed to know and support",
+            "output": "joy"
+        },
+        {
+            "input": "im trying to be understanding open minded and fair but im feeling completely pissed to the max about a few things",
+            "output": "anger"
+        },
+        {
+            "input": "ive just watched the above video for the first time and feel a bit bitchy for doing so but here are some of my thoughts on her outfits",
+            "output": "anger"
+        },
+        {
+            "input": "i was feeling amazing so i was disappointed when my lab work in december came back the same way it did the previous year overall it was good but i did not have enough protein in my diet",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel that with my superior vegan diet i should not get sick at all",
+            "output": "joy"
+        },
+        {
+            "input": "i feel like im perpetually half watching a sad movie",
+            "output": "sadness"
+        },
+        {
+            "input": "i feel sexually threatened because some guys can be assholes fuck you of course im going to be a bitch and do whatever i need to do to get my ass out of the situation",
+            "output": "fear"
+        },
+        {
+            "input": "i feel that we are heading for an abyss that has been created by the greedy the too greedy and the far too greedy",
+            "output": "anger"
+        },
+        {
+            "input": "when my father shouted at me for going to a party with my sister",
+            "output": "anger"
+        },
+        {
+            "input": "i feel like when i was a kid it was constantly impressed upon me how awesome ants are",
+            "output": "surprise"
+        },
+        {
+            "input": "i remember feeling so frightened that i could feel emotions at that high a level",
+            "output": "fear"
+        },
+        {
+            "input": "i felt like i had went so far now it feels like my world was shaken just the other day",
+            "output": "fear"
+        },
+        {
+            "input": "i am very sad you feel distracted but i am not participating in the relationship you think we have",
+            "output": "anger"
+        },
+        {
+            "input": "i feel about my mommy amp me friends our friendships grew so naturally the strength of them surprised me",
+            "output": "surprise"
+        },
+        {
+            "input": "i sleep in a dreamy state waking up feeling dazed every now and then yet the cyber slut in me craves to creep up on here every evening",
+            "output": "surprise"
+        },
+        {
+            "input": "ive never been particularly bothered about my age or the ageing process and while i feel slightly surprised that im nearly i dont really mind",
+            "output": "surprise"
+        },
+        {
+            "input": "i kiss your lips i feel sweet",
+            "output": "love"
+        },
+        {
+            "input": "i also feel slightly relieved that we didnt have it out with him about the racist language",
+            "output": "joy"
+        },
+        {
+            "input": "i both feel impatience at the rate of loss and impressed at the same time",
+            "output": "surprise"
+        },
+        {
+            "input": "i started the third block feeling hot and cold and tingly all at the same time knowing that i still had five hours of examination ahead of me having no idea if any of it would do any good",
+            "output": "love"
+        },
+        {
+            "input": "i feel amazed when i saw the final result even thos without fishes inside",
+            "output": "surprise"
+        },
+        {
+            "input": "i always feel slightly embarrassed",
+            "output": "sadness"
+        },
+        {
+            "input": "i get that sick feeling like the one you get when you hear that someone passed away and youre shocked and lightheaded and i realize hes really gone forever",
+            "output": "surprise"
+        },
+        {
+            "input": "i feel too overwhelmed to clean anything so i just let it all pile up until it makes my whole life feel like it is going to come crashing down around me and i am helpless to stop it",
+            "output": "surprise"
+        },
+        {
+            "input": "i was already feeling mentally crappy and it was just ridiculous",
+            "output": "sadness"
+        },
+        {
+            "input": "i also hate feeling aggravated when i dont know how i am supposed to eat because when i feel that way i often sound that way",
+            "output": "anger"
+        },
+        {
+            "input": "i like to finish on a positive note that whenever i feel a bit fearful or down i can just remember something nice about me and rich and it cheers me up",
+            "output": "fear"
+        },
+        {
+            "input": "i find myself in the odd position of feeling supportive of",
+            "output": "love"
+        },
+        {
+            "input": "i only feel irritated by it",
+            "output": "anger"
+        },
+        {
+            "input": "im more comfortable in a relationship because i wont feel as slutty being with one person having the same amount as i would if i were single or not",
+            "output": "love"
+        },
+        {
+            "input": "i don t know what it feels like to be in love so i m starting to get scared that i don t actually love him",
+            "output": "fear"
+        },
+        {
+            "input": "i miss feeling pretty and delicate",
+            "output": "love"
+        },
+        {
+            "input": "i feel appropriately disturbed by the project",
+            "output": "sadness"
+        },
+        {
+            "input": "i am feeling pretty restless right now while typing this",
+            "output": "fear"
+        },
+        {
+            "input": "im really happy with the pregnancy support and would recommend it to anyone whos really feeling like their suffering with back and abdomen aches and pains in pregnancy",
+            "output": "sadness"
+        },
+        {
+            "input": "i have felt the need to write out my sometimes anxious feelings impatient thoughts lists of things that still should could be done before this baby arrives",
+            "output": "anger"
+        }
+    ]
+}

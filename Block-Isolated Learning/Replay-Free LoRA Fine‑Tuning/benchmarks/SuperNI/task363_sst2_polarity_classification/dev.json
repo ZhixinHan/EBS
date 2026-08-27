@@ -1,0 +1,405 @@
+{
+    "Definition": "In this task, you are given sentences from movie reviews. The task is to classify a sentence as \"POS\" if the sentiment of the sentence is positive or as \"NEG\" if the sentiment of the sentence is negative",
+    "Instances": [
+        {
+            "input": "Making such a tragedy the backdrop to a love story risks trivializing it , though Chouraqui no doubt intended the film to affirm love 's power to help people endure almost unimaginable horror .",
+            "output": "POS"
+        },
+        {
+            "input": "... best seen as speculative history , as much an exploration of the paranoid impulse as a creative sequel to the Warren Report .",
+            "output": "POS"
+        },
+        {
+            "input": "The following things are not at all entertaining : The bad sound , the lack of climax and , worst of all , watching Seinfeld ( who is also one of the film 's producers ) do everything he can to look like a good guy .",
+            "output": "NEG"
+        },
+        {
+            "input": "Too stagey , talky -- and long -- for its own good .",
+            "output": "NEG"
+        },
+        {
+            "input": "I 've seen some bad singer-turned actors , but Lil Bow Wow takes the cake .",
+            "output": "NEG"
+        },
+        {
+            "input": "It makes me say the obvious : Abandon all hope of a good movie ye who enter here .",
+            "output": "NEG"
+        },
+        {
+            "input": "Tries too hard to be funny in a way that 's too loud , too goofy and too short of an attention span .",
+            "output": "NEG"
+        },
+        {
+            "input": "Anemic , pretentious .",
+            "output": "NEG"
+        },
+        {
+            "input": "An EXIT sign , that is .",
+            "output": "NEG"
+        },
+        {
+            "input": "It 's like Rocky and Bullwinkle on Speed , but that 's neither completely enlightening , nor does it catch the intensity of the movie 's strangeness .",
+            "output": "NEG"
+        },
+        {
+            "input": "A spiffy animated feature about an unruly adolescent boy who is yearning for adventure and a chance to prove his worth .",
+            "output": "POS"
+        },
+        {
+            "input": "Two tedious acts light on great scares and a good surprise ending .",
+            "output": "POS"
+        },
+        {
+            "input": "You come away thinking not only that Kate is n't very bright , but that she has n't been worth caring about and that maybe she , Janine and Molly -- an all-woman dysfunctional family -- deserve one another .",
+            "output": "NEG"
+        },
+        {
+            "input": "The film reminds me of a vastly improved Germanic version of My Big Fat Greek Wedding -- with better characters , some genuine quirkiness and at least a measure of style .",
+            "output": "POS"
+        },
+        {
+            "input": "or maybe `` How will you feel after an 88-minute rip-off of The Rock with action confined to slo-mo gun firing and random glass-shattering ? ''",
+            "output": "NEG"
+        },
+        {
+            "input": "Lawrence should stick to his day job .",
+            "output": "NEG"
+        },
+        {
+            "input": "Feels like the work of someone who may indeed have finally aged past his prime ... and , perhaps more than he realizes , just wants to be liked by the people who can still give him work .",
+            "output": "NEG"
+        },
+        {
+            "input": "Overall , it 's a wacky and inspired little film that works effortlessly at delivering genuine , acerbic laughs .",
+            "output": "POS"
+        },
+        {
+            "input": "The Pool drowned me in boredom .",
+            "output": "NEG"
+        },
+        {
+            "input": "I will be .",
+            "output": "POS"
+        },
+        {
+            "input": "The charm of the first movie is still there , and the story feels like the logical , unforced continuation of the careers of a pair of spy kids .",
+            "output": "POS"
+        },
+        {
+            "input": "Fails to satisfactorily exploit its gender politics , genre thrills or inherent humor .",
+            "output": "NEG"
+        },
+        {
+            "input": "It 's Tommy 's job to clean the peep booths surrounding her , and after viewing this one , you 'll feel like mopping up , too .",
+            "output": "NEG"
+        },
+        {
+            "input": "Yet in its own aloof , unreachable way it 's so fascinating you wo n't be able to look away for a second .",
+            "output": "POS"
+        },
+        {
+            "input": "Like a Tarantino movie with heart , Alias Betty is richly detailed , deftly executed and utterly absorbing .",
+            "output": "POS"
+        },
+        {
+            "input": "It 's a wise and powerful tale of race and culture forcefully told , with superb performances throughout .",
+            "output": "POS"
+        },
+        {
+            "input": "This is a very ambitious project for a fairly inexperienced filmmaker , but good actors , good poetry and good music help sustain it .",
+            "output": "POS"
+        },
+        {
+            "input": "Brash , intelligent and erotically perplexing , Haneke 's portrait of an upper class Austrian society and the suppression of its tucked away demons is uniquely felt with a sardonic jolt .",
+            "output": "POS"
+        },
+        {
+            "input": "Has an uppity musical beat that you can dance to , but its energy ca n't compare to the wit , humor and snappy dialogue of the original .",
+            "output": "POS"
+        },
+        {
+            "input": "Is it possible for a documentary to be utterly entranced by its subject and still show virtually no understanding of it ?",
+            "output": "NEG"
+        },
+        {
+            "input": "Viewers of Barney 's crushingly self-indulgent spectacle will see nothing in it to match the ordeal of sitting through it .",
+            "output": "NEG"
+        },
+        {
+            "input": "A loud , ugly , irritating movie without any of its satirical salvos hitting a discernible target .",
+            "output": "NEG"
+        },
+        {
+            "input": "Things really get weird , though not particularly scary : the movie is all portent and no content .",
+            "output": "NEG"
+        },
+        {
+            "input": "The film fits into a genre that has been overexposed , redolent of a thousand cliches , and yet remains uniquely itself , vibrant with originality .",
+            "output": "POS"
+        },
+        {
+            "input": "A lovably old-school Hollywood confection .",
+            "output": "POS"
+        },
+        {
+            "input": "Writer\\/director Alexander Payne ( Election ) and his co-writer Jim Taylor brilliantly employ their quirky and fearless ability to look American angst in the eye and end up laughing .",
+            "output": "POS"
+        },
+        {
+            "input": "Serving Sara should be served an eviction notice at every theater stuck with it .",
+            "output": "NEG"
+        },
+        {
+            "input": "... even if you 've never heard of Chaplin , you 'll still be glued to the screen .",
+            "output": "POS"
+        },
+        {
+            "input": "The rich performances by Friel -- and especially Williams , an American actress who becomes fully English -- round out the square edges .",
+            "output": "POS"
+        },
+        {
+            "input": "Clint Eastwood 's Blood Work is a lot like a well-made PB & J sandwich : familiar , fairly uneventful and boasting no real surprises -- but still quite tasty and inviting all the same .",
+            "output": "POS"
+        },
+        {
+            "input": "... this story gets sillier , not scarier , as it goes along ...",
+            "output": "NEG"
+        },
+        {
+            "input": "It may as well be called `` Jar-Jar Binks : The Movie . ''",
+            "output": "NEG"
+        },
+        {
+            "input": "Campanella 's competent direction and his excellent cast overcome the obstacles of a predictable outcome and a screenplay that glosses over Rafael 's evolution .",
+            "output": "POS"
+        },
+        {
+            "input": "The movie is ... very funny as you peek at it through the fingers in front of your eyes .",
+            "output": "POS"
+        },
+        {
+            "input": "... hopefully it 'll be at the dollar theatres by the time Christmas rolls around .",
+            "output": "POS"
+        },
+        {
+            "input": "The work of a filmmaker who has secrets buried at the heart of his story and knows how to take time revealing them .",
+            "output": "POS"
+        },
+        {
+            "input": "But I had a lot of problems with this movie .",
+            "output": "NEG"
+        },
+        {
+            "input": "How do you make a movie with depth about a man who lacked any ?",
+            "output": "NEG"
+        },
+        {
+            "input": "The fourth in a series that I 'll bet most parents had thought -- hoped !",
+            "output": "POS"
+        },
+        {
+            "input": "An unflinching look at the world 's dispossessed .",
+            "output": "POS"
+        },
+        {
+            "input": "A perfectly acceptable , perfectly bland , competently acted but by no means scary horror movie .",
+            "output": "POS"
+        },
+        {
+            "input": "Unfortunately , a cast of competent performers from movies , television and the theater are cast adrift in various New York City locations with no unifying rhythm or visual style .",
+            "output": "NEG"
+        },
+        {
+            "input": "Not bad , but not all that good .",
+            "output": "NEG"
+        },
+        {
+            "input": "If Festival in Cannes nails hard - boiled Hollywood argot with a bracingly nasty accuracy , much about the film , including some of its casting , is frustratingly unconvincing .",
+            "output": "NEG"
+        },
+        {
+            "input": "This is a film tailor-made for those who when they were in high school would choose the Cliff-Notes over reading a full-length classic .",
+            "output": "NEG"
+        },
+        {
+            "input": "Sure , I hated myself in the morning .",
+            "output": "NEG"
+        },
+        {
+            "input": "( Hell is ) looking down at your watch and realizing Serving Sara is n't even halfway through .",
+            "output": "NEG"
+        },
+        {
+            "input": "( A ) soulless , stupid sequel ...",
+            "output": "NEG"
+        },
+        {
+            "input": "A very well-meaning movie , and it will stand in future years as an eloquent memorial to the World Trade Center tragedy .",
+            "output": "POS"
+        },
+        {
+            "input": "A hidden-agenda drama that shouts classic French nuance .",
+            "output": "POS"
+        },
+        {
+            "input": "The story is virtually impossible to follow here , but there 's a certain style and wit to the dialogue .",
+            "output": "NEG"
+        },
+        {
+            "input": "Tsai convincingly paints a specifically urban sense of disassociation here .",
+            "output": "POS"
+        },
+        {
+            "input": "Amy and Matthew have a bit of a phony relationship , but the film works in spite of it .",
+            "output": "POS"
+        },
+        {
+            "input": "Personal Velocity has a no-frills docu-Dogma plainness , yet Miller lingers on invisible , nearly psychic nuances , leaping into digressions of memory and desire .",
+            "output": "POS"
+        },
+        {
+            "input": "It 's rare to find a film to which the adjective ` gentle ' applies , but the word perfectly describes Pauline & Paulette .",
+            "output": "POS"
+        },
+        {
+            "input": "Been there , done that , liked it much better the first time around - when it was called The Professional .",
+            "output": "NEG"
+        },
+        {
+            "input": "Both flawed and delayed , Martin Scorcese 's Gangs of New York still emerges as his most vital work since GoodFellas .",
+            "output": "POS"
+        },
+        {
+            "input": "I still want my money back .",
+            "output": "NEG"
+        },
+        {
+            "input": "The sword fighting is well done and Auteuil is a goofy pleasure .",
+            "output": "POS"
+        },
+        {
+            "input": "Not to mention absolutely refreshed .",
+            "output": "POS"
+        },
+        {
+            "input": "Upper West Sidey exercise in narcissism and self-congratulation disguised as a tribute .",
+            "output": "NEG"
+        },
+        {
+            "input": "With more character development this might have been an eerie thriller ; with better payoffs , it could have been a thinking man 's monster movie .",
+            "output": "NEG"
+        },
+        {
+            "input": "Unlike most anime , whose most ardent fans outside Japan seem to be introverted young men with fantasy fetishes , Metropolis never seems hopelessly juvenile .",
+            "output": "POS"
+        },
+        {
+            "input": "The self-serious Equilibrium makes its point too well ; a movie , like life , is n't much fun without the highs and lows .",
+            "output": "NEG"
+        },
+        {
+            "input": "This 90-minute postmodern voyage was more diverting and thought-provoking than I 'd expected it to be .",
+            "output": "POS"
+        },
+        {
+            "input": "Hatosy ... portrays young Brendan with his usual intelligence and subtlety , not to mention a convincing brogue .",
+            "output": "POS"
+        },
+        {
+            "input": "... would be a total loss if not for two supporting performances taking place at the movie 's edges .",
+            "output": "NEG"
+        },
+        {
+            "input": "For a story set at sea , Ghost Ship is pretty landbound , with its leaden acting , dull exposition and telegraphed ` surprises . '",
+            "output": "NEG"
+        },
+        {
+            "input": "Expect no major discoveries , nor any stylish sizzle , but the film sits with square conviction and touching good sense on the experience of its women .",
+            "output": "POS"
+        },
+        {
+            "input": "Almodovar is an imaginative teacher of emotional intelligence in this engaging film about two men who discover what William James once called ` the gift of tears . '",
+            "output": "POS"
+        },
+        {
+            "input": "By the end of the movie , you 're definitely convinced that these women are spectacular .",
+            "output": "POS"
+        },
+        {
+            "input": "The whole affair is as predictable as can be .",
+            "output": "NEG"
+        },
+        {
+            "input": "A battle between bug-eye theatre and dead-eye matinee .",
+            "output": "NEG"
+        },
+        {
+            "input": "The effort is sincere and the results are honest , but the film is so bleak that it 's hardly watchable .",
+            "output": "NEG"
+        },
+        {
+            "input": "In the name of an allegedly inspiring and easily marketable flick , The Emperor 's Club turns a blind eye to the very history it pretends to teach .",
+            "output": "NEG"
+        },
+        {
+            "input": "Romantic , riveting and handsomely animated .",
+            "output": "POS"
+        },
+        {
+            "input": "Consider this review life-affirming .",
+            "output": "POS"
+        },
+        {
+            "input": "A superlative B movie -- funny , sexy , and rousing .",
+            "output": "POS"
+        },
+        {
+            "input": "Despite modest aspirations its occasional charms are not to be dismissed .",
+            "output": "POS"
+        },
+        {
+            "input": "Its generic villains lack any intrigue ( other than their funny accents ) and the action scenes are poorly delivered .",
+            "output": "NEG"
+        },
+        {
+            "input": "Michael Moore 's latest documentary about America 's thirst for violence is his best film yet ...",
+            "output": "POS"
+        },
+        {
+            "input": "A deft , delightful mix of sulky teen drama and overcoming-obstacles sports-movie triumph .",
+            "output": "POS"
+        },
+        {
+            "input": "At times Auto Focus feels so distant you might as well be watching it through a telescope .",
+            "output": "NEG"
+        },
+        {
+            "input": "Just as the lousy Tarantino imitations have subsided , here comes the first lousy Guy Ritchie imitation .",
+            "output": "NEG"
+        },
+        {
+            "input": "Somewhere in the middle , the film compels , as Demme experiments he harvests a few movie moment gems , but the field of roughage dominates .",
+            "output": "POS"
+        },
+        {
+            "input": "Formula 51 has dulled your senses faster and deeper than any recreational drug on the market .",
+            "output": "POS"
+        },
+        {
+            "input": "What little atmosphere is generated by the shadowy lighting , macabre sets , and endless rain is offset by the sheer ugliness of everything else .",
+            "output": "NEG"
+        },
+        {
+            "input": "All the sensuality , all the eroticism of a good vampire tale has been , pardon the pun , sucked out and replaced by goth goofiness .",
+            "output": "NEG"
+        },
+        {
+            "input": "While the path may be familiar , first-time director Denzel Washington and a top-notch cast manage to keep things interesting .",
+            "output": "POS"
+        },
+        {
+            "input": "As social exposé , Skins has its heart in the right place , but that 's not much to hang a soap opera on .",
+            "output": "NEG"
+        }
+    ]
+}

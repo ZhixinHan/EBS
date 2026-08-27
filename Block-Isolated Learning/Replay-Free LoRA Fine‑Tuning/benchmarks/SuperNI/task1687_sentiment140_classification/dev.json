@@ -1,0 +1,405 @@
+{
+    "Definition": "In this task, you are given a text from tweets. Your task is to classify given tweet text into two categories: 1) positive, and 2) negative based on its content.",
+    "Instances": [
+        {
+            "input": "Nervous about tomorrow  like holy crap.",
+            "output": "negative"
+        },
+        {
+            "input": "five for fighting - superman ",
+            "output": "negative"
+        },
+        {
+            "input": "Yea so I'm mad that LOUD ASS THUNDER just woke me up!! ugh ",
+            "output": "negative"
+        },
+        {
+            "input": "[Link] - Food for thought ",
+            "output": "positive"
+        },
+        {
+            "input": "olive garden with mommy. ",
+            "output": "positive"
+        },
+        {
+            "input": "home now, eating m&amp;m's ",
+            "output": "positive"
+        },
+        {
+            "input": "I don't want to spend anymore grad money then I have to ",
+            "output": "positive"
+        },
+        {
+            "input": "Don't foget Sweetwater GearFest starts FRIDAY! Wish I was going ",
+            "output": "negative"
+        },
+        {
+            "input": "@Go_Ask_Alice hehehe... wow..thanks! ",
+            "output": "positive"
+        },
+        {
+            "input": "@Kytoo BOSA SI SWA!! haha that's a  STUDY DRINK! haha btw! good luck with your final tomorrow dude! ",
+            "output": "positive"
+        },
+        {
+            "input": "Trying to think of reasons to leave my warm bed. Coming up zilch but have to get up anyway. ",
+            "output": "negative"
+        },
+        {
+            "input": "@Sunday28 When you get a chance, give me name that posted you ",
+            "output": "positive"
+        },
+        {
+            "input": "is one down three to go  ....napp for ever so tireddd",
+            "output": "negative"
+        },
+        {
+            "input": "the most beutiful day this spring....and I'm in front of the laptop ",
+            "output": "negative"
+        },
+        {
+            "input": "[Link] READ! :| This made me really scared. ",
+            "output": "negative"
+        },
+        {
+            "input": "@Rokarony i know its amazing. sign of a good night wherever you cats may be ",
+            "output": "negative"
+        },
+        {
+            "input": "Just great. More scamming and whatnot. Got a bunch of fraudulent charges on my account. Time to get my card replaced ",
+            "output": "negative"
+        },
+        {
+            "input": "awwwwww  #supernatural is a repeat episode! I've seen this :\\",
+            "output": "negative"
+        },
+        {
+            "input": "I had fun at the lake last night =] wished i would have gotten to stay longer and that it hadnt rained ",
+            "output": "negative"
+        },
+        {
+            "input": "Sorry, I've been away so much! I've been doing lots of extra napping  How is everyone this weekend?",
+            "output": "positive"
+        },
+        {
+            "input": "and i'm eating corn bugles ",
+            "output": "positive"
+        },
+        {
+            "input": "have all a's b's c's and 1 d  not going to schoolio tomorrow john broke up witt chey  hehe this day just keeps getting better happy 420",
+            "output": "positive"
+        },
+        {
+            "input": "@ShannonHerod I love that quote! Really needed that today. Thanks for sharing. ",
+            "output": "positive"
+        },
+        {
+            "input": "i miss house ",
+            "output": "negative"
+        },
+        {
+            "input": "Bored &amp; Not Feeeling Veryy Well ",
+            "output": "negative"
+        },
+        {
+            "input": "Everybody talkin bout how they the best rapper, even this girl.. My dead friend says hi to me and i snub her cuz she dead and i wake up ",
+            "output": "negative"
+        },
+        {
+            "input": "@millsks why are we not already hanging out...oh right...b/c of me...   Soon enough the sleepovers and pool parties will be endless!",
+            "output": "negative"
+        },
+        {
+            "input": "@BrokePimpStyles Yeah  And now I might have 2 battle w/Best Buy over no op sys on my &quot;repaired&quot; PC. My oh my... LOL",
+            "output": "negative"
+        },
+        {
+            "input": "@ddlovato: dont cry demi! I would be exactly the same way. I dont think i would be able to handle it ",
+            "output": "negative"
+        },
+        {
+            "input": "I sure have a lot of woman following me ",
+            "output": "positive"
+        },
+        {
+            "input": "@kishorcariappa @sabihkhan serious!! how do you beat heat!!! just dont feel like gettin out ",
+            "output": "positive"
+        },
+        {
+            "input": "@aron93a Does email push really not work? ",
+            "output": "negative"
+        },
+        {
+            "input": "The Block Party has been cancelled. ",
+            "output": "negative"
+        },
+        {
+            "input": "If only i was living in Korea/Japan ",
+            "output": "negative"
+        },
+        {
+            "input": "at home. the roommate forgot to leave the door key for me so i have to wait in the living room ",
+            "output": "negative"
+        },
+        {
+            "input": "last day of school.  really really sad.",
+            "output": "negative"
+        },
+        {
+            "input": "@kingdavers hey Dave! My sister wants to know where you got the brobee piï¿½ata!! Spill it!!!!! ..........please? ",
+            "output": "positive"
+        },
+        {
+            "input": "#3turnoffwords hurry &amp; wait. this is what my whole day will be ",
+            "output": "negative"
+        },
+        {
+            "input": "Right off to buy some sunglasses and head to work! ",
+            "output": "negative"
+        },
+        {
+            "input": "@PaulaAbdul Oh Paula  hope you get better! Lots of love xoxo",
+            "output": "negative"
+        },
+        {
+            "input": "wooow , this is horrible i wanna cry ",
+            "output": "negative"
+        },
+        {
+            "input": "@therealtoriamos  where is my UK Itunes code?   Why do you bother with these jerks. Next time sell tickets fairly please.",
+            "output": "negative"
+        },
+        {
+            "input": "@DoctorJohnSmith Ugh, no idea. ",
+            "output": "negative"
+        },
+        {
+            "input": "ah we liveddd  but not that poor guy that was dead ",
+            "output": "negative"
+        },
+        {
+            "input": "AT&amp;T: &quot;7 to 14 days to get iphone 3GS&quot; ",
+            "output": "negative"
+        },
+        {
+            "input": "@panda951 OMG. I'm wearing a pair of those right now. My glasses and I will pour out a little liquor for your dearly departed. ",
+            "output": "negative"
+        },
+        {
+            "input": "has been abandonin Twitter for last few days  must be serious about life for the next 2 whirlwind weeks",
+            "output": "negative"
+        },
+        {
+            "input": "More hw ",
+            "output": "negative"
+        },
+        {
+            "input": "@Larlar Hey thats pretty awesome if you follow me and thank you ",
+            "output": "positive"
+        },
+        {
+            "input": "@TinaBit Thank you! I will  Glad you found me. Have a great night!",
+            "output": "positive"
+        },
+        {
+            "input": "@cocoward hahaha. . . . yeeehuhhh ",
+            "output": "positive"
+        },
+        {
+            "input": "@johnmcginn Your welcome...sounds do-able ",
+            "output": "positive"
+        },
+        {
+            "input": "Goodbye, I'm offline again and leave the tweets to www.tweetlater.com. Bye followers ",
+            "output": "positive"
+        },
+        {
+            "input": "@phasegordon: a good axe?  Nothing serious, I hope ",
+            "output": "positive"
+        },
+        {
+            "input": "@cocktails_on_me i'm cool just stupid tired  got so much to do but dont sweem to be gettin anywhere. Thurs/Fri not gonna be fun LOL",
+            "output": "negative"
+        },
+        {
+            "input": "So one of my idiot family members blew out the electricity in the crib... I can't live like this... No Game For Me ",
+            "output": "negative"
+        },
+        {
+            "input": "Watching season 4 of Weeds, well, the end of it. #howarewe 6/10. Bit tired from all the walking earlier but still happy I saw the piglets ",
+            "output": "positive"
+        },
+        {
+            "input": "Congrats Diversity!!!!..u totally deserved it !! ",
+            "output": "positive"
+        },
+        {
+            "input": "hello everyone  ",
+            "output": "positive"
+        },
+        {
+            "input": "Story of my life!!! There is no where to watch it cause everything is being used ",
+            "output": "negative"
+        },
+        {
+            "input": "Chapter 133 is uploading..it's taking forever.. ",
+            "output": "negative"
+        },
+        {
+            "input": "@mitchelmusso I'm jealous! I have a dumb class and only 8th grade ",
+            "output": "negative"
+        },
+        {
+            "input": "@cronopia Right now I'm trying to track down about a year's worth of emails that went missing in Thunderbird when I ran a filter... ",
+            "output": "negative"
+        },
+        {
+            "input": "@miyarenee09 i wish i had DVR! urg.. im not even watching it tho ",
+            "output": "negative"
+        },
+        {
+            "input": "back to sleep till tomorrow again ",
+            "output": "positive"
+        },
+        {
+            "input": "@aflyonthewall The only way I know to rate a stumble is with a thumbs up, but I thought the thumbs up *is* the stumble? It's confusing. ",
+            "output": "positive"
+        },
+        {
+            "input": "i have a headache  ",
+            "output": "negative"
+        },
+        {
+            "input": "@1in9 2 HMC-150's and 35mm Adaptors to go with them for Senior Sem students. ",
+            "output": "positive"
+        },
+        {
+            "input": "@jamopo Leicester???? I've heard of that place... Have they got a footie team? ",
+            "output": "positive"
+        },
+        {
+            "input": "now it is saturday. I am going out with my family. But tommorow (which is sunday) i am sleeping at my lovely friends house YEY!! ",
+            "output": "positive"
+        },
+        {
+            "input": "so I have 3 DM.. but it only shows one ",
+            "output": "negative"
+        },
+        {
+            "input": "Jealous that my brother will watch David Archuleta &amp; David Cook's concert on Saturday  Oh well, I picked another concert to watch in June.",
+            "output": "negative"
+        },
+        {
+            "input": "had an horrible day   this weather duznt help either lol x",
+            "output": "negative"
+        },
+        {
+            "input": "is doing her coworker's work that was left behind and is sick..such a bad day ",
+            "output": "negative"
+        },
+        {
+            "input": "Thanx @harzack86 I kind of knew that but was hoping  do you use skype on an iphone??",
+            "output": "positive"
+        },
+        {
+            "input": "@ccmatthews lol im so sleepy but i cant sleeep  im 2 nervous abt 2moro lol",
+            "output": "negative"
+        },
+        {
+            "input": "i need some new sunglassessssss. i lose all of mine, fuck. ",
+            "output": "negative"
+        },
+        {
+            "input": "I start again to look for a new LOVE. I need it so much. ",
+            "output": "negative"
+        },
+        {
+            "input": "@ddlovato why? what's wrong? hope u had a gr8 opening concert!! sorry i couldn't be there ",
+            "output": "negative"
+        },
+        {
+            "input": "being frustrated. hating my life. what sense does it make to send me my soulmate and make it so we cant be together? i wanna hit stuff ",
+            "output": "negative"
+        },
+        {
+            "input": "follow @thesilentyears  pretty please.",
+            "output": "positive"
+        },
+        {
+            "input": "@tdizzzzzzzle Thomassssssss!   ",
+            "output": "positive"
+        },
+        {
+            "input": "@danaedwards I guess all the doit guys are old now. Even Srini. ",
+            "output": "positive"
+        },
+        {
+            "input": "@mamapigeon sounds like it  I have a 12 year old with ADHD and Aspergers a 7 year old a 4 year old and 4 cats + hubby getting kinda full",
+            "output": "positive"
+        },
+        {
+            "input": "@lady_mimin96 i'm sleeping late tonight cause tomorrow on air rush hour  yayyy",
+            "output": "positive"
+        },
+        {
+            "input": "Had a lovely time having big adventures in Sydney, shame I'm back at work ",
+            "output": "negative"
+        },
+        {
+            "input": "@andrewbeaton You still need one apparently  (for a free account)",
+            "output": "negative"
+        },
+        {
+            "input": "wet and naked!!! Just got out of the shower =P Freezing my ass off ",
+            "output": "negative"
+        },
+        {
+            "input": "feels much better now that her hair is washed. I still have mosquito bites though...  unfair.",
+            "output": "negative"
+        },
+        {
+            "input": "Need a vacation from myself  ..wish it was possible..",
+            "output": "positive"
+        },
+        {
+            "input": "Lol ive been sick  this whole week feels like im getting worse then better!! ",
+            "output": "negative"
+        },
+        {
+            "input": "have to pause one tree hill  and wait for mum to come home she doesnt want to miss it hopefully she brings credit",
+            "output": "negative"
+        },
+        {
+            "input": "@cdat8thandd really  no i didnt know what was going on all i heard was that u wasnt feeling well and u went home.. well i saw u going home",
+            "output": "negative"
+        },
+        {
+            "input": "i took this pic sum minutes ago [black haired again]  / twitpic doesn't work o__O [Link]",
+            "output": "positive"
+        },
+        {
+            "input": "I have just discovered that in america does not pay the Internet connection!! I live in Italy and we pay it!! This isn't fair!!! ",
+            "output": "negative"
+        },
+        {
+            "input": "@rebekaaa i know  lastfm broke last night so maybe that has something to do with it, the whole website was down.",
+            "output": "negative"
+        },
+        {
+            "input": "@SwaggCertified I wish I could ",
+            "output": "negative"
+        },
+        {
+            "input": "my twitter looks funny  someone help!",
+            "output": "negative"
+        },
+        {
+            "input": "I'm sad my No. 1 is leaving for Europe today, for a whole week... ",
+            "output": "negative"
+        },
+        {
+            "input": "is wearing a shirt she hasn't worn since middle school and it fits ",
+            "output": "positive"
+        }
+    ]
+}

@@ -1,0 +1,405 @@
+{
+    "Definition": "Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.",
+    "Instances": [
+        {
+            "input": "person can have or can contain offspring",
+            "output": "person HasA offspring"
+        },
+        {
+            "input": "person can have or can contain parent",
+            "output": "person HasA parent"
+        },
+        {
+            "input": "person can have or can contain sex",
+            "output": "person HasA sex"
+        },
+        {
+            "input": "person can have or can contain skin",
+            "output": "person HasA skin"
+        },
+        {
+            "input": "person can have or can contain sleep",
+            "output": "person HasA sleep"
+        },
+        {
+            "input": "person can have or can contain something",
+            "output": "person HasA something"
+        },
+        {
+            "input": "person can have or can contain soul",
+            "output": "person HasA soul"
+        },
+        {
+            "input": "person can have or can contain tooth",
+            "output": "person HasA tooth"
+        },
+        {
+            "input": "person is a kind of human_be",
+            "output": "person IsA human_be"
+        },
+        {
+            "input": "person is a kind of human_body",
+            "output": "person IsA human_body"
+        },
+        {
+            "input": "person is a kind of individual",
+            "output": "person IsA individual"
+        },
+        {
+            "input": "person is a kind of mammal",
+            "output": "person IsA mammal"
+        },
+        {
+            "input": "person is a kind of organism",
+            "output": "person IsA organism"
+        },
+        {
+            "input": "person is a kind of woman",
+            "output": "person IsA woman"
+        },
+        {
+            "input": "person is a member of world",
+            "output": "person MemberOf world"
+        },
+        {
+            "input": "person is made of meat",
+            "output": "person MadeOf meat"
+        },
+        {
+            "input": "person is made of water",
+            "output": "person MadeOf water"
+        },
+        {
+            "input": "person is part of humanity",
+            "output": "person PartOf humanity"
+        },
+        {
+            "input": "person is part of society",
+            "output": "person PartOf society"
+        },
+        {
+            "input": "pet can be characterized by alive",
+            "output": "pet HasProperty alive"
+        },
+        {
+            "input": "pet can be characterized by fun",
+            "output": "pet HasProperty fun"
+        },
+        {
+            "input": "pet can be used as the opposite of wild",
+            "output": "pet Antonym wild"
+        },
+        {
+            "input": "pet is a kind of animal",
+            "output": "pet IsA animal"
+        },
+        {
+            "input": "phone can be used with the same meaning of call",
+            "output": "phone Synonym call"
+        },
+        {
+            "input": "phone can be used with the same meaning of ring",
+            "output": "phone Synonym ring"
+        },
+        {
+            "input": "phone can be used with the same meaning of telephone",
+            "output": "phone Synonym telephone"
+        },
+        {
+            "input": "phone is a kind of machine",
+            "output": "phone IsA machine"
+        },
+        {
+            "input": "Phone is a kind of tool",
+            "output": "phone IsA tool"
+        },
+        {
+            "input": "phone is made of plastic",
+            "output": "phone MadeOf plastic"
+        },
+        {
+            "input": "photograph can be characterized by flat",
+            "output": "photograph HasProperty flat"
+        },
+        {
+            "input": "photograph can be characterized by instant",
+            "output": "photograph HasProperty instant"
+        },
+        {
+            "input": "phrase is a kind of construction",
+            "output": "phrase IsA construction"
+        },
+        {
+            "input": "phrase is part of sentence",
+            "output": "phrase PartOf sentence"
+        },
+        {
+            "input": "piano can be characterized by solid",
+            "output": "piano HasProperty solid"
+        },
+        {
+            "input": "piano can have or can contain keyboard",
+            "output": "piano HasA keyboard"
+        },
+        {
+            "input": "pick can be used as the opposite of give",
+            "output": "pick Antonym give"
+        },
+        {
+            "input": "pick can be used with the same meaning of choose",
+            "output": "pick Synonym choose"
+        },
+        {
+            "input": "pick is a kind of choose",
+            "output": "pick IsA choose"
+        },
+        {
+            "input": "pick is a kind of device",
+            "output": "pick IsA device"
+        },
+        {
+            "input": "pick is a kind of pierce",
+            "output": "pick IsA pierce"
+        },
+        {
+            "input": "pick is a kind of tool",
+            "output": "pick IsA tool"
+        },
+        {
+            "input": "pick is made of aluminum",
+            "output": "pick MadeOf aluminum"
+        },
+        {
+            "input": "pick is made of metal",
+            "output": "pick MadeOf metal"
+        },
+        {
+            "input": "picture can be used as the opposite of movie",
+            "output": "picture Antonym movie"
+        },
+        {
+            "input": "picture can be used with the same meaning of movie",
+            "output": "picture Synonym movie"
+        },
+        {
+            "input": "picture is part of book",
+            "output": "picture PartOf book"
+        },
+        {
+            "input": "picture_frame is a kind of frame",
+            "output": "picture_frame IsA frame"
+        },
+        {
+            "input": "picture_frame is made of wood",
+            "output": "picture_frame MadeOf wood"
+        },
+        {
+            "input": "piece can be used as the opposite of all",
+            "output": "piece Antonym all"
+        },
+        {
+            "input": "piece can be used as the opposite of complete",
+            "output": "piece Antonym complete"
+        },
+        {
+            "input": "piece can be used as the opposite of whole",
+            "output": "piece Antonym whole"
+        },
+        {
+            "input": "piece is a kind of part",
+            "output": "piece IsA part"
+        },
+        {
+            "input": "piece is part of collection",
+            "output": "piece PartOf collection"
+        },
+        {
+            "input": "piece is part of whole",
+            "output": "piece PartOf whole"
+        },
+        {
+            "input": "pierce is true then also cut is true",
+            "output": "pierce Entails cut"
+        },
+        {
+            "input": "pig can be characterized by intelligent",
+            "output": "pig HasProperty intelligent"
+        },
+        {
+            "input": "pig can be used with the same meaning of policeman",
+            "output": "pig Synonym policeman"
+        },
+        {
+            "input": "pig can have or can contain bone",
+            "output": "pig HasA bone"
+        },
+        {
+            "input": "pillow can be characterized by comfortable",
+            "output": "pillow HasProperty comfortable"
+        },
+        {
+            "input": "pillow can be characterized by soft",
+            "output": "pillow HasProperty soft"
+        },
+        {
+            "input": "pillow can have or can contain feather",
+            "output": "pillow HasA feather"
+        },
+        {
+            "input": "pillow is made of cotton",
+            "output": "pillow MadeOf cotton"
+        },
+        {
+            "input": "pillow is made of feather",
+            "output": "pillow MadeOf feather"
+        },
+        {
+            "input": "pillow is part of bed",
+            "output": "pillow PartOf bed"
+        },
+        {
+            "input": "pin can be characterized by sharp",
+            "output": "pin HasProperty sharp"
+        },
+        {
+            "input": "pin can be characterized by straight",
+            "output": "pin HasProperty straight"
+        },
+        {
+            "input": "pin can be characterized by thin",
+            "output": "pin HasProperty thin"
+        },
+        {
+            "input": "pin can be used with the same meaning of nail",
+            "output": "pin Synonym nail"
+        },
+        {
+            "input": "pin can have or can contain point",
+            "output": "pin HasA point"
+        },
+        {
+            "input": "pin is a kind of leg",
+            "output": "pin IsA leg"
+        },
+        {
+            "input": "pipe can be characterized by hollow",
+            "output": "pipe HasProperty hollow"
+        },
+        {
+            "input": "pipe can be characterized by hot",
+            "output": "pipe HasProperty hot"
+        },
+        {
+            "input": "pipe can be used as the opposite of cigarette",
+            "output": "pipe Antonym cigarette"
+        },
+        {
+            "input": "pipe is a kind of wind_instrument",
+            "output": "pipe IsA wind_instrument"
+        },
+        {
+            "input": "pipe is made of metal",
+            "output": "pipe MadeOf metal"
+        },
+        {
+            "input": "pit can be used with the same meaning of cavity",
+            "output": "pit Synonym cavity"
+        },
+        {
+            "input": "pit is a kind of cavity",
+            "output": "pit IsA cavity"
+        },
+        {
+            "input": "pit is a kind of depression",
+            "output": "pit IsA depression"
+        },
+        {
+            "input": "pit is a kind of hole",
+            "output": "pit IsA hole"
+        },
+        {
+            "input": "pit is a kind of place",
+            "output": "pit IsA place"
+        },
+        {
+            "input": "pit is a kind of trap",
+            "output": "pit IsA trap"
+        },
+        {
+            "input": "pitch is a kind of play",
+            "output": "pitch IsA play"
+        },
+        {
+            "input": "pitcher is a kind of person",
+            "output": "pitcher IsA person"
+        },
+        {
+            "input": "pitcher is a kind of player",
+            "output": "pitcher IsA player"
+        },
+        {
+            "input": "Pitcher is a kind of vessel",
+            "output": "pitcher IsA vessel"
+        },
+        {
+            "input": "pitcher is made of clay",
+            "output": "pitcher MadeOf clay"
+        },
+        {
+            "input": "place can be used with the same meaning of seat",
+            "output": "place Synonym seat"
+        },
+        {
+            "input": "place can be used with the same meaning of spot",
+            "output": "place Synonym spot"
+        },
+        {
+            "input": "place can be used with the same meaning of square",
+            "output": "place Synonym square"
+        },
+        {
+            "input": "place is a kind of rank",
+            "output": "place IsA rank"
+        },
+        {
+            "input": "plain can be characterized by flat",
+            "output": "plain HasProperty flat"
+        },
+        {
+            "input": "plain can be used as the opposite of complex",
+            "output": "plain Antonym complex"
+        },
+        {
+            "input": "plain can be used as the opposite of complicate",
+            "output": "plain Antonym complicate"
+        },
+        {
+            "input": "plain can be used as the opposite of decorate",
+            "output": "plain Antonym decorate"
+        },
+        {
+            "input": "plain can be used as the opposite of fancy",
+            "output": "plain Antonym fancy"
+        },
+        {
+            "input": "plain can be used as the opposite of pattern",
+            "output": "plain Antonym pattern"
+        },
+        {
+            "input": "plain can be used as the opposite of unique",
+            "output": "plain Antonym unique"
+        },
+        {
+            "input": "plain can be used with the same meaning of ordinary",
+            "output": "plain Synonym ordinary"
+        },
+        {
+            "input": "plain is a kind of land",
+            "output": "plain IsA land"
+        },
+        {
+            "input": "plan is a kind of business",
+            "output": "plan IsA business"
+        }
+    ]
+}

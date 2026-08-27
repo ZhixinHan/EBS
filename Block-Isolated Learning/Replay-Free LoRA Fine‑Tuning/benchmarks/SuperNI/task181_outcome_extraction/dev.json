@@ -1,0 +1,177 @@
+{
+    "Definition": "In medical studies, treatments are tested within a group of study participants. To determine if a new treatment works, various outcomes are measured in the people who take part in the study. You will be given a sentence of a study report in which your task is to list the phrases that give information about the outcomes of the study. You should list the phrases in the same order that they appear in the text, separated by commas. If no information about the outcome is mentioned, just answer with: \"not found\".\n Outcomes contain: outcomes measured in patients: like blood sugar,\n outcomes regarding the intervention: like effectiveness, costs\n the score on a medical test or questionnaire,\n positive or negative events in the patient groups: like quitting smoking, or adverse reactions.\n Do not mention numbers or results, interpretations of outcomes, outcome mentions without relevant information.",
+    "Instances": [
+        {
+            "input": "Amonafide : An active agent in the treatment of previously untreated advanced breast cancer -- a cancer and leukemia group B study ( CALGB 8642 ) .",
+            "output": "not found"
+        },
+        {
+            "input": "Treatment with lime did not cause any significant side-effect .",
+            "output": "side-effect"
+        },
+        {
+            "input": "Although an increasing number of group-based programs for the improvement of social skills have been described , randomized controlled trials are needed to evaluate their efficacy .",
+            "output": "social skills"
+        },
+        {
+            "input": "Twenty-two patients with a history of recently diagnosed RA of less than 2 years were assessed on a variety of clinical outcome and process measures on six assessment occasions over a 21-month period .",
+            "output": "not found"
+        },
+        {
+            "input": "As calcium acquired during adolescence is essential to maximize peak bone mass and to prevent osteoporosis , possible long-term effects of excessive MRP intake during this period warrant attention .",
+            "output": "not found"
+        },
+        {
+            "input": "The 2 groups were comparable in terms of age , sex , symptoms and ipsilateral glomerular filtration rate .",
+            "output": "not found"
+        },
+        {
+            "input": "The Quality of Well-Being Scale ( QWB ) and Current Health Desirability Rating ( CHDR ) were used for economic evaluation , supplemented by the arthritis-specific Health Assessment Questionnaire ( HAQ ) , Center for Epidemiologic Studies-Depression Scale ( CES-D ) , and Perceived Quality of Life Scale ( PQOL ) collected at baseline and postclass .",
+            "output": "Quality of Well-Being Scale ( QWB, Current Health Desirability Rating ( CHDR, Health Assessment Questionnaire ( HAQ, Center for Epidemiologic Studies-Depression Scale ( CES-D, Perceived Quality of Life Scale ( PQOL"
+        },
+        {
+            "input": "Patients in the 40K arm had a higher global quality of life ( QOL ) at baseline for unclear reasons , whereas patients in the 120K arm had a greater global QOL improvement during the study , so end-of-study QOL was equivalent .",
+            "output": "global quality of life ( QOL, global QOL, QOL"
+        },
+        {
+            "input": "Though this prolongation of remission was not significant in the bestatin group compared to the control group in the 15-49 yr age group , in the 50-65 yr age group it was significantly longer .",
+            "output": "remission"
+        },
+        {
+            "input": "Efforts to promote smoking cessation should highlight that individuals are likely to feel more rather than less psychologically healthy when they successfully quit smoking .",
+            "output": "not found"
+        },
+        {
+            "input": "A cooperative randomized controlled study of bestatin immunotherapy in combination with remission maintenance chemotherapy for adult acute nonlymphocytic leukemia ( ANLL ) was performed .",
+            "output": "not found"
+        },
+        {
+            "input": "In recent years some studies have been published supporting the efficacy of light exposure , physical activity , sleep control and a Mediterranean diet pattern on the improvement or prevention of depression .",
+            "output": "not found"
+        },
+        {
+            "input": "When one treatment is superior to the other two , the trial design provides better patient care , higher power , and a lower expected sample size .",
+            "output": "not found"
+        },
+        {
+            "input": "The course of depression in recent onset rheumatoid arthritis : the predictive role of disability , illness perceptions , pain and coping .",
+            "output": "not found"
+        },
+        {
+            "input": "The origin of the gastric phasic activity patterns is unknown , but they may be related to electrical control activity .",
+            "output": "not found"
+        },
+        {
+            "input": "In contrast , the number of wet nights and urodynamic parameters did not change significantly in group 2 .",
+            "output": "urodynamic parameters"
+        },
+        {
+            "input": "In addition , supplementation did not affect the exercise-induced increase in thiobarbituric acid reactive substances in plasma .",
+            "output": "thiobarbituric acid reactive substances in plasma"
+        },
+        {
+            "input": "Patient outcomes were measured as changes in global anxiety scores , functioning and well-being , and patients ' reports of global improvements .",
+            "output": "global anxiety scores, functioning and well-being, patients ' reports of global improvements"
+        },
+        {
+            "input": "Assays in male adolescents and in Caco-2 cells .",
+            "output": "not found"
+        },
+        {
+            "input": "The mean hematocrit of the subjects ( 26.23±2.03 % ) at the end of the study was also higher , p < 0.001 .",
+            "output": "hematocrit"
+        },
+        {
+            "input": "Multicenter , randomized , controlled , two arm-parallel , clinical trial .",
+            "output": "not found"
+        },
+        {
+            "input": "We randomly assigned 28 patients with refractory monosymptomatic nocturnal enuresis to 2 equal groups .",
+            "output": "not found"
+        },
+        {
+            "input": "Using backward elimination , we derived a risk scoring algorithm ( range 0-63 ) from the final reduced model .",
+            "output": "not found"
+        },
+        {
+            "input": "Patient and hematologic factors potentially associated with NC were evaluated .",
+            "output": "not found"
+        },
+        {
+            "input": "We conclude that oral methotrexate did not slow down progression of muscle weakness but decreased serum creatine kinase activity .",
+            "output": "progression of muscle weakness"
+        },
+        {
+            "input": "Blinded assessors collected data at baseline and 3-month and 6-month follow-up .",
+            "output": "not found"
+        },
+        {
+            "input": "Data analyzed was from a phase III , randomized clinical trial of DOX ( 60 mg/m ( 2 ) every 3 weeks ) or PLD ( 50 mg/m ( 2 ) every 4 weeks ) for the first line therapy for MBC ( n = 509 ) ( O'Brien et al , Ann Oncol .",
+            "output": "not found"
+        },
+        {
+            "input": "Heart rate , blood pressure , and lipid measures were taken at rest , during a videotaped speech task , and during recovery from the task .",
+            "output": "blood pressure, lipid measures"
+        },
+        {
+            "input": "Also , fewer subjects than the controls had significant painful episodes ( 50.0 % versus 92.7 % ) ; febrile illness ( 46.6 % versus 87.3 % ) and admission rate ( 3.4 % versus 34.5 % ) ( p < 0.001 ) .",
+            "output": "painful episodes, febrile illness, admission rate"
+        },
+        {
+            "input": "For children beginning treatment with the lowest language levels , the JA intervention improved language outcome significantly more than did the SP or control interventions .",
+            "output": "language"
+        },
+        {
+            "input": "Results indicated that there was a significant decrease in both the C-STAI score ( F = 4.66 , P < 0.05 ) and the WHOQoL score ( F = 4.74 , P < 0.05 ) in the experimental group .",
+            "output": "C-STAI score, WHOQoL score"
+        },
+        {
+            "input": "This study examined whether ( 1 ) postmenopausal breast cancer survivors ( BCS ) with bone loss taking 24 months of risedronate , calcium , and vitamin D had increased bone mineral density ( BMD ) at the total hip , femoral neck , L1-L4 spine , total radius and 33 % radius , and decreased bone turnover ; ( 2 ) subjects who also participated in strength/weight training ( ST ) exercises had greater increases in BMD and greater decreases in bone turnover ; and ( 3 ) subjects who also exercised were more likely to preserve ( at least maintain ) BMD .",
+            "output": "bone mineral density ( BMD, bone turnover, BMD"
+        },
+        {
+            "input": "A physiotherapy service for EECU patients , as provided in this study , did not reduce the rate of hospital admission , rate of re-presentation to the ED , use of community healthcare resources , or improve the rate of return to usual work/home/leisure activities or patient satisfaction .",
+            "output": "rate of hospital admission, rate of re-presentation to the, use of community healthcare resources, rate of return to usual work/home/leisure activities, patient satisfaction"
+        },
+        {
+            "input": "The latter metabolite is not formed in man through the mono-oxygenase pathway of cytochrome P450 .",
+            "output": "metabolite"
+        },
+        {
+            "input": "The comparative results were very close ; mean difference ( bias ) +/- standard deviation ( precision ) was 0.05 ( 0.84 ) mmol/min/kPa .",
+            "output": "mean difference"
+        },
+        {
+            "input": "Cardiovascular reactivity to psychological stress may be one mechanism for the enhanced risk , but the small number of studies examining whether OC users who smoke have greater reactivity have produced mixed results .",
+            "output": "not found"
+        },
+        {
+            "input": "The end point of CALGB 8642 is to assess the difference in survival , toxicity , and overall response when limited exposure to Phase II agents precedes standard chemotherapy .",
+            "output": "survival , toxicity, overall response"
+        },
+        {
+            "input": "We conducted a study including 15 depressive patients who had been under antidepressant treatment for at least one month .",
+            "output": "not found"
+        },
+        {
+            "input": "Serum biochemical characteristics of Beluga , Huso huso ( L. ) , in response to blood sampling after clove powder solution exposure .",
+            "output": "not found"
+        },
+        {
+            "input": "fMRI data showed that , under placebo , ASD boys underactivated medial prefrontal cortex ( mPFC ) , compared with control and ADHD boys .",
+            "output": "not found"
+        },
+        {
+            "input": "Using epigastric impedance we found that infants with partial or total intestinal obstruction had gastric phasic activity , which was not found in the control infants .",
+            "output": "gastric phasic"
+        },
+        {
+            "input": "To study the effects of physical exercise on biochemical risk factors for ischaemic heart disease 31 healthy middle aged men undertook regular physical exercise for two months and 29 served as controls in a randomised trial .",
+            "output": "not found"
+        },
+        {
+            "input": "Under Fluoxetine , mPFC activation was up-regulated and normalized in ASD boys relative to controls , but down-regulated in ADHD boys relative to placebo , which was concomitant with worse task performance in ADHD .",
+            "output": "mPFC activation, task performance"
+        }
+    ]
+}

@@ -1,0 +1,405 @@
+{
+    "Definition": "Given a scientific question, generate a correct answer to it.",
+    "Instances": [
+        {
+            "input": "In eukaryotes, the cell cycle consists of a long preparatory period, called __________ before undergoing cell division.",
+            "output": "interphase"
+        },
+        {
+            "input": "Vibrating electric and magnetic fields make up what kinds of waves?",
+            "output": "electromagnetic"
+        },
+        {
+            "input": "Hair is a component of which bodily system?",
+            "output": "integumentary system"
+        },
+        {
+            "input": "What causes light to refract?",
+            "output": "slowing down"
+        },
+        {
+            "input": "If the frequency of the electromagnetic wave is the same as the natural frequencies of the system, the transfer of what is much more efficient?",
+            "output": "energy"
+        },
+        {
+            "input": "The force that blood exerts upon the walls of the blood vessels or upon the chambers of the heart is known as blood what?",
+            "output": "pressure"
+        },
+        {
+            "input": "Glands release what substance into the blood?",
+            "output": "hormones"
+        },
+        {
+            "input": "How is a reaction described when the given conditions favor formation of products?",
+            "output": "spontaneous"
+        },
+        {
+            "input": "What kind of molecule is made from one or more long chains of amino acids?",
+            "output": "protein molecule"
+        },
+        {
+            "input": "What is the force of attraction that holds together positive and negative ions?",
+            "output": "ionic bond"
+        },
+        {
+            "input": "Which type of tree loses its leaves each fall and remains leafless in the winter?",
+            "output": "deciduous"
+        },
+        {
+            "input": "What type of scale is the richter scale?",
+            "output": "logarithmic"
+        },
+        {
+            "input": "What is another term for all eukaryotic organisms that are neither animals, nor plants, nor fungi?",
+            "output": "protists"
+        },
+        {
+            "input": "Sickle cell anemia is what type of disorder?",
+            "output": "autosomal recessive disorder"
+        },
+        {
+            "input": "An oxy-acetylene torch is an effective way to cut what?",
+            "output": "metal"
+        },
+        {
+            "input": "What is the ability of an atom to emit, or give off, charged particles and energy from the nucleus?",
+            "output": "radioactivity"
+        },
+        {
+            "input": "In preparation for phagocytosis, a portion of the inward-facing surface of the plasma membrane becomes coated with a protein called clathrin, which stabilizes this section of what?",
+            "output": "membrane"
+        },
+        {
+            "input": "Atoms of different elements can combine in simple whole number ratios to form what?",
+            "output": "chemical compounds"
+        },
+        {
+            "input": "More common in developing countries, parasitic diseases caused by roundworms often result from poor practice of what?",
+            "output": "personal hygiene"
+        },
+        {
+            "input": "What type of bacteria stains red?",
+            "output": "gram-negative bacteria"
+        },
+        {
+            "input": "What is the common term for water in its solid state?",
+            "output": "ice"
+        },
+        {
+            "input": "What type of behavioral rhythms are linked to the yearly cycle of seasons?",
+            "output": "circannual"
+        },
+        {
+            "input": "What substance is created when a copper turns from reddish brown to greenish brown?",
+            "output": "copper oxide"
+        },
+        {
+            "input": "What two things determine how much kinetic energy an object has?",
+            "output": "its mass and velocity"
+        },
+        {
+            "input": "How many types of tissue are found in animals?",
+            "output": "four"
+        },
+        {
+            "input": "Making a specific prediction based on a general principle is known as what type of reasoning?",
+            "output": "deductive reasoning"
+        },
+        {
+            "input": "What is the name of the two metalloids in the carbon group called?",
+            "output": "silicon and germanium"
+        },
+        {
+            "input": "Glucagon and insulin are produced in what organ?",
+            "output": "pancreas"
+        },
+        {
+            "input": "Where do producers in an ecosystem generally get their energy from?",
+            "output": "the sun"
+        },
+        {
+            "input": "Changing the shape of an elastic material gives it what type of energy?",
+            "output": "potential"
+        },
+        {
+            "input": "Of the three basic types of radioactive emissions, what particle is the most penetrating?",
+            "output": "gamma"
+        },
+        {
+            "input": "The rate of evaporation depends only on the surface area of the liquid and is essentially constant. the rate of condensation depends on the number of molecules in the vapor phase and increases steadily until it equals the rate of this?",
+            "output": "evaporation"
+        },
+        {
+            "input": "Single-celled eukaryotes that share some traits with animals are also called?",
+            "output": "eukaryotes"
+        },
+        {
+            "input": "When animals get rid of their gaseous waste, what is exhaled through their mouth and nose?",
+            "output": "carbon dioxide"
+        },
+        {
+            "input": "Which particle of an atom has a positive electric charge?",
+            "output": "proton"
+        },
+        {
+            "input": "What system of the body is responsible for producing hormones?",
+            "output": "endocrine system"
+        },
+        {
+            "input": "The properties of the alkali metals are similar to each other as expected for elements in the same what?",
+            "output": "family"
+        },
+        {
+            "input": "The pancreatic hormones insulin and glucagon maintain glucose homeostasis by tightly regulating the synthesis and breakdown of what?",
+            "output": "glycogen"
+        },
+        {
+            "input": "Ultimately, the fluid that is lost from the blood vessels is returned through what system?",
+            "output": "lymphatic"
+        },
+        {
+            "input": "Which type of cell can carry out more functions, eukaryotic cells or prokaryotic cells?",
+            "output": "eukaryotic cells"
+        },
+        {
+            "input": "Dissolved oxygen in seawater is critical for sea creatures, but as the oceans warm, oxygen becomes less what?",
+            "output": "soluble"
+        },
+        {
+            "input": "Some protists hunt their food or act as what?",
+            "output": "parasites"
+        },
+        {
+            "input": "What do you call the fragments of cells involved in the clotting process that are suspended in blood plasma?",
+            "output": "platelets"
+        },
+        {
+            "input": "What is a type of plant tissue consisting of undifferentiated cells that can continue to divide and differentiate?",
+            "output": "meristem"
+        },
+        {
+            "input": "What are compounds composed of only two elements called?",
+            "output": "binary compounds"
+        },
+        {
+            "input": "In contrast to mammals and birds, freshwater fishes produce large volumes of very dilute what?",
+            "output": "urine"
+        },
+        {
+            "input": "What is emitted by nuclei in alpha, beta, and gamma decay?",
+            "output": "radiation"
+        },
+        {
+            "input": "Thomson’s plum pudding model shows the structure of what?",
+            "output": "atom"
+        },
+        {
+            "input": "Lampreys possess a large round sucker, lined with teeth, that surrounds the mouth and is used to feed on what?",
+            "output": "blood"
+        },
+        {
+            "input": "What is the scientific name for the human species?",
+            "output": "homo sapiens"
+        },
+        {
+            "input": "Gene therapy is a type of what kind of engineering?",
+            "output": "genetic engineering"
+        },
+        {
+            "input": "All atoms have equal numbers of what two particles?",
+            "output": "electrons and protons"
+        },
+        {
+            "input": "What is located at the center of our solar system?",
+            "output": "the sun"
+        },
+        {
+            "input": "What causes holes in bread?",
+            "output": "yeast fermentation"
+        },
+        {
+            "input": "Electromagnetic radiation behaves like particles as well as what?",
+            "output": "waves"
+        },
+        {
+            "input": "What term is used to describe the sequence of elementary steps that together comprise an entire chemical reaction?",
+            "output": "reaction mechanism"
+        },
+        {
+            "input": "In science, coefficients are used to balance what kind of equations?",
+            "output": "chemical"
+        },
+        {
+            "input": "The posterior pituitary releases which hormone, which stimulates uterine contractions during childbirth?",
+            "output": "oxytocin"
+        },
+        {
+            "input": "About one-third of the human cerebral cortex is dedicated to analyzing and perceiving information related to what sense?",
+            "output": "vision"
+        },
+        {
+            "input": "What can all living things sense and respond to in their environment?",
+            "output": "stimuli"
+        },
+        {
+            "input": "What instrument made it possible to study pressure quantitatively?",
+            "output": "barometer"
+        },
+        {
+            "input": "Crowding and resource limitation can have a profound effect on the rate of what?",
+            "output": "population growth"
+        },
+        {
+            "input": "What organism is the most disruptive towards the diversity of other species?",
+            "output": "humans"
+        },
+        {
+            "input": "What regulates the cell cycle only when they are tightly bound to cdks?",
+            "output": "cyclins"
+        },
+        {
+            "input": "What cell structures are like storage centers and tend to be larger in plant cells?",
+            "output": "vacuoles"
+        },
+        {
+            "input": "In sexual reproduction, what is the name of the gamete cell the male must contribute?",
+            "output": "sperm"
+        },
+        {
+            "input": "In what season are temperature inversions more common?",
+            "output": "winter"
+        },
+        {
+            "input": "What is the diffusion of water through a semipermeable membrane according to the concentration gradient of water across the membrane",
+            "output": "osmosis"
+        },
+        {
+            "input": "What is the process of removing wastes and excess water from the body called?",
+            "output": "excretion"
+        },
+        {
+            "input": "In most crustaceans, what two structures fuse to form a cephalothorax?",
+            "output": "head and thorax"
+        },
+        {
+            "input": "What do you call the heat below earth’s surface that can be used to produce electricity?",
+            "output": "geothermal energy"
+        },
+        {
+            "input": "A non-bony skeleton that forms outside of the body is known as a what?",
+            "output": "exoskeleton"
+        },
+        {
+            "input": "Materials that are good conductors of thermal energy are called?",
+            "output": "thermal conductors"
+        },
+        {
+            "input": "Individual nucleotides can be linked together through their phosphate groups to form?",
+            "output": "nucleic acid polymers"
+        },
+        {
+            "input": "What are reactions that can occur only in one direction called?",
+            "output": "irreversible"
+        },
+        {
+            "input": "Tuna have been shown to contain high levels of what metal?",
+            "output": "mercury"
+        },
+        {
+            "input": "Where does mechanical digestion begin?",
+            "output": "mouth"
+        },
+        {
+            "input": "Unlike prokaryotic cells, dna and rna synthesis in eukaryotic cells occurs in a separate compartment from synthesis of what?",
+            "output": "protein"
+        },
+        {
+            "input": "Which disease does the bacteria salmonella cause in humans?",
+            "output": "food poisoning"
+        },
+        {
+            "input": "When a solution freezes, only what particles come together to form a solid phase, while the presence of solute particles interferes with that process?",
+            "output": "solvent"
+        },
+        {
+            "input": "The direction of the force of gravity is in what direction?",
+            "output": "straight line"
+        },
+        {
+            "input": "Farsightedness, or hyperopia, is the condition in which distant objects are seen clearly, but nearby objects are?",
+            "output": "blurry"
+        },
+        {
+            "input": "What organ protects the body from injury, water loss, and microorganisms?",
+            "output": "skin"
+        },
+        {
+            "input": "Arteries and veins are two of the three types of blood vessels, what is the third?",
+            "output": "capillaries"
+        },
+        {
+            "input": "Where does most geological activity takes place?",
+            "output": "at plate boundaries"
+        },
+        {
+            "input": "What is the term of a phase change if solid water has it's average kinetic energy increased to change it to liquid water?",
+            "output": "melting"
+        },
+        {
+            "input": "What do scientist's believe mercury's core is mostly made of?",
+            "output": "melted iron"
+        },
+        {
+            "input": "The ordovician-silurian extinction event is the first recorded mass extinction and the second largest. during this period, about what percent of marine species went extinct?",
+            "output": "85 percent"
+        },
+        {
+            "input": "What important aspect of the scientific method is a suggested explanation for an event, which can be tested?",
+            "output": "hypothesis"
+        },
+        {
+            "input": "Solar cells create voltages directly from light, while thermoelectric devices create voltage from differences in what?",
+            "output": "temperature"
+        },
+        {
+            "input": "What distinguishing feature predates the branching of mammals from other vertebrates?",
+            "output": "backbone"
+        },
+        {
+            "input": "What is another term for the early larval stage of a frog?",
+            "output": "tadpole"
+        },
+        {
+            "input": "The reaction of calcium oxide with carbon dioxide forms what?",
+            "output": "calcium carbonate"
+        },
+        {
+            "input": "One seismogram indicates the distance to the what?",
+            "output": "epicenter"
+        },
+        {
+            "input": "Why do birds need a light-weight body?",
+            "output": "to stay aloft"
+        },
+        {
+            "input": "Atoms that have gained electrons and become negatively charged are called what?",
+            "output": "negative ions"
+        },
+        {
+            "input": "Synthesis, decomposition, replacement, and combustion are all types of what reaction?",
+            "output": "chemical"
+        },
+        {
+            "input": "According to early accounts, newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach this?",
+            "output": "sun"
+        },
+        {
+            "input": "Microwaves are converted into what kind of energy in a microwave oven?",
+            "output": "thermal energy"
+        },
+        {
+            "input": "Particulates cause lung diseases. they can also increase the risk of heart disease and the number of what?",
+            "output": "asthma attacks"
+        }
+    ]
+}

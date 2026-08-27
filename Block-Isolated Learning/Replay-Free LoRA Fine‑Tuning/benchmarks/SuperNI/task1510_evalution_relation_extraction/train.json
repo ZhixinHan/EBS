@@ -1,0 +1,4005 @@
+{
+    "Definition": "Given a phrase describing the relationship between two words, extract the words and the lexical relationship between them. The relation has to be of the type 'MemberOf', 'MadeOf', 'Synonym', 'Entails', 'HasA', 'HasProperty', 'PartOf', 'Antonym' or 'IsA'. The output should have the format: word1 relation word2.",
+    "Instances": [
+        {
+            "input": "accident can be used as the opposite of plan",
+            "output": "accident Antonym plan"
+        },
+        {
+            "input": "accident can be used as the opposite of purpose",
+            "output": "accident Antonym purpose"
+        },
+        {
+            "input": "accident can be used with the same meaning of event",
+            "output": "accident Synonym event"
+        },
+        {
+            "input": "accident is a kind of error",
+            "output": "accident IsA error"
+        },
+        {
+            "input": "accident is a kind of mistake",
+            "output": "accident IsA mistake"
+        },
+        {
+            "input": "account can be used with the same meaning of record",
+            "output": "account Synonym record"
+        },
+        {
+            "input": "account can be used with the same meaning of score",
+            "output": "account Synonym score"
+        },
+        {
+            "input": "account can be used with the same meaning of statement",
+            "output": "account Synonym statement"
+        },
+        {
+            "input": "account is a kind of pay",
+            "output": "account IsA pay"
+        },
+        {
+            "input": "act can be used as the opposite of nothing",
+            "output": "act Antonym nothing"
+        },
+        {
+            "input": "act can be used as the opposite of real",
+            "output": "act Antonym real"
+        },
+        {
+            "input": "act can be used with the same meaning of action",
+            "output": "act Synonym action"
+        },
+        {
+            "input": "act can be used with the same meaning of performance",
+            "output": "act Synonym performance"
+        },
+        {
+            "input": "Act is a kind of art",
+            "output": "act IsA art"
+        },
+        {
+            "input": "act is a kind of communication",
+            "output": "act IsA communication"
+        },
+        {
+            "input": "act is a kind of drama",
+            "output": "act IsA drama"
+        },
+        {
+            "input": "act is a kind of perform",
+            "output": "act IsA perform"
+        },
+        {
+            "input": "act is a kind of performance",
+            "output": "act IsA performance"
+        },
+        {
+            "input": "act is a kind of pretend",
+            "output": "act IsA pretend"
+        },
+        {
+            "input": "act is part of performance",
+            "output": "act PartOf performance"
+        },
+        {
+            "input": "action can be characterized by excite",
+            "output": "action HasProperty excite"
+        },
+        {
+            "input": "action can be used with the same meaning of battle",
+            "output": "action Synonym battle"
+        },
+        {
+            "input": "action can be used with the same meaning of conflict",
+            "output": "action Synonym conflict"
+        },
+        {
+            "input": "action can be used with the same meaning of energy",
+            "output": "action Synonym energy"
+        },
+        {
+            "input": "action can be used with the same meaning of exercise",
+            "output": "action Synonym exercise"
+        },
+        {
+            "input": "action can be used with the same meaning of movement",
+            "output": "action Synonym movement"
+        },
+        {
+            "input": "action can be used with the same meaning of performance",
+            "output": "action Synonym performance"
+        },
+        {
+            "input": "action can be used with the same meaning of play",
+            "output": "action Synonym play"
+        },
+        {
+            "input": "Action can be used with the same meaning of plot",
+            "output": "action Synonym plot"
+        },
+        {
+            "input": "action can be used with the same meaning of prosecution",
+            "output": "action Synonym prosecution"
+        },
+        {
+            "input": "action is a kind of act",
+            "output": "action IsA act"
+        },
+        {
+            "input": "action is a kind of event",
+            "output": "action IsA event"
+        },
+        {
+            "input": "action is a kind of play",
+            "output": "action IsA play"
+        },
+        {
+            "input": "action is a kind of work",
+            "output": "action IsA work"
+        },
+        {
+            "input": "active can be used as the opposite of quiet",
+            "output": "active Antonym quiet"
+        },
+        {
+            "input": "active can be used as the opposite of slow",
+            "output": "active Antonym slow"
+        },
+        {
+            "input": "active can be used with the same meaning of busy",
+            "output": "active Synonym busy"
+        },
+        {
+            "input": "active can be used with the same meaning of work",
+            "output": "active Synonym work"
+        },
+        {
+            "input": "active is a kind of person",
+            "output": "active IsA person"
+        },
+        {
+            "input": "actor can be used with the same meaning of actress",
+            "output": "actor Synonym actress"
+        },
+        {
+            "input": "actor is a kind of person",
+            "output": "actor IsA person"
+        },
+        {
+            "input": "actor is part of film",
+            "output": "actor PartOf film"
+        },
+        {
+            "input": "actress can be used as the opposite of actor",
+            "output": "actress Antonym actor"
+        },
+        {
+            "input": "actress is a kind of human",
+            "output": "actress IsA human"
+        },
+        {
+            "input": "actress is a kind of person",
+            "output": "actress IsA person"
+        },
+        {
+            "input": "add can be used as the opposite of remove",
+            "output": "add Antonym remove"
+        },
+        {
+            "input": "add can be used as the opposite of take",
+            "output": "add Antonym take"
+        },
+        {
+            "input": "add can be used as the opposite of take_away",
+            "output": "add Antonym take_away"
+        },
+        {
+            "input": "add can be used with the same meaning of join",
+            "output": "add Synonym join"
+        },
+        {
+            "input": "add is a kind of increase",
+            "output": "add IsA increase"
+        },
+        {
+            "input": "address is part of letter",
+            "output": "address PartOf letter"
+        },
+        {
+            "input": "address is true then also speak is true",
+            "output": "address Entails speak"
+        },
+        {
+            "input": "admire can be used as the opposite of dislike",
+            "output": "admire Antonym dislike"
+        },
+        {
+            "input": "admire is a kind of look",
+            "output": "admire IsA look"
+        },
+        {
+            "input": "admire is a kind of respect",
+            "output": "admire IsA respect"
+        },
+        {
+            "input": "Adore is a kind of love",
+            "output": "adore IsA love"
+        },
+        {
+            "input": "adult can be used as the opposite of child",
+            "output": "adult Antonym child"
+        },
+        {
+            "input": "adult can be used with the same meaning of grow_up",
+            "output": "adult Synonym grow_up"
+        },
+        {
+            "input": "adult is a kind of animal",
+            "output": "adult IsA animal"
+        },
+        {
+            "input": "adult is a kind of person",
+            "output": "adult IsA person"
+        },
+        {
+            "input": "advance can be used as the opposite of back",
+            "output": "advance Antonym back"
+        },
+        {
+            "input": "advance can be used as the opposite of fall",
+            "output": "advance Antonym fall"
+        },
+        {
+            "input": "advance can be used as the opposite of late",
+            "output": "advance Antonym late"
+        },
+        {
+            "input": "advance can be used with the same meaning of improve",
+            "output": "advance Synonym improve"
+        },
+        {
+            "input": "advance is a kind of increase",
+            "output": "advance IsA increase"
+        },
+        {
+            "input": "advance is a kind of move",
+            "output": "advance IsA move"
+        },
+        {
+            "input": "adventure can be characterized by thrill",
+            "output": "adventure HasProperty thrill"
+        },
+        {
+            "input": "adventure can be used as the opposite of boredom",
+            "output": "adventure Antonym boredom"
+        },
+        {
+            "input": "adventure can be used as the opposite of home",
+            "output": "adventure Antonym home"
+        },
+        {
+            "input": "adventure can be used as the opposite of lazy",
+            "output": "adventure Antonym lazy"
+        },
+        {
+            "input": "adventure can be used as the opposite of nothing",
+            "output": "adventure Antonym nothing"
+        },
+        {
+            "input": "adventure can be used as the opposite of safe",
+            "output": "adventure Antonym safe"
+        },
+        {
+            "input": "adventure is a kind of action",
+            "output": "adventure IsA action"
+        },
+        {
+            "input": "adventure is a kind of game",
+            "output": "adventure IsA game"
+        },
+        {
+            "input": "aeroplane can be characterized by fly",
+            "output": "aeroplane HasProperty fly"
+        },
+        {
+            "input": "aeroplane can have or can contain seat",
+            "output": "aeroplane HasA seat"
+        },
+        {
+            "input": "affair can be used as the opposite of marriage",
+            "output": "affair Antonym marriage"
+        },
+        {
+            "input": "affair can be used as the opposite of spouse",
+            "output": "affair Antonym spouse"
+        },
+        {
+            "input": "affection can be characterized by healthy",
+            "output": "affection HasProperty healthy"
+        },
+        {
+            "input": "affection can be used as the opposite of dislike",
+            "output": "affection Antonym dislike"
+        },
+        {
+            "input": "affection can be used with the same meaning of love",
+            "output": "affection Synonym love"
+        },
+        {
+            "input": "affection is a kind of feel",
+            "output": "affection IsA feel"
+        },
+        {
+            "input": "affection is a kind of like",
+            "output": "affection IsA like"
+        },
+        {
+            "input": "age can be used as the opposite of young",
+            "output": "age Antonym young"
+        },
+        {
+            "input": "age can be used with the same meaning of historic_period",
+            "output": "age Synonym historic_period"
+        },
+        {
+            "input": "age is a kind of change",
+            "output": "age IsA change"
+        },
+        {
+            "input": "age is a kind of develop",
+            "output": "age IsA develop"
+        },
+        {
+            "input": "age is part of life",
+            "output": "age PartOf life"
+        },
+        {
+            "input": "agreement can be characterized by good",
+            "output": "agreement HasProperty good"
+        },
+        {
+            "input": "agreement can be used with the same meaning of contract",
+            "output": "agreement Synonym contract"
+        },
+        {
+            "input": "agreement can be used with the same meaning of deal",
+            "output": "agreement Synonym deal"
+        },
+        {
+            "input": "agreement can be used with the same meaning of understand",
+            "output": "agreement Synonym understand"
+        },
+        {
+            "input": "agreement is a kind of statement",
+            "output": "agreement IsA statement"
+        },
+        {
+            "input": "aid can be used with the same meaning of help",
+            "output": "aid Synonym help"
+        },
+        {
+            "input": "aid can be used with the same meaning of support",
+            "output": "aid Synonym support"
+        },
+        {
+            "input": "air can be characterized by clear",
+            "output": "air HasProperty clear"
+        },
+        {
+            "input": "air can be characterized by free",
+            "output": "air HasProperty free"
+        },
+        {
+            "input": "air can be used as the opposite of earth",
+            "output": "air Antonym earth"
+        },
+        {
+            "input": "air can be used as the opposite of land",
+            "output": "air Antonym land"
+        },
+        {
+            "input": "air can be used as the opposite of vacuum",
+            "output": "air Antonym vacuum"
+        },
+        {
+            "input": "air can be used as the opposite of water",
+            "output": "air Antonym water"
+        },
+        {
+            "input": "air can be used with the same meaning of atmosphere",
+            "output": "air Synonym atmosphere"
+        },
+        {
+            "input": "air can have or can contain oxygen",
+            "output": "air HasA oxygen"
+        },
+        {
+            "input": "air can have or can contain pressure",
+            "output": "air HasA pressure"
+        },
+        {
+            "input": "air can have or can contain weight",
+            "output": "air HasA weight"
+        },
+        {
+            "input": "air is a kind of gas",
+            "output": "air IsA gas"
+        },
+        {
+            "input": "air is made of gas",
+            "output": "air MadeOf gas"
+        },
+        {
+            "input": "air is made of molecule",
+            "output": "air MadeOf molecule"
+        },
+        {
+            "input": "air is made of oxygen",
+            "output": "air MadeOf oxygen"
+        },
+        {
+            "input": "airplane can be characterized by fun",
+            "output": "airplane HasProperty fun"
+        },
+        {
+            "input": "airplane can be characterized by heavy",
+            "output": "airplane HasProperty heavy"
+        },
+        {
+            "input": "airplane can have or can contain wheel",
+            "output": "airplane HasA wheel"
+        },
+        {
+            "input": "airplane can have or can contain wing",
+            "output": "airplane HasA wing"
+        },
+        {
+            "input": "airplane is a kind of machine",
+            "output": "airplane IsA machine"
+        },
+        {
+            "input": "airplane is a kind of transportation",
+            "output": "airplane IsA transportation"
+        },
+        {
+            "input": "aisle can be used as the opposite of seat",
+            "output": "aisle Antonym seat"
+        },
+        {
+            "input": "aisle is a kind of passageway",
+            "output": "aisle IsA passageway"
+        },
+        {
+            "input": "aisle is part of store",
+            "output": "aisle PartOf store"
+        },
+        {
+            "input": "alabama is a kind of place",
+            "output": "alabama IsA place"
+        },
+        {
+            "input": "alarm can be characterized by loud",
+            "output": "alarm HasProperty loud"
+        },
+        {
+            "input": "album can be used with the same meaning of disk",
+            "output": "album Synonym disk"
+        },
+        {
+            "input": "album is made of vinyl",
+            "output": "album MadeOf vinyl"
+        },
+        {
+            "input": "alcohol can be characterized by fun",
+            "output": "alcohol HasProperty fun"
+        },
+        {
+            "input": "alcohol can be used as the opposite of water",
+            "output": "alcohol Antonym water"
+        },
+        {
+            "input": "alcohol is a kind of drug",
+            "output": "alcohol IsA drug"
+        },
+        {
+            "input": "alcohol is made of rice",
+            "output": "alcohol MadeOf rice"
+        },
+        {
+            "input": "Alcoholic is a kind of human",
+            "output": "alcoholic IsA human"
+        },
+        {
+            "input": "all can be used as the opposite of nobody",
+            "output": "all Antonym nobody"
+        },
+        {
+            "input": "all can be used as the opposite of nothing",
+            "output": "all Antonym nothing"
+        },
+        {
+            "input": "alley can be characterized by dark",
+            "output": "alley HasProperty dark"
+        },
+        {
+            "input": "alley can be used with the same meaning of aisle",
+            "output": "alley Synonym aisle"
+        },
+        {
+            "input": "alley can be used with the same meaning of walk",
+            "output": "alley Synonym walk"
+        },
+        {
+            "input": "alley is a kind of street",
+            "output": "alley IsA street"
+        },
+        {
+            "input": "alphabet can be used as the opposite of number",
+            "output": "alphabet Antonym number"
+        },
+        {
+            "input": "Alto is a kind of pitch",
+            "output": "alto IsA pitch"
+        },
+        {
+            "input": "aluminium can be used as the opposite of tin",
+            "output": "aluminium Antonym tin"
+        },
+        {
+            "input": "aluminium can be used with the same meaning of aluminum",
+            "output": "aluminium Synonym aluminum"
+        },
+        {
+            "input": "aluminum is a kind of gray",
+            "output": "aluminum IsA gray"
+        },
+        {
+            "input": "aluminum is a kind of material",
+            "output": "aluminum IsA material"
+        },
+        {
+            "input": "america can be characterized by huge",
+            "output": "america HasProperty huge"
+        },
+        {
+            "input": "america can be characterized by violent",
+            "output": "america HasProperty violent"
+        },
+        {
+            "input": "america can have or can contain beach",
+            "output": "america HasA beach"
+        },
+        {
+            "input": "america can have or can contain flag",
+            "output": "america HasA flag"
+        },
+        {
+            "input": "america can have or can contain president",
+            "output": "america HasA president"
+        },
+        {
+            "input": "america is a kind of continent",
+            "output": "america IsA continent"
+        },
+        {
+            "input": "america is a kind of country",
+            "output": "america IsA country"
+        },
+        {
+            "input": "america is a kind of democracy",
+            "output": "america IsA democracy"
+        },
+        {
+            "input": "america is a kind of place",
+            "output": "america IsA place"
+        },
+        {
+            "input": "america is part of world",
+            "output": "america PartOf world"
+        },
+        {
+            "input": "anchor is made of iron",
+            "output": "anchor MadeOf iron"
+        },
+        {
+            "input": "anchor is part of vessel",
+            "output": "anchor PartOf vessel"
+        },
+        {
+            "input": "angel can be characterized by good",
+            "output": "angel HasProperty good"
+        },
+        {
+            "input": "angel can have or can contain wing",
+            "output": "angel HasA wing"
+        },
+        {
+            "input": "angel is a kind of person",
+            "output": "angel IsA person"
+        },
+        {
+            "input": "anger can be characterized by unpleasant",
+            "output": "anger HasProperty unpleasant"
+        },
+        {
+            "input": "anger can be used as the opposite of calm",
+            "output": "anger Antonym calm"
+        },
+        {
+            "input": "anger can be used as the opposite of happiness",
+            "output": "anger Antonym happiness"
+        },
+        {
+            "input": "anger can be used as the opposite of happy",
+            "output": "anger Antonym happy"
+        },
+        {
+            "input": "anger can be used as the opposite of love",
+            "output": "anger Antonym love"
+        },
+        {
+            "input": "anger can be used with the same meaning of enrage",
+            "output": "anger Synonym enrage"
+        },
+        {
+            "input": "anger is a kind of feel",
+            "output": "anger IsA feel"
+        },
+        {
+            "input": "animal can be characterized by alive",
+            "output": "animal HasProperty alive"
+        },
+        {
+            "input": "animal can be characterized by friendly",
+            "output": "animal HasProperty friendly"
+        },
+        {
+            "input": "animal can be characterized by pure",
+            "output": "animal HasProperty pure"
+        },
+        {
+            "input": "animal can be used as the opposite of bug",
+            "output": "animal Antonym bug"
+        },
+        {
+            "input": "animal can be used as the opposite of human",
+            "output": "animal Antonym human"
+        },
+        {
+            "input": "animal can be used as the opposite of mineral",
+            "output": "animal Antonym mineral"
+        },
+        {
+            "input": "animal can be used as the opposite of person",
+            "output": "animal Antonym person"
+        },
+        {
+            "input": "animal can be used as the opposite of plant",
+            "output": "animal Antonym plant"
+        },
+        {
+            "input": "animal can be used as the opposite of vegetable",
+            "output": "animal Antonym vegetable"
+        },
+        {
+            "input": "animal can have or can contain baby",
+            "output": "animal HasA baby"
+        },
+        {
+            "input": "animal can have or can contain body",
+            "output": "animal HasA body"
+        },
+        {
+            "input": "animal can have or can contain bone",
+            "output": "animal HasA bone"
+        },
+        {
+            "input": "animal can have or can contain emotion",
+            "output": "animal HasA emotion"
+        },
+        {
+            "input": "animal can have or can contain eye",
+            "output": "animal HasA eye"
+        },
+        {
+            "input": "animal can have or can contain fur",
+            "output": "animal HasA fur"
+        },
+        {
+            "input": "animal can have or can contain meat",
+            "output": "animal HasA meat"
+        },
+        {
+            "input": "animal can have or can contain muscle",
+            "output": "animal HasA muscle"
+        },
+        {
+            "input": "animal can have or can contain pain",
+            "output": "animal HasA pain"
+        },
+        {
+            "input": "animal is a kind of life",
+            "output": "animal IsA life"
+        },
+        {
+            "input": "animal is a kind of organism",
+            "output": "animal IsA organism"
+        },
+        {
+            "input": "animal is part of nature",
+            "output": "animal PartOf nature"
+        },
+        {
+            "input": "animate can be used as the opposite of stationary",
+            "output": "animate Antonym stationary"
+        },
+        {
+            "input": "annoy can be characterized by bad",
+            "output": "annoy HasProperty bad"
+        },
+        {
+            "input": "annoy can be used as the opposite of please",
+            "output": "annoy Antonym please"
+        },
+        {
+            "input": "answer can be used as the opposite of problem",
+            "output": "answer Antonym problem"
+        },
+        {
+            "input": "answer can be used as the opposite of question",
+            "output": "answer Antonym question"
+        },
+        {
+            "input": "answer can be used as the opposite of unknown",
+            "output": "answer Antonym unknown"
+        },
+        {
+            "input": "answer is a kind of statement",
+            "output": "answer IsA statement"
+        },
+        {
+            "input": "antique can be characterized by old",
+            "output": "antique HasProperty old"
+        },
+        {
+            "input": "antique can be characterized by valuable",
+            "output": "antique HasProperty valuable"
+        },
+        {
+            "input": "antique can be characterized by value",
+            "output": "antique HasProperty value"
+        },
+        {
+            "input": "antique can be used as the opposite of new",
+            "output": "antique Antonym new"
+        },
+        {
+            "input": "apartment can be characterized by black",
+            "output": "apartment HasProperty black"
+        },
+        {
+            "input": "apartment can be characterized by red",
+            "output": "apartment HasProperty red"
+        },
+        {
+            "input": "apartment can be used with the same meaning of flat",
+            "output": "apartment Synonym flat"
+        },
+        {
+            "input": "apartment can have or can contain door",
+            "output": "apartment HasA door"
+        },
+        {
+            "input": "apartment can have or can contain kitchen",
+            "output": "apartment HasA kitchen"
+        },
+        {
+            "input": "apartment is a kind of build",
+            "output": "apartment IsA build"
+        },
+        {
+            "input": "apartment is a kind of home",
+            "output": "apartment IsA home"
+        },
+        {
+            "input": "apartment is a kind of house",
+            "output": "apartment IsA house"
+        },
+        {
+            "input": "appear can be used as the opposite of leave",
+            "output": "appear Antonym leave"
+        },
+        {
+            "input": "Appear can be used with the same meaning of arrive",
+            "output": "appear Synonym arrive"
+        },
+        {
+            "input": "appear can be used with the same meaning of be",
+            "output": "appear Synonym be"
+        },
+        {
+            "input": "appear can be used with the same meaning of come",
+            "output": "appear Synonym come"
+        },
+        {
+            "input": "appear can be used with the same meaning of look",
+            "output": "appear Synonym look"
+        },
+        {
+            "input": "Appear can be used with the same meaning of present",
+            "output": "appear Synonym present"
+        },
+        {
+            "input": "appear can be used with the same meaning of show",
+            "output": "appear Synonym show"
+        },
+        {
+            "input": "Appear is a kind of perform",
+            "output": "appear IsA perform"
+        },
+        {
+            "input": "apple can be characterized by alive",
+            "output": "apple HasProperty alive"
+        },
+        {
+            "input": "apple can be characterized by good",
+            "output": "apple HasProperty good"
+        },
+        {
+            "input": "apple can be characterized by green",
+            "output": "apple HasProperty green"
+        },
+        {
+            "input": "apple can be characterized by healthy",
+            "output": "apple HasProperty healthy"
+        },
+        {
+            "input": "apple can be characterized by red",
+            "output": "apple HasProperty red"
+        },
+        {
+            "input": "apple can be characterized by small",
+            "output": "apple HasProperty small"
+        },
+        {
+            "input": "apple can be characterized by sweet",
+            "output": "apple HasProperty sweet"
+        },
+        {
+            "input": "apple can be characterized by tasty",
+            "output": "apple HasProperty tasty"
+        },
+        {
+            "input": "apple can be characterized by yellow",
+            "output": "apple HasProperty yellow"
+        },
+        {
+            "input": "apple can be used as the opposite of orange",
+            "output": "apple Antonym orange"
+        },
+        {
+            "input": "apple can have or can contain core",
+            "output": "apple HasA core"
+        },
+        {
+            "input": "apple can have or can contain juice",
+            "output": "apple HasA juice"
+        },
+        {
+            "input": "apple can have or can contain peel",
+            "output": "apple HasA peel"
+        },
+        {
+            "input": "apple can have or can contain seed",
+            "output": "apple HasA seed"
+        },
+        {
+            "input": "apple can have or can contain skin",
+            "output": "apple HasA skin"
+        },
+        {
+            "input": "apple is a kind of computer",
+            "output": "apple IsA computer"
+        },
+        {
+            "input": "Apple is a kind of tree",
+            "output": "apple IsA tree"
+        },
+        {
+            "input": "apple is part of core",
+            "output": "apple PartOf core"
+        },
+        {
+            "input": "Approach can be used with the same meaning of advance",
+            "output": "approach Synonym advance"
+        },
+        {
+            "input": "approach is a kind of address",
+            "output": "approach IsA address"
+        },
+        {
+            "input": "approach is a kind of come",
+            "output": "approach IsA come"
+        },
+        {
+            "input": "approach is a kind of movement",
+            "output": "approach IsA movement"
+        },
+        {
+            "input": "approach is true then also advance is true",
+            "output": "approach Entails advance"
+        },
+        {
+            "input": "arch is a kind of bend",
+            "output": "arch IsA bend"
+        },
+        {
+            "input": "arch is a kind of build",
+            "output": "arch IsA build"
+        },
+        {
+            "input": "arch is a kind of form",
+            "output": "arch IsA form"
+        },
+        {
+            "input": "arch is a kind of open",
+            "output": "arch IsA open"
+        },
+        {
+            "input": "arch is part of bridge",
+            "output": "arch PartOf bridge"
+        },
+        {
+            "input": "arch is part of wall",
+            "output": "arch PartOf wall"
+        },
+        {
+            "input": "argument is part of conclusion",
+            "output": "argument PartOf conclusion"
+        },
+        {
+            "input": "Arise can be used as the opposite of get_down",
+            "output": "arise Antonym get_down"
+        },
+        {
+            "input": "arithmetic can be used with the same meaning of math",
+            "output": "arithmetic Synonym math"
+        },
+        {
+            "input": "arithmetic is a kind of math",
+            "output": "arithmetic IsA math"
+        },
+        {
+            "input": "arm can be used as the opposite of leg",
+            "output": "arm Antonym leg"
+        },
+        {
+            "input": "arm is part of body",
+            "output": "arm PartOf body"
+        },
+        {
+            "input": "arm is part of human",
+            "output": "arm PartOf human"
+        },
+        {
+            "input": "arm is part of person",
+            "output": "arm PartOf person"
+        },
+        {
+            "input": "armchair can be characterized by comfortable",
+            "output": "armchair HasProperty comfortable"
+        },
+        {
+            "input": "armchair can have or can contain back",
+            "output": "armchair HasA back"
+        },
+        {
+            "input": "armor can be used as the opposite of clothe",
+            "output": "armor Antonym clothe"
+        },
+        {
+            "input": "armor can be used with the same meaning of plate",
+            "output": "armor Synonym plate"
+        },
+        {
+            "input": "army can be used as the opposite of marine",
+            "output": "army Antonym marine"
+        },
+        {
+            "input": "army can be used as the opposite of navy",
+            "output": "army Antonym navy"
+        },
+        {
+            "input": "army is a kind of crowd",
+            "output": "army IsA crowd"
+        },
+        {
+            "input": "army is made of soldier",
+            "output": "army MadeOf soldier"
+        },
+        {
+            "input": "army is part of war",
+            "output": "army PartOf war"
+        },
+        {
+            "input": "Arrange is a kind of agree",
+            "output": "arrange IsA agree"
+        },
+        {
+            "input": "art can be characterized by abstract",
+            "output": "art HasProperty abstract"
+        },
+        {
+            "input": "art can be characterized by beautiful",
+            "output": "art HasProperty beautiful"
+        },
+        {
+            "input": "art can be used as the opposite of science",
+            "output": "art Antonym science"
+        },
+        {
+            "input": "art can be used as the opposite of ugly",
+            "output": "art Antonym ugly"
+        },
+        {
+            "input": "art can be used with the same meaning of creation",
+            "output": "art Synonym creation"
+        },
+        {
+            "input": "art is a kind of creation",
+            "output": "art IsA creation"
+        },
+        {
+            "input": "art is a kind of hobby",
+            "output": "art IsA hobby"
+        },
+        {
+            "input": "art is a kind of play",
+            "output": "art IsA play"
+        },
+        {
+            "input": "article can have or can contain news",
+            "output": "article HasA news"
+        },
+        {
+            "input": "article is a kind of piece",
+            "output": "article IsA piece"
+        },
+        {
+            "input": "article is made of information",
+            "output": "article MadeOf information"
+        },
+        {
+            "input": "article is part of document",
+            "output": "article PartOf document"
+        },
+        {
+            "input": "Article is part of newspaper",
+            "output": "article PartOf newspaper"
+        },
+        {
+            "input": "artist can be characterized by powerful",
+            "output": "artist HasProperty powerful"
+        },
+        {
+            "input": "artist is a kind of human",
+            "output": "artist IsA human"
+        },
+        {
+            "input": "artist is a kind of person",
+            "output": "artist IsA person"
+        },
+        {
+            "input": "Ascend can be used as the opposite of descend",
+            "output": "ascend Antonym descend"
+        },
+        {
+            "input": "ascend can be used with the same meaning of climb",
+            "output": "ascend Synonym climb"
+        },
+        {
+            "input": "ascend can be used with the same meaning of rise",
+            "output": "ascend Synonym rise"
+        },
+        {
+            "input": "ascend is a kind of change",
+            "output": "ascend IsA change"
+        },
+        {
+            "input": "asia can be characterized by large",
+            "output": "asia HasProperty large"
+        },
+        {
+            "input": "asia is a kind of place",
+            "output": "asia IsA place"
+        },
+        {
+            "input": "asia is part of earth",
+            "output": "asia PartOf earth"
+        },
+        {
+            "input": "assemble can be used as the opposite of break",
+            "output": "assemble Antonym break"
+        },
+        {
+            "input": "assemble can be used as the opposite of destroy",
+            "output": "assemble Antonym destroy"
+        },
+        {
+            "input": "assemble is a kind of make",
+            "output": "assemble IsA make"
+        },
+        {
+            "input": "athlete can be characterized by energetic",
+            "output": "athlete HasProperty energetic"
+        },
+        {
+            "input": "athlete is a kind of human",
+            "output": "athlete IsA human"
+        },
+        {
+            "input": "athlete is a kind of person",
+            "output": "athlete IsA person"
+        },
+        {
+            "input": "atmosphere can be used with the same meaning of feel",
+            "output": "atmosphere Synonym feel"
+        },
+        {
+            "input": "atmosphere can be used with the same meaning of mood",
+            "output": "atmosphere Synonym mood"
+        },
+        {
+            "input": "atmosphere is a kind of air",
+            "output": "atmosphere IsA air"
+        },
+        {
+            "input": "atmosphere is part of sky",
+            "output": "atmosphere PartOf sky"
+        },
+        {
+            "input": "atom can have or can contain electron",
+            "output": "atom HasA electron"
+        },
+        {
+            "input": "atom is made of neutron",
+            "output": "atom MadeOf neutron"
+        },
+        {
+            "input": "atom is made of nucleus",
+            "output": "atom MadeOf nucleus"
+        },
+        {
+            "input": "atom is made of proton",
+            "output": "atom MadeOf proton"
+        },
+        {
+            "input": "atom is part of molecule",
+            "output": "atom PartOf molecule"
+        },
+        {
+            "input": "attach can be used as the opposite of separate",
+            "output": "attach Antonym separate"
+        },
+        {
+            "input": "attach can be used with the same meaning of connect",
+            "output": "attach Synonym connect"
+        },
+        {
+            "input": "attach can be used with the same meaning of fasten",
+            "output": "attach Synonym fasten"
+        },
+        {
+            "input": "attach can be used with the same meaning of tie",
+            "output": "attach Synonym tie"
+        },
+        {
+            "input": "attach is a kind of connect",
+            "output": "attach IsA connect"
+        },
+        {
+            "input": "attach is a kind of join",
+            "output": "attach IsA join"
+        },
+        {
+            "input": "attach is a kind of touch",
+            "output": "attach IsA touch"
+        },
+        {
+            "input": "australia is a kind of continent",
+            "output": "australia IsA continent"
+        },
+        {
+            "input": "australia is a kind of island",
+            "output": "australia IsA island"
+        },
+        {
+            "input": "australia is a kind of place",
+            "output": "australia IsA place"
+        },
+        {
+            "input": "author can be used with the same meaning of artist",
+            "output": "author Synonym artist"
+        },
+        {
+            "input": "author can be used with the same meaning of writer",
+            "output": "author Synonym writer"
+        },
+        {
+            "input": "author is a kind of person",
+            "output": "author IsA person"
+        },
+        {
+            "input": "author is a kind of write",
+            "output": "author IsA write"
+        },
+        {
+            "input": "author is part of book",
+            "output": "author PartOf book"
+        },
+        {
+            "input": "Authority is a kind of book",
+            "output": "authority IsA book"
+        },
+        {
+            "input": "automobile can be used with the same meaning of car",
+            "output": "automobile Synonym car"
+        },
+        {
+            "input": "automobile can have or can contain radio",
+            "output": "automobile HasA radio"
+        },
+        {
+            "input": "automobile can have or can contain trunk",
+            "output": "automobile HasA trunk"
+        },
+        {
+            "input": "automobile is made of steel",
+            "output": "automobile MadeOf steel"
+        },
+        {
+            "input": "awaken is a kind of change",
+            "output": "awaken IsA change"
+        },
+        {
+            "input": "ax is made of metal",
+            "output": "ax MadeOf metal"
+        },
+        {
+            "input": "axe can be characterized by sharp",
+            "output": "axe HasProperty sharp"
+        },
+        {
+            "input": "baby can be characterized by amuse",
+            "output": "baby HasProperty amuse"
+        },
+        {
+            "input": "baby can be characterized by entertain",
+            "output": "baby HasProperty entertain"
+        },
+        {
+            "input": "baby can be characterized by fragile",
+            "output": "baby HasProperty fragile"
+        },
+        {
+            "input": "baby can be characterized by fun",
+            "output": "baby HasProperty fun"
+        },
+        {
+            "input": "baby can be characterized by happy",
+            "output": "baby HasProperty happy"
+        },
+        {
+            "input": "baby can be characterized by innocent",
+            "output": "baby HasProperty innocent"
+        },
+        {
+            "input": "baby can be characterized by nice",
+            "output": "baby HasProperty nice"
+        },
+        {
+            "input": "baby can be characterized by satisfy",
+            "output": "baby HasProperty satisfy"
+        },
+        {
+            "input": "baby can be characterized by small",
+            "output": "baby HasProperty small"
+        },
+        {
+            "input": "baby can be characterized by smile",
+            "output": "baby HasProperty smile"
+        },
+        {
+            "input": "baby can be characterized by ugly",
+            "output": "baby HasProperty ugly"
+        },
+        {
+            "input": "baby can be characterized by young",
+            "output": "baby HasProperty young"
+        },
+        {
+            "input": "baby can be used as the opposite of adult",
+            "output": "baby Antonym adult"
+        },
+        {
+            "input": "baby can be used as the opposite of man",
+            "output": "baby Antonym man"
+        },
+        {
+            "input": "baby can be used as the opposite of old",
+            "output": "baby Antonym old"
+        },
+        {
+            "input": "baby can be used with the same meaning of love",
+            "output": "baby Synonym love"
+        },
+        {
+            "input": "baby can have or can contain hair",
+            "output": "baby HasA hair"
+        },
+        {
+            "input": "baby is a kind of child",
+            "output": "baby IsA child"
+        },
+        {
+            "input": "baby is a kind of girl",
+            "output": "baby IsA girl"
+        },
+        {
+            "input": "baby is a kind of mammal",
+            "output": "baby IsA mammal"
+        },
+        {
+            "input": "baby is a kind of person",
+            "output": "baby IsA person"
+        },
+        {
+            "input": "baby is part of family",
+            "output": "baby PartOf family"
+        },
+        {
+            "input": "back can be used as the opposite of main",
+            "output": "back Antonym main"
+        },
+        {
+            "input": "back can be used with the same meaning of rear",
+            "output": "back Synonym rear"
+        },
+        {
+            "input": "back can be used with the same meaning of reverse",
+            "output": "back Synonym reverse"
+        },
+        {
+            "input": "back is a kind of confirm",
+            "output": "back IsA confirm"
+        },
+        {
+            "input": "back is part of chair",
+            "output": "back PartOf chair"
+        },
+        {
+            "input": "back is part of human",
+            "output": "back PartOf human"
+        },
+        {
+            "input": "back is part of trunk",
+            "output": "back PartOf trunk"
+        },
+        {
+            "input": "bacon can be used with the same meaning of ham",
+            "output": "bacon Synonym ham"
+        },
+        {
+            "input": "bacon is made of pig",
+            "output": "bacon MadeOf pig"
+        },
+        {
+            "input": "bad can be used as the opposite of benevolent",
+            "output": "bad Antonym benevolent"
+        },
+        {
+            "input": "bad can be used as the opposite of good",
+            "output": "bad Antonym good"
+        },
+        {
+            "input": "bad can be used as the opposite of right",
+            "output": "bad Antonym right"
+        },
+        {
+            "input": "bad can be used as the opposite of superior",
+            "output": "bad Antonym superior"
+        },
+        {
+            "input": "bad can be used as the opposite of true",
+            "output": "bad Antonym true"
+        },
+        {
+            "input": "bad is a kind of evil",
+            "output": "bad IsA evil"
+        },
+        {
+            "input": "bad is a kind of quality",
+            "output": "bad IsA quality"
+        },
+        {
+            "input": "bad is a kind of result",
+            "output": "bad IsA result"
+        },
+        {
+            "input": "bag can be characterized by blue",
+            "output": "bag HasProperty blue"
+        },
+        {
+            "input": "bag can be used with the same meaning of baggage",
+            "output": "bag Synonym baggage"
+        },
+        {
+            "input": "bag is made of fabric",
+            "output": "bag MadeOf fabric"
+        },
+        {
+            "input": "bag is made of plastic",
+            "output": "bag MadeOf plastic"
+        },
+        {
+            "input": "baggage can be used with the same meaning of gear",
+            "output": "baggage Synonym gear"
+        },
+        {
+            "input": "balance can be used as the opposite of bias",
+            "output": "balance Antonym bias"
+        },
+        {
+            "input": "balance can be used as the opposite of prejudice",
+            "output": "balance Antonym prejudice"
+        },
+        {
+            "input": "balance can be used with the same meaning of account",
+            "output": "balance Synonym account"
+        },
+        {
+            "input": "balance can be used with the same meaning of scale",
+            "output": "balance Synonym scale"
+        },
+        {
+            "input": "balance is a kind of match",
+            "output": "balance IsA match"
+        },
+        {
+            "input": "balance is a kind of scale",
+            "output": "balance IsA scale"
+        },
+        {
+            "input": "balance is part of account",
+            "output": "balance PartOf account"
+        },
+        {
+            "input": "ball can be characterized by black",
+            "output": "ball HasProperty black"
+        },
+        {
+            "input": "ball can be characterized by fun",
+            "output": "ball HasProperty fun"
+        },
+        {
+            "input": "ball can be used with the same meaning of globe",
+            "output": "ball Synonym globe"
+        },
+        {
+            "input": "ball is a kind of baseball",
+            "output": "ball IsA baseball"
+        },
+        {
+            "input": "ball is a kind of event",
+            "output": "ball IsA event"
+        },
+        {
+            "input": "ball is a kind of sport",
+            "output": "ball IsA sport"
+        },
+        {
+            "input": "ball is a kind of toy",
+            "output": "ball IsA toy"
+        },
+        {
+            "input": "ball is made of plastic",
+            "output": "ball MadeOf plastic"
+        },
+        {
+            "input": "ball is part of human",
+            "output": "ball PartOf human"
+        },
+        {
+            "input": "balloon can be characterized by colorful",
+            "output": "balloon HasProperty colorful"
+        },
+        {
+            "input": "balloon can be characterized by hollow",
+            "output": "balloon HasProperty hollow"
+        },
+        {
+            "input": "balloon can be characterized by rubber",
+            "output": "balloon HasProperty rubber"
+        },
+        {
+            "input": "balloon can have or can contain air",
+            "output": "balloon HasA air"
+        },
+        {
+            "input": "balloon can have or can contain gas",
+            "output": "balloon HasA gas"
+        },
+        {
+            "input": "balloon can have or can contain water",
+            "output": "balloon HasA water"
+        },
+        {
+            "input": "balloon is a kind of rubber",
+            "output": "balloon IsA rubber"
+        },
+        {
+            "input": "balloon is a kind of sport",
+            "output": "balloon IsA sport"
+        },
+        {
+            "input": "balloon is made of rubber",
+            "output": "balloon MadeOf rubber"
+        },
+        {
+            "input": "banana can be characterized by green",
+            "output": "banana HasProperty green"
+        },
+        {
+            "input": "banana can be characterized by yellow",
+            "output": "banana HasProperty yellow"
+        },
+        {
+            "input": "banana can have or can contain peel",
+            "output": "banana HasA peel"
+        },
+        {
+            "input": "banana is a kind of dessert",
+            "output": "banana IsA dessert"
+        },
+        {
+            "input": "band can be used with the same meaning of ring",
+            "output": "band Synonym ring"
+        },
+        {
+            "input": "banjo is a kind of string_instrument",
+            "output": "banjo IsA string_instrument"
+        },
+        {
+            "input": "banjo is made of wood",
+            "output": "banjo MadeOf wood"
+        },
+        {
+            "input": "bank can have or can contain change",
+            "output": "bank HasA change"
+        },
+        {
+            "input": "bank can have or can contain coin",
+            "output": "bank HasA coin"
+        },
+        {
+            "input": "bank is a kind of place",
+            "output": "bank IsA place"
+        },
+        {
+            "input": "bank is a kind of work",
+            "output": "bank IsA work"
+        },
+        {
+            "input": "bar is a kind of business",
+            "output": "bar IsA business"
+        },
+        {
+            "input": "bar is a kind of place",
+            "output": "bar IsA place"
+        },
+        {
+            "input": "bar is a kind of support",
+            "output": "bar IsA support"
+        },
+        {
+            "input": "bar is part of court",
+            "output": "bar PartOf court"
+        },
+        {
+            "input": "bar is part of goal",
+            "output": "bar PartOf goal"
+        },
+        {
+            "input": "Barbecue is a kind of cook",
+            "output": "barbecue IsA cook"
+        },
+        {
+            "input": "bark can be characterized by rough",
+            "output": "bark HasProperty rough"
+        },
+        {
+            "input": "bark can be used as the opposite of bite",
+            "output": "bark Antonym bite"
+        },
+        {
+            "input": "bark is a kind of noise",
+            "output": "bark IsA noise"
+        },
+        {
+            "input": "bark is a kind of talk",
+            "output": "bark IsA talk"
+        },
+        {
+            "input": "Bark is a kind of tan",
+            "output": "bark IsA tan"
+        },
+        {
+            "input": "bark is part of branch",
+            "output": "bark PartOf branch"
+        },
+        {
+            "input": "bark is part of tree",
+            "output": "bark PartOf tree"
+        },
+        {
+            "input": "bark is part of trunk",
+            "output": "bark PartOf trunk"
+        },
+        {
+            "input": "base can be characterized by black",
+            "output": "base HasProperty black"
+        },
+        {
+            "input": "base can be used as the opposite of top",
+            "output": "base Antonym top"
+        },
+        {
+            "input": "base can be used with the same meaning of bad",
+            "output": "base Synonym bad"
+        },
+        {
+            "input": "base is part of baseball_diamond",
+            "output": "base PartOf baseball_diamond"
+        },
+        {
+            "input": "base is part of box",
+            "output": "base PartOf box"
+        },
+        {
+            "input": "base is part of vessel",
+            "output": "base PartOf vessel"
+        },
+        {
+            "input": "baseball can be characterized by hard",
+            "output": "baseball HasProperty hard"
+        },
+        {
+            "input": "baseball can be characterized by nice",
+            "output": "baseball HasProperty nice"
+        },
+        {
+            "input": "baseball can have or can contain stitch",
+            "output": "baseball HasA stitch"
+        },
+        {
+            "input": "baseball is a kind of action",
+            "output": "baseball IsA action"
+        },
+        {
+            "input": "baseball is a kind of game",
+            "output": "baseball IsA game"
+        },
+        {
+            "input": "baseball is a kind of hobby",
+            "output": "baseball IsA hobby"
+        },
+        {
+            "input": "baseball is a kind of sport",
+            "output": "baseball IsA sport"
+        },
+        {
+            "input": "baseball_diamond is a kind of place",
+            "output": "baseball_diamond IsA place"
+        },
+        {
+            "input": "basement can be used as the opposite of attic",
+            "output": "basement Antonym attic"
+        },
+        {
+            "input": "basement is a kind of place",
+            "output": "basement IsA place"
+        },
+        {
+            "input": "basement is part of house",
+            "output": "basement PartOf house"
+        },
+        {
+            "input": "basket is a kind of container",
+            "output": "basket IsA container"
+        },
+        {
+            "input": "basket is made of plastic",
+            "output": "basket MadeOf plastic"
+        },
+        {
+            "input": "basketball can be characterized by cool",
+            "output": "basketball HasProperty cool"
+        },
+        {
+            "input": "basketball can be characterized by fun",
+            "output": "basketball HasProperty fun"
+        },
+        {
+            "input": "basketball can be characterized by orange",
+            "output": "basketball HasProperty orange"
+        },
+        {
+            "input": "basketball can be characterized by sport",
+            "output": "basketball HasProperty sport"
+        },
+        {
+            "input": "basketball is a kind of game",
+            "output": "basketball IsA game"
+        },
+        {
+            "input": "basketball is a kind of sport",
+            "output": "basketball IsA sport"
+        },
+        {
+            "input": "basketball is part of game",
+            "output": "basketball PartOf game"
+        },
+        {
+            "input": "Bat can be used with the same meaning of baseball_bat",
+            "output": "bat Synonym baseball_bat"
+        },
+        {
+            "input": "bat can have or can contain eye",
+            "output": "bat HasA eye"
+        },
+        {
+            "input": "bat can have or can contain wing",
+            "output": "bat HasA wing"
+        },
+        {
+            "input": "bat is a kind of animal",
+            "output": "bat IsA animal"
+        },
+        {
+            "input": "bat is a kind of club",
+            "output": "bat IsA club"
+        },
+        {
+            "input": "bat is a kind of hit",
+            "output": "bat IsA hit"
+        },
+        {
+            "input": "bat is a kind of stuff",
+            "output": "bat IsA stuff"
+        },
+        {
+            "input": "bath can be characterized by relax",
+            "output": "bath HasProperty relax"
+        },
+        {
+            "input": "bath can be used as the opposite of shower",
+            "output": "bath Antonym shower"
+        },
+        {
+            "input": "bath can have or can contain water",
+            "output": "bath HasA water"
+        },
+        {
+            "input": "bath is a kind of place",
+            "output": "bath IsA place"
+        },
+        {
+            "input": "bathroom can be characterized by dark",
+            "output": "bathroom HasProperty dark"
+        },
+        {
+            "input": "bathroom can be used with the same meaning of bath",
+            "output": "bathroom Synonym bath"
+        },
+        {
+            "input": "bathroom can have or can contain bath",
+            "output": "bathroom HasA bath"
+        },
+        {
+            "input": "bathroom can have or can contain ceiling",
+            "output": "bathroom HasA ceiling"
+        },
+        {
+            "input": "bathroom can have or can contain plumb",
+            "output": "bathroom HasA plumb"
+        },
+        {
+            "input": "bathroom can have or can contain sink",
+            "output": "bathroom HasA sink"
+        },
+        {
+            "input": "bathroom can have or can contain toilet",
+            "output": "bathroom HasA toilet"
+        },
+        {
+            "input": "bathroom is a kind of place",
+            "output": "bathroom IsA place"
+        },
+        {
+            "input": "bathroom is part of dwell",
+            "output": "bathroom PartOf dwell"
+        },
+        {
+            "input": "bathroom is part of house",
+            "output": "bathroom PartOf house"
+        },
+        {
+            "input": "bathtub can be used with the same meaning of bath",
+            "output": "bathtub Synonym bath"
+        },
+        {
+            "input": "bathtub is a kind of vessel",
+            "output": "bathtub IsA vessel"
+        },
+        {
+            "input": "bathtub is part of bathroom",
+            "output": "bathtub PartOf bathroom"
+        },
+        {
+            "input": "battle can be used as the opposite of peace",
+            "output": "battle Antonym peace"
+        },
+        {
+            "input": "battle can be used with the same meaning of conflict",
+            "output": "battle Synonym conflict"
+        },
+        {
+            "input": "battle is a kind of fight",
+            "output": "battle IsA fight"
+        },
+        {
+            "input": "battle is part of war",
+            "output": "battle PartOf war"
+        },
+        {
+            "input": "be is a kind of state",
+            "output": "be IsA state"
+        },
+        {
+            "input": "be_alone is a kind of choice",
+            "output": "be_alone IsA choice"
+        },
+        {
+            "input": "beach can be characterized by nice",
+            "output": "beach HasProperty nice"
+        },
+        {
+            "input": "beach can be characterized by white",
+            "output": "beach HasProperty white"
+        },
+        {
+            "input": "beach can have or can contain sand",
+            "output": "beach HasA sand"
+        },
+        {
+            "input": "beach is a kind of place",
+            "output": "beach IsA place"
+        },
+        {
+            "input": "beach is a kind of shore",
+            "output": "beach IsA shore"
+        },
+        {
+            "input": "Beach is made of sand",
+            "output": "beach MadeOf sand"
+        },
+        {
+            "input": "beach is part of shore",
+            "output": "beach PartOf shore"
+        },
+        {
+            "input": "beak is a kind of body_part",
+            "output": "beak IsA body_part"
+        },
+        {
+            "input": "beak is a kind of mouth",
+            "output": "beak IsA mouth"
+        },
+        {
+            "input": "beak is a kind of nose",
+            "output": "beak IsA nose"
+        },
+        {
+            "input": "beak is part of bird",
+            "output": "beak PartOf bird"
+        },
+        {
+            "input": "beam can be used with the same meaning of smile",
+            "output": "beam Synonym smile"
+        },
+        {
+            "input": "beam is a kind of light",
+            "output": "beam IsA light"
+        },
+        {
+            "input": "Bean is a kind of film",
+            "output": "bean IsA film"
+        },
+        {
+            "input": "bear can be used as the opposite of lion",
+            "output": "bear Antonym lion"
+        },
+        {
+            "input": "bear can be used with the same meaning of birth",
+            "output": "bear Synonym birth"
+        },
+        {
+            "input": "bear can have or can contain claw",
+            "output": "bear HasA claw"
+        },
+        {
+            "input": "bear can have or can contain fur",
+            "output": "bear HasA fur"
+        },
+        {
+            "input": "beat can be used with the same meaning of hammer",
+            "output": "beat Synonym hammer"
+        },
+        {
+            "input": "beat is a kind of move",
+            "output": "beat IsA move"
+        },
+        {
+            "input": "beat is true then also hit is true",
+            "output": "beat Entails hit"
+        },
+        {
+            "input": "beat is true then also win is true",
+            "output": "beat Entails win"
+        },
+        {
+            "input": "beautiful can be used as the opposite of bad",
+            "output": "beautiful Antonym bad"
+        },
+        {
+            "input": "beautiful can be used as the opposite of dull",
+            "output": "beautiful Antonym dull"
+        },
+        {
+            "input": "beautiful can be used as the opposite of nasty",
+            "output": "beautiful Antonym nasty"
+        },
+        {
+            "input": "beautiful can be used as the opposite of plain",
+            "output": "beautiful Antonym plain"
+        },
+        {
+            "input": "beautiful can be used as the opposite of ugly",
+            "output": "beautiful Antonym ugly"
+        },
+        {
+            "input": "beauty can be characterized by rare",
+            "output": "beauty HasProperty rare"
+        },
+        {
+            "input": "beauty can be used as the opposite of ugly",
+            "output": "beauty Antonym ugly"
+        },
+        {
+            "input": "beauty is a kind of person",
+            "output": "beauty IsA person"
+        },
+        {
+            "input": "bed can be characterized by big",
+            "output": "bed HasProperty big"
+        },
+        {
+            "input": "bed can be characterized by comfortable",
+            "output": "bed HasProperty comfortable"
+        },
+        {
+            "input": "bed can be characterized by flat",
+            "output": "bed HasProperty flat"
+        },
+        {
+            "input": "bed can be characterized by fun",
+            "output": "bed HasProperty fun"
+        },
+        {
+            "input": "bed can be characterized by soft",
+            "output": "bed HasProperty soft"
+        },
+        {
+            "input": "bed can be characterized by square",
+            "output": "bed HasProperty square"
+        },
+        {
+            "input": "bed can be used as the opposite of bath",
+            "output": "bed Antonym bath"
+        },
+        {
+            "input": "bed can be used as the opposite of chair",
+            "output": "bed Antonym chair"
+        },
+        {
+            "input": "bed can be used as the opposite of sofa",
+            "output": "bed Antonym sofa"
+        },
+        {
+            "input": "bed is a kind of device",
+            "output": "bed IsA device"
+        },
+        {
+            "input": "bed is a kind of plot",
+            "output": "bed IsA plot"
+        },
+        {
+            "input": "bed is a kind of surface",
+            "output": "bed IsA surface"
+        },
+        {
+            "input": "bed is part of bedroom",
+            "output": "bed PartOf bedroom"
+        },
+        {
+            "input": "bed_sheet is made of cloth",
+            "output": "bed_sheet MadeOf cloth"
+        },
+        {
+            "input": "bedroom can be characterized by square",
+            "output": "bedroom HasProperty square"
+        },
+        {
+            "input": "bedroom can be used as the opposite of bathroom",
+            "output": "bedroom Antonym bathroom"
+        },
+        {
+            "input": "bedroom can be used as the opposite of kitchen",
+            "output": "bedroom Antonym kitchen"
+        },
+        {
+            "input": "bedroom can have or can contain bed",
+            "output": "bedroom HasA bed"
+        },
+        {
+            "input": "bedroom can have or can contain chair",
+            "output": "bedroom HasA chair"
+        },
+        {
+            "input": "bedroom can have or can contain floor",
+            "output": "bedroom HasA floor"
+        },
+        {
+            "input": "bedroom can have or can contain window",
+            "output": "bedroom HasA window"
+        },
+        {
+            "input": "bedroom is a kind of place",
+            "output": "bedroom IsA place"
+        },
+        {
+            "input": "bedroom is a kind of room",
+            "output": "bedroom IsA room"
+        },
+        {
+            "input": "bedroom is part of dwell",
+            "output": "bedroom PartOf dwell"
+        },
+        {
+            "input": "bedroom is part of house",
+            "output": "bedroom PartOf house"
+        },
+        {
+            "input": "bee is a kind of animal",
+            "output": "bee IsA animal"
+        },
+        {
+            "input": "bee is a kind of insect",
+            "output": "bee IsA insect"
+        },
+        {
+            "input": "beef can be characterized by good",
+            "output": "beef HasProperty good"
+        },
+        {
+            "input": "beef is a kind of food",
+            "output": "beef IsA food"
+        },
+        {
+            "input": "beef is a kind of meet",
+            "output": "beef IsA meet"
+        },
+        {
+            "input": "beef is part of cattle",
+            "output": "beef PartOf cattle"
+        },
+        {
+            "input": "beer can be characterized by bitter",
+            "output": "beer HasProperty bitter"
+        },
+        {
+            "input": "beer can be characterized by good",
+            "output": "beer HasProperty good"
+        },
+        {
+            "input": "beer can be characterized by liquid",
+            "output": "beer HasProperty liquid"
+        },
+        {
+            "input": "beer can be characterized by tasty",
+            "output": "beer HasProperty tasty"
+        },
+        {
+            "input": "beer can have or can contain alcohol",
+            "output": "beer HasA alcohol"
+        },
+        {
+            "input": "beer can have or can contain water",
+            "output": "beer HasA water"
+        },
+        {
+            "input": "beer is a kind of alcohol",
+            "output": "beer IsA alcohol"
+        },
+        {
+            "input": "begin can be used as the opposite of end",
+            "output": "begin Antonym end"
+        },
+        {
+            "input": "begin can be used as the opposite of finish",
+            "output": "begin Antonym finish"
+        },
+        {
+            "input": "begin can be used as the opposite of middle",
+            "output": "begin Antonym middle"
+        },
+        {
+            "input": "begin can be used as the opposite of stop",
+            "output": "begin Antonym stop"
+        },
+        {
+            "input": "begin can be used with the same meaning of initial",
+            "output": "begin Synonym initial"
+        },
+        {
+            "input": "begin is a kind of part",
+            "output": "begin IsA part"
+        },
+        {
+            "input": "begin is a kind of point",
+            "output": "begin IsA point"
+        },
+        {
+            "input": "belief can be characterized by good",
+            "output": "belief HasProperty good"
+        },
+        {
+            "input": "belief can be characterized by important",
+            "output": "belief HasProperty important"
+        },
+        {
+            "input": "belief can be used as the opposite of fact",
+            "output": "belief Antonym fact"
+        },
+        {
+            "input": "belief is part of faith",
+            "output": "belief PartOf faith"
+        },
+        {
+            "input": "bell can be characterized by annoy",
+            "output": "bell HasProperty annoy"
+        },
+        {
+            "input": "bell can be characterized by loud",
+            "output": "bell HasProperty loud"
+        },
+        {
+            "input": "bell is made of metal",
+            "output": "bell MadeOf metal"
+        },
+        {
+            "input": "bell is part of phone",
+            "output": "bell PartOf phone"
+        },
+        {
+            "input": "belt can be used with the same meaning of circle",
+            "output": "belt Synonym circle"
+        },
+        {
+            "input": "belt can be used with the same meaning of fasten",
+            "output": "belt Synonym fasten"
+        },
+        {
+            "input": "belt can be used with the same meaning of pound",
+            "output": "belt Synonym pound"
+        },
+        {
+            "input": "belt can be used with the same meaning of speed",
+            "output": "belt Synonym speed"
+        },
+        {
+            "input": "belt is part of machine",
+            "output": "belt PartOf machine"
+        },
+        {
+            "input": "bench is part of court",
+            "output": "bench PartOf court"
+        },
+        {
+            "input": "bend can be used with the same meaning of bow",
+            "output": "bend Synonym bow"
+        },
+        {
+            "input": "bend can be used with the same meaning of curve",
+            "output": "bend Synonym curve"
+        },
+        {
+            "input": "bend can be used with the same meaning of flex",
+            "output": "bend Synonym flex"
+        },
+        {
+            "input": "bend can be used with the same meaning of incline",
+            "output": "bend Synonym incline"
+        },
+        {
+            "input": "bend is a kind of turn",
+            "output": "bend IsA turn"
+        },
+        {
+            "input": "bend is part of road",
+            "output": "bend PartOf road"
+        },
+        {
+            "input": "benefit can be characterized by important",
+            "output": "benefit HasProperty important"
+        },
+        {
+            "input": "benefit can be used as the opposite of punishment",
+            "output": "benefit Antonym punishment"
+        },
+        {
+            "input": "benefit can be used with the same meaning of aid",
+            "output": "benefit Synonym aid"
+        },
+        {
+            "input": "benefit can be used with the same meaning of help",
+            "output": "benefit Synonym help"
+        },
+        {
+            "input": "benefit is a kind of good",
+            "output": "benefit IsA good"
+        },
+        {
+            "input": "benefit is a kind of payment",
+            "output": "benefit IsA payment"
+        },
+        {
+            "input": "benevolent can be used as the opposite of evil",
+            "output": "benevolent Antonym evil"
+        },
+        {
+            "input": "bias can be used with the same meaning of prejudice",
+            "output": "bias Synonym prejudice"
+        },
+        {
+            "input": "bias is a kind of prejudice",
+            "output": "bias IsA prejudice"
+        },
+        {
+            "input": "bicycle can be characterized by fun",
+            "output": "bicycle HasProperty fun"
+        },
+        {
+            "input": "bicycle can be characterized by red",
+            "output": "bicycle HasProperty red"
+        },
+        {
+            "input": "bicycle can be used with the same meaning of bike",
+            "output": "bicycle Synonym bike"
+        },
+        {
+            "input": "bicycle can have or can contain seat",
+            "output": "bicycle HasA seat"
+        },
+        {
+            "input": "bicycle can have or can contain wheel",
+            "output": "bicycle HasA wheel"
+        },
+        {
+            "input": "bicycle is a kind of tool",
+            "output": "bicycle IsA tool"
+        },
+        {
+            "input": "bicycle is made of metal",
+            "output": "bicycle MadeOf metal"
+        },
+        {
+            "input": "big can be used as the opposite of little",
+            "output": "big Antonym little"
+        },
+        {
+            "input": "big can be used as the opposite of small",
+            "output": "big Antonym small"
+        },
+        {
+            "input": "big can be used as the opposite of young",
+            "output": "big Antonym young"
+        },
+        {
+            "input": "bike can be characterized by fun",
+            "output": "bike HasProperty fun"
+        },
+        {
+            "input": "bike can be characterized by stationary",
+            "output": "bike HasProperty stationary"
+        },
+        {
+            "input": "bike can be used with the same meaning of motorcycle",
+            "output": "bike Synonym motorcycle"
+        },
+        {
+            "input": "bike can have or can contain wheel",
+            "output": "bike HasA wheel"
+        },
+        {
+            "input": "bike is a kind of exercise",
+            "output": "bike IsA exercise"
+        },
+        {
+            "input": "bike is a kind of sport",
+            "output": "bike IsA sport"
+        },
+        {
+            "input": "bill can be characterized by due",
+            "output": "bill HasProperty due"
+        },
+        {
+            "input": "bill can be used with the same meaning of note",
+            "output": "bill Synonym note"
+        },
+        {
+            "input": "bill can have or can contain number",
+            "output": "bill HasA number"
+        },
+        {
+            "input": "bill is a kind of money",
+            "output": "bill IsA money"
+        },
+        {
+            "input": "bin can be used with the same meaning of container",
+            "output": "bin Synonym container"
+        },
+        {
+            "input": "bin can be used with the same meaning of toss",
+            "output": "bin Synonym toss"
+        },
+        {
+            "input": "bin can be used with the same meaning of trash",
+            "output": "bin Synonym trash"
+        },
+        {
+            "input": "bin is a kind of container",
+            "output": "bin IsA container"
+        },
+        {
+            "input": "bin is made of plastic",
+            "output": "bin MadeOf plastic"
+        },
+        {
+            "input": "bind can be used with the same meaning of fasten",
+            "output": "bind Synonym fasten"
+        },
+        {
+            "input": "bind can be used with the same meaning of restrict",
+            "output": "bind Synonym restrict"
+        },
+        {
+            "input": "bind can be used with the same meaning of tie",
+            "output": "bind Synonym tie"
+        },
+        {
+            "input": "bind is a kind of cover",
+            "output": "bind IsA cover"
+        },
+        {
+            "input": "bind is part of book",
+            "output": "bind PartOf book"
+        },
+        {
+            "input": "bird can be characterized by alive",
+            "output": "bird HasProperty alive"
+        },
+        {
+            "input": "bird can be characterized by beautiful",
+            "output": "bird HasProperty beautiful"
+        },
+        {
+            "input": "bird can be characterized by color",
+            "output": "bird HasProperty color"
+        },
+        {
+            "input": "bird can be characterized by feather",
+            "output": "bird HasProperty feather"
+        },
+        {
+            "input": "bird can be characterized by fly",
+            "output": "bird HasProperty fly"
+        },
+        {
+            "input": "bird can be characterized by interest",
+            "output": "bird HasProperty interest"
+        },
+        {
+            "input": "bird can be characterized by sing",
+            "output": "bird HasProperty sing"
+        },
+        {
+            "input": "bird can be characterized by stupid",
+            "output": "bird HasProperty stupid"
+        },
+        {
+            "input": "bird can be used as the opposite of fish",
+            "output": "bird Antonym fish"
+        },
+        {
+            "input": "bird can be used as the opposite of human",
+            "output": "bird Antonym human"
+        },
+        {
+            "input": "bird can be used as the opposite of mammal",
+            "output": "bird Antonym mammal"
+        },
+        {
+            "input": "bird can be used as the opposite of worm",
+            "output": "bird Antonym worm"
+        },
+        {
+            "input": "bird can be used with the same meaning of girl",
+            "output": "bird Synonym girl"
+        },
+        {
+            "input": "bird can have or can contain claw",
+            "output": "bird HasA claw"
+        },
+        {
+            "input": "bird can have or can contain egg",
+            "output": "bird HasA egg"
+        },
+        {
+            "input": "bird can have or can contain eye",
+            "output": "bird HasA eye"
+        },
+        {
+            "input": "bird can have or can contain feather",
+            "output": "bird HasA feather"
+        },
+        {
+            "input": "bird can have or can contain tail",
+            "output": "bird HasA tail"
+        },
+        {
+            "input": "bird can have or can contain wing",
+            "output": "bird HasA wing"
+        },
+        {
+            "input": "bird is a kind of animal",
+            "output": "bird IsA animal"
+        },
+        {
+            "input": "bird is a kind of meat",
+            "output": "bird IsA meat"
+        },
+        {
+            "input": "bird is a kind of pet",
+            "output": "bird IsA pet"
+        },
+        {
+            "input": "bird is part of flock",
+            "output": "bird PartOf flock"
+        },
+        {
+            "input": "birth can be used as the opposite of death",
+            "output": "birth Antonym death"
+        },
+        {
+            "input": "birth is a kind of begin",
+            "output": "birth IsA begin"
+        },
+        {
+            "input": "birth is a kind of change",
+            "output": "birth IsA change"
+        },
+        {
+            "input": "birth is part of life",
+            "output": "birth PartOf life"
+        },
+        {
+            "input": "birthday can be characterized by fun",
+            "output": "birthday HasProperty fun"
+        },
+        {
+            "input": "birthday can be characterized by happy",
+            "output": "birthday HasProperty happy"
+        },
+        {
+            "input": "birthday can be used as the opposite of death",
+            "output": "birthday Antonym death"
+        },
+        {
+            "input": "birthday can be used as the opposite of funeral",
+            "output": "birthday Antonym funeral"
+        },
+        {
+            "input": "birthday is a kind of fun",
+            "output": "birthday IsA fun"
+        },
+        {
+            "input": "bit can be used with the same meaning of part",
+            "output": "bit Synonym part"
+        },
+        {
+            "input": "bit is part of drill",
+            "output": "bit PartOf drill"
+        },
+        {
+            "input": "bit is part of key",
+            "output": "bit PartOf key"
+        },
+        {
+            "input": "bitch can be used with the same meaning of female",
+            "output": "bitch Synonym female"
+        },
+        {
+            "input": "bite can be used with the same meaning of piece",
+            "output": "bite Synonym piece"
+        },
+        {
+            "input": "bite is a kind of grip",
+            "output": "bite IsA grip"
+        },
+        {
+            "input": "bite is a kind of meal",
+            "output": "bite IsA meal"
+        },
+        {
+            "input": "bite is a kind of pierce",
+            "output": "bite IsA pierce"
+        },
+        {
+            "input": "bitter can be used as the opposite of sweet",
+            "output": "bitter Antonym sweet"
+        },
+        {
+            "input": "bitter can be used as the opposite of tasty",
+            "output": "bitter Antonym tasty"
+        },
+        {
+            "input": "black can be characterized by dark",
+            "output": "black HasProperty dark"
+        },
+        {
+            "input": "black can be used as the opposite of bright",
+            "output": "black Antonym bright"
+        },
+        {
+            "input": "black can be used as the opposite of color",
+            "output": "black Antonym color"
+        },
+        {
+            "input": "black can be used as the opposite of illuminate",
+            "output": "black Antonym illuminate"
+        },
+        {
+            "input": "black can be used as the opposite of light",
+            "output": "black Antonym light"
+        },
+        {
+            "input": "black can be used as the opposite of white",
+            "output": "black Antonym white"
+        },
+        {
+            "input": "black can be used with the same meaning of dark",
+            "output": "black Synonym dark"
+        },
+        {
+            "input": "black is a kind of clothe",
+            "output": "black IsA clothe"
+        },
+        {
+            "input": "black is a kind of color",
+            "output": "black IsA color"
+        },
+        {
+            "input": "black is a kind of man",
+            "output": "black IsA man"
+        },
+        {
+            "input": "black is a kind of person",
+            "output": "black IsA person"
+        },
+        {
+            "input": "blade can be used as the opposite of handle",
+            "output": "blade Antonym handle"
+        },
+        {
+            "input": "blade is part of ax",
+            "output": "blade PartOf ax"
+        },
+        {
+            "input": "blade is part of fan",
+            "output": "blade PartOf fan"
+        },
+        {
+            "input": "blade is part of knife",
+            "output": "blade PartOf knife"
+        },
+        {
+            "input": "blade is part of scissor",
+            "output": "blade PartOf scissor"
+        },
+        {
+            "input": "blade is part of sword",
+            "output": "blade PartOf sword"
+        },
+        {
+            "input": "blanket can be characterized by soft",
+            "output": "blanket HasProperty soft"
+        },
+        {
+            "input": "blanket is made of fabric",
+            "output": "blanket MadeOf fabric"
+        },
+        {
+            "input": "blood can be characterized by liquid",
+            "output": "blood HasProperty liquid"
+        },
+        {
+            "input": "blood can be characterized by red",
+            "output": "blood HasProperty red"
+        },
+        {
+            "input": "blood can have or can contain water",
+            "output": "blood HasA water"
+        },
+        {
+            "input": "blood is a kind of liquid",
+            "output": "blood IsA liquid"
+        },
+        {
+            "input": "blood is part of body",
+            "output": "blood PartOf body"
+        },
+        {
+            "input": "bloom can be used as the opposite of die",
+            "output": "bloom Antonym die"
+        },
+        {
+            "input": "bloom can be used with the same meaning of flower",
+            "output": "bloom Synonym flower"
+        },
+        {
+            "input": "blow can be used as the opposite of breathe",
+            "output": "blow Antonym breathe"
+        },
+        {
+            "input": "blow can be used as the opposite of create",
+            "output": "blow Antonym create"
+        },
+        {
+            "input": "blow can be used as the opposite of suck",
+            "output": "blow Antonym suck"
+        },
+        {
+            "input": "blow can be used as the opposite of vacuum",
+            "output": "blow Antonym vacuum"
+        },
+        {
+            "input": "blow can be used with the same meaning of hit",
+            "output": "blow Synonym hit"
+        },
+        {
+            "input": "blow can be used with the same meaning of strike",
+            "output": "blow Synonym strike"
+        },
+        {
+            "input": "blow can be used with the same meaning of wind",
+            "output": "blow Synonym wind"
+        },
+        {
+            "input": "blow is a kind of sound",
+            "output": "blow IsA sound"
+        },
+        {
+            "input": "blow is a kind of spend",
+            "output": "blow IsA spend"
+        },
+        {
+            "input": "blow is part of fight",
+            "output": "blow PartOf fight"
+        },
+        {
+            "input": "blue can be used as the opposite of green",
+            "output": "blue Antonym green"
+        },
+        {
+            "input": "blue can be used as the opposite of happy",
+            "output": "blue Antonym happy"
+        },
+        {
+            "input": "blue can be used as the opposite of orange",
+            "output": "blue Antonym orange"
+        },
+        {
+            "input": "blue can be used as the opposite of red",
+            "output": "blue Antonym red"
+        },
+        {
+            "input": "blue can be used as the opposite of white",
+            "output": "blue Antonym white"
+        },
+        {
+            "input": "blue can be used as the opposite of yellow",
+            "output": "blue Antonym yellow"
+        },
+        {
+            "input": "blue is a kind of color",
+            "output": "blue IsA color"
+        },
+        {
+            "input": "blue is a kind of music",
+            "output": "blue IsA music"
+        },
+        {
+            "input": "board can be characterized by flat",
+            "output": "board HasProperty flat"
+        },
+        {
+            "input": "board can be used with the same meaning of committee",
+            "output": "board Synonym committee"
+        },
+        {
+            "input": "board can be used with the same meaning of table",
+            "output": "board Synonym table"
+        },
+        {
+            "input": "Board is a kind of organization",
+            "output": "board IsA organization"
+        },
+        {
+            "input": "board is a kind of surface",
+            "output": "board IsA surface"
+        },
+        {
+            "input": "board is made of wood",
+            "output": "board MadeOf wood"
+        },
+        {
+            "input": "boat can be characterized by big",
+            "output": "boat HasProperty big"
+        },
+        {
+            "input": "boat can be characterized by fast",
+            "output": "boat HasProperty fast"
+        },
+        {
+            "input": "boat can be used with the same meaning of ship",
+            "output": "boat Synonym ship"
+        },
+        {
+            "input": "boat can be used with the same meaning of vessel",
+            "output": "boat Synonym vessel"
+        },
+        {
+            "input": "boat can have or can contain sail",
+            "output": "boat HasA sail"
+        },
+        {
+            "input": "boat is a kind of ride",
+            "output": "boat IsA ride"
+        },
+        {
+            "input": "boat is made of steel",
+            "output": "boat MadeOf steel"
+        },
+        {
+            "input": "body can be characterized by beautiful",
+            "output": "body HasProperty beautiful"
+        },
+        {
+            "input": "body can be characterized by unique",
+            "output": "body HasProperty unique"
+        },
+        {
+            "input": "body can be used as the opposite of head",
+            "output": "body Antonym head"
+        },
+        {
+            "input": "body can be used as the opposite of leg",
+            "output": "body Antonym leg"
+        },
+        {
+            "input": "body can be used as the opposite of soul",
+            "output": "body Antonym soul"
+        },
+        {
+            "input": "body can be used as the opposite of spirit",
+            "output": "body Antonym spirit"
+        },
+        {
+            "input": "body can have or can contain bone",
+            "output": "body HasA bone"
+        },
+        {
+            "input": "body can have or can contain organ",
+            "output": "body HasA organ"
+        },
+        {
+            "input": "body is made of cell",
+            "output": "body MadeOf cell"
+        },
+        {
+            "input": "body is part of automobile",
+            "output": "body PartOf automobile"
+        },
+        {
+            "input": "body is part of human",
+            "output": "body PartOf human"
+        },
+        {
+            "input": "body is part of human_be",
+            "output": "body PartOf human_be"
+        },
+        {
+            "input": "body_part is a kind of part",
+            "output": "body_part IsA part"
+        },
+        {
+            "input": "body_part is part of organism",
+            "output": "body_part PartOf organism"
+        },
+        {
+            "input": "boil can be used as the opposite of freeze",
+            "output": "boil Antonym freeze"
+        },
+        {
+            "input": "boil can be used as the opposite of ice",
+            "output": "boil Antonym ice"
+        },
+        {
+            "input": "boil can be used with the same meaning of bake",
+            "output": "boil Synonym bake"
+        },
+        {
+            "input": "boil is a kind of change",
+            "output": "boil IsA change"
+        },
+        {
+            "input": "boil is a kind of cook",
+            "output": "boil IsA cook"
+        },
+        {
+            "input": "bolt can be characterized by tight",
+            "output": "bolt HasProperty tight"
+        },
+        {
+            "input": "bolt can be used as the opposite of nail",
+            "output": "bolt Antonym nail"
+        },
+        {
+            "input": "bolt can be used as the opposite of nut",
+            "output": "bolt Antonym nut"
+        },
+        {
+            "input": "bolt can be used as the opposite of slow",
+            "output": "bolt Antonym slow"
+        },
+        {
+            "input": "bolt can have or can contain thread",
+            "output": "bolt HasA thread"
+        },
+        {
+            "input": "bolt is a kind of lock",
+            "output": "bolt IsA lock"
+        },
+        {
+            "input": "bolt is part of door",
+            "output": "bolt PartOf door"
+        },
+        {
+            "input": "bolt is part of lock",
+            "output": "bolt PartOf lock"
+        },
+        {
+            "input": "bolt is part of rifle",
+            "output": "bolt PartOf rifle"
+        },
+        {
+            "input": "bomb can be characterized by bad",
+            "output": "bomb HasProperty bad"
+        },
+        {
+            "input": "bomb is made of metal",
+            "output": "bomb MadeOf metal"
+        },
+        {
+            "input": "bomb is part of war",
+            "output": "bomb PartOf war"
+        },
+        {
+            "input": "bone can be characterized by hard",
+            "output": "bone HasProperty hard"
+        },
+        {
+            "input": "bone can be characterized by strong",
+            "output": "bone HasProperty strong"
+        },
+        {
+            "input": "bone can be used as the opposite of blood",
+            "output": "bone Antonym blood"
+        },
+        {
+            "input": "bone can be used as the opposite of flesh",
+            "output": "bone Antonym flesh"
+        },
+        {
+            "input": "bone can be used as the opposite of muscle",
+            "output": "bone Antonym muscle"
+        },
+        {
+            "input": "bone can be used as the opposite of skin",
+            "output": "bone Antonym skin"
+        },
+        {
+            "input": "bone can be used as the opposite of tissue",
+            "output": "bone Antonym tissue"
+        },
+        {
+            "input": "bone is part of foot",
+            "output": "bone PartOf foot"
+        },
+        {
+            "input": "bone is part of human",
+            "output": "bone PartOf human"
+        },
+        {
+            "input": "bone is part of skeleton",
+            "output": "bone PartOf skeleton"
+        },
+        {
+            "input": "book can be characterized by engage",
+            "output": "book HasProperty engage"
+        },
+        {
+            "input": "book can be characterized by entertain",
+            "output": "book HasProperty entertain"
+        },
+        {
+            "input": "book can be characterized by fun",
+            "output": "book HasProperty fun"
+        },
+        {
+            "input": "book can be characterized by heavy",
+            "output": "book HasProperty heavy"
+        },
+        {
+            "input": "book can be characterized by important",
+            "output": "book HasProperty important"
+        },
+        {
+            "input": "book can be characterized by interest",
+            "output": "book HasProperty interest"
+        },
+        {
+            "input": "book can be characterized by read",
+            "output": "book HasProperty read"
+        },
+        {
+            "input": "book can be characterized by square",
+            "output": "book HasProperty square"
+        },
+        {
+            "input": "book can be used as the opposite of film",
+            "output": "book Antonym film"
+        },
+        {
+            "input": "book can be used as the opposite of magazine",
+            "output": "book Antonym magazine"
+        },
+        {
+            "input": "book can be used as the opposite of movie",
+            "output": "book Antonym movie"
+        },
+        {
+            "input": "book can be used with the same meaning of account",
+            "output": "book Synonym account"
+        },
+        {
+            "input": "book can be used with the same meaning of note",
+            "output": "book Synonym note"
+        },
+        {
+            "input": "book can be used with the same meaning of record",
+            "output": "book Synonym record"
+        },
+        {
+            "input": "book can be used with the same meaning of volume",
+            "output": "book Synonym volume"
+        },
+        {
+            "input": "book can have or can contain author",
+            "output": "book HasA author"
+        },
+        {
+            "input": "book can have or can contain cover",
+            "output": "book HasA cover"
+        },
+        {
+            "input": "book can have or can contain idea",
+            "output": "book HasA idea"
+        },
+        {
+            "input": "book can have or can contain information",
+            "output": "book HasA information"
+        },
+        {
+            "input": "book can have or can contain knowledge",
+            "output": "book HasA knowledge"
+        },
+        {
+            "input": "book can have or can contain page",
+            "output": "book HasA page"
+        },
+        {
+            "input": "book can have or can contain picture",
+            "output": "book HasA picture"
+        },
+        {
+            "input": "book can have or can contain sentence",
+            "output": "book HasA sentence"
+        },
+        {
+            "input": "book can have or can contain story",
+            "output": "book HasA story"
+        },
+        {
+            "input": "book can have or can contain text",
+            "output": "book HasA text"
+        },
+        {
+            "input": "book can have or can contain word",
+            "output": "book HasA word"
+        },
+        {
+            "input": "book can have or can contain write",
+            "output": "book HasA write"
+        },
+        {
+            "input": "book is a kind of collection",
+            "output": "book IsA collection"
+        },
+        {
+            "input": "book is a kind of knowledge",
+            "output": "book IsA knowledge"
+        },
+        {
+            "input": "book is a kind of literature",
+            "output": "book IsA literature"
+        },
+        {
+            "input": "Book is a kind of magazine",
+            "output": "book IsA magazine"
+        },
+        {
+            "input": "book is a kind of object",
+            "output": "book IsA object"
+        },
+        {
+            "input": "book is a kind of paper",
+            "output": "book IsA paper"
+        },
+        {
+            "input": "book is a kind of text",
+            "output": "book IsA text"
+        },
+        {
+            "input": "book is made of paper",
+            "output": "book MadeOf paper"
+        },
+        {
+            "input": "book is part of library",
+            "output": "book PartOf library"
+        },
+        {
+            "input": "book is part of page",
+            "output": "book PartOf page"
+        },
+        {
+            "input": "boot can be characterized by black",
+            "output": "boot HasProperty black"
+        },
+        {
+            "input": "boot can be used with the same meaning of hoof",
+            "output": "boot Synonym hoof"
+        },
+        {
+            "input": "boot can be used with the same meaning of trunk",
+            "output": "boot Synonym trunk"
+        },
+        {
+            "input": "boot is a kind of shoe",
+            "output": "boot IsA shoe"
+        },
+        {
+            "input": "boredom can be characterized by bad",
+            "output": "boredom HasProperty bad"
+        },
+        {
+            "input": "boredom can be characterized by uncomfortable",
+            "output": "boredom HasProperty uncomfortable"
+        },
+        {
+            "input": "boredom can be used as the opposite of excitement",
+            "output": "boredom Antonym excitement"
+        },
+        {
+            "input": "boredom can be used as the opposite of fun",
+            "output": "boredom Antonym fun"
+        },
+        {
+            "input": "boss can be characterized by demand",
+            "output": "boss HasProperty demand"
+        },
+        {
+            "input": "boss can be used as the opposite of employee",
+            "output": "boss Antonym employee"
+        },
+        {
+            "input": "boss can be used with the same meaning of head",
+            "output": "boss Synonym head"
+        },
+        {
+            "input": "boss can be used with the same meaning of leader",
+            "output": "boss Synonym leader"
+        },
+        {
+            "input": "boss can be used with the same meaning of mate",
+            "output": "boss Synonym mate"
+        },
+        {
+            "input": "boss is a kind of human",
+            "output": "boss IsA human"
+        },
+        {
+            "input": "boss is a kind of leader",
+            "output": "boss IsA leader"
+        },
+        {
+            "input": "boss is a kind of person",
+            "output": "boss IsA person"
+        },
+        {
+            "input": "both can be used as the opposite of one",
+            "output": "both Antonym one"
+        },
+        {
+            "input": "bottle can be used as the opposite of can",
+            "output": "bottle Antonym can"
+        },
+        {
+            "input": "bottle can be used with the same meaning of courage",
+            "output": "bottle Synonym courage"
+        },
+        {
+            "input": "bottle can have or can contain beer",
+            "output": "bottle HasA beer"
+        },
+        {
+            "input": "bottle can have or can contain liquid",
+            "output": "bottle HasA liquid"
+        },
+        {
+            "input": "bottle can have or can contain milk",
+            "output": "bottle HasA milk"
+        },
+        {
+            "input": "bottle can have or can contain wine",
+            "output": "bottle HasA wine"
+        },
+        {
+            "input": "bottle is a kind of store",
+            "output": "bottle IsA store"
+        },
+        {
+            "input": "bottle is made of glass",
+            "output": "bottle MadeOf glass"
+        },
+        {
+            "input": "bottle is made of plastic",
+            "output": "bottle MadeOf plastic"
+        },
+        {
+            "input": "bounce can be used with the same meaning of up",
+            "output": "bounce Synonym up"
+        },
+        {
+            "input": "bounce is a kind of jump",
+            "output": "bounce IsA jump"
+        },
+        {
+            "input": "bow can be characterized by fun",
+            "output": "bow HasProperty fun"
+        },
+        {
+            "input": "bow can be used as the opposite of pluck",
+            "output": "bow Antonym pluck"
+        },
+        {
+            "input": "bow can be used with the same meaning of curve",
+            "output": "bow Synonym curve"
+        },
+        {
+            "input": "bow can have or can contain knot",
+            "output": "bow HasA knot"
+        },
+        {
+            "input": "bow is part of ship",
+            "output": "bow PartOf ship"
+        },
+        {
+            "input": "bow is part of vessel",
+            "output": "bow PartOf vessel"
+        },
+        {
+            "input": "bowl can be characterized by hollow",
+            "output": "bowl HasProperty hollow"
+        },
+        {
+            "input": "bowl can be used as the opposite of plate",
+            "output": "bowl Antonym plate"
+        },
+        {
+            "input": "bowl can have or can contain liquid",
+            "output": "bowl HasA liquid"
+        },
+        {
+            "input": "bowl is a kind of action",
+            "output": "bowl IsA action"
+        },
+        {
+            "input": "bowl is a kind of dish",
+            "output": "bowl IsA dish"
+        },
+        {
+            "input": "bowl is a kind of game",
+            "output": "bowl IsA game"
+        },
+        {
+            "input": "bowl is a kind of play",
+            "output": "bowl IsA play"
+        },
+        {
+            "input": "bowl is a kind of sport",
+            "output": "bowl IsA sport"
+        },
+        {
+            "input": "bowl is made of aluminium",
+            "output": "bowl MadeOf aluminium"
+        },
+        {
+            "input": "bowl is made of clay",
+            "output": "bowl MadeOf clay"
+        },
+        {
+            "input": "bowl is made of glass",
+            "output": "bowl MadeOf glass"
+        },
+        {
+            "input": "bowl is made of steel",
+            "output": "bowl MadeOf steel"
+        },
+        {
+            "input": "Bowl is made of wood",
+            "output": "bowl MadeOf wood"
+        },
+        {
+            "input": "bowl is part of pipe",
+            "output": "bowl PartOf pipe"
+        },
+        {
+            "input": "box can be used as the opposite of circle",
+            "output": "box Antonym circle"
+        },
+        {
+            "input": "box can be used with the same meaning of blow",
+            "output": "box Synonym blow"
+        },
+        {
+            "input": "box can be used with the same meaning of case",
+            "output": "box Synonym case"
+        },
+        {
+            "input": "box can be used with the same meaning of computer",
+            "output": "box Synonym computer"
+        },
+        {
+            "input": "box can be used with the same meaning of pack",
+            "output": "box Synonym pack"
+        },
+        {
+            "input": "box can be used with the same meaning of tv",
+            "output": "box Synonym tv"
+        },
+        {
+            "input": "box can have or can contain book",
+            "output": "box HasA book"
+        },
+        {
+            "input": "box can have or can contain food",
+            "output": "box HasA food"
+        },
+        {
+            "input": "box can have or can contain gift",
+            "output": "box HasA gift"
+        },
+        {
+            "input": "box can have or can contain object",
+            "output": "box HasA object"
+        },
+        {
+            "input": "box can have or can contain something",
+            "output": "box HasA something"
+        },
+        {
+            "input": "box is a kind of hit",
+            "output": "box IsA hit"
+        },
+        {
+            "input": "box is a kind of seat",
+            "output": "box IsA seat"
+        },
+        {
+            "input": "box is a kind of sport",
+            "output": "box IsA sport"
+        },
+        {
+            "input": "boy can be characterized by child",
+            "output": "boy HasProperty child"
+        },
+        {
+            "input": "boy can be characterized by male",
+            "output": "boy HasProperty male"
+        },
+        {
+            "input": "boy can be used as the opposite of female",
+            "output": "boy Antonym female"
+        },
+        {
+            "input": "boy can be used as the opposite of girl",
+            "output": "boy Antonym girl"
+        },
+        {
+            "input": "boy can be used as the opposite of sister",
+            "output": "boy Antonym sister"
+        },
+        {
+            "input": "boy can have or can contain penis",
+            "output": "boy HasA penis"
+        },
+        {
+            "input": "boy is a kind of animal",
+            "output": "boy IsA animal"
+        },
+        {
+            "input": "boy is a kind of child",
+            "output": "boy IsA child"
+        },
+        {
+            "input": "boy is a kind of man",
+            "output": "boy IsA man"
+        },
+        {
+            "input": "boyfriend can be used as the opposite of girl",
+            "output": "boyfriend Antonym girl"
+        },
+        {
+            "input": "boyfriend can be used as the opposite of girlfriend",
+            "output": "boyfriend Antonym girlfriend"
+        },
+        {
+            "input": "boyfriend can be used with the same meaning of friend",
+            "output": "boyfriend Synonym friend"
+        },
+        {
+            "input": "boyfriend can be used with the same meaning of lover",
+            "output": "boyfriend Synonym lover"
+        },
+        {
+            "input": "boyfriend can be used with the same meaning of male",
+            "output": "boyfriend Synonym male"
+        },
+        {
+            "input": "brain can be characterized by complex",
+            "output": "brain HasProperty complex"
+        },
+        {
+            "input": "brain is a kind of head",
+            "output": "brain IsA head"
+        },
+        {
+            "input": "brain is a kind of organ",
+            "output": "brain IsA organ"
+        },
+        {
+            "input": "brain is part of body",
+            "output": "brain PartOf body"
+        },
+        {
+            "input": "brain is part of head",
+            "output": "brain PartOf head"
+        },
+        {
+            "input": "brain is part of person",
+            "output": "brain PartOf person"
+        },
+        {
+            "input": "brake can be used as the opposite of pedal",
+            "output": "brake Antonym pedal"
+        },
+        {
+            "input": "brake is part of car",
+            "output": "brake PartOf car"
+        },
+        {
+            "input": "branch can be used as the opposite of center",
+            "output": "branch Antonym center"
+        },
+        {
+            "input": "branch can be used as the opposite of join",
+            "output": "branch Antonym join"
+        },
+        {
+            "input": "branch can be used as the opposite of root",
+            "output": "branch Antonym root"
+        },
+        {
+            "input": "branch can be used as the opposite of trunk",
+            "output": "branch Antonym trunk"
+        },
+        {
+            "input": "branch is a kind of division",
+            "output": "branch IsA division"
+        },
+        {
+            "input": "branch is part of tree",
+            "output": "branch PartOf tree"
+        },
+        {
+            "input": "brass can be used with the same meaning of brass_instrument",
+            "output": "brass Synonym brass_instrument"
+        },
+        {
+            "input": "brass is a kind of wind_instrument",
+            "output": "brass IsA wind_instrument"
+        },
+        {
+            "input": "brass_instrument is part of band",
+            "output": "brass_instrument PartOf band"
+        },
+        {
+            "input": "brave can be used as the opposite of hide",
+            "output": "brave Antonym hide"
+        },
+        {
+            "input": "brave can be used as the opposite of weak",
+            "output": "brave Antonym weak"
+        },
+        {
+            "input": "brave is a kind of person",
+            "output": "brave IsA person"
+        },
+        {
+            "input": "bread can be characterized by eat",
+            "output": "bread HasProperty eat"
+        },
+        {
+            "input": "bread can be characterized by white",
+            "output": "bread HasProperty white"
+        },
+        {
+            "input": "bread can be used as the opposite of butter",
+            "output": "bread Antonym butter"
+        },
+        {
+            "input": "bread can be used as the opposite of meat",
+            "output": "bread Antonym meat"
+        },
+        {
+            "input": "bread is a kind of food",
+            "output": "bread IsA food"
+        },
+        {
+            "input": "bread is made of flour",
+            "output": "bread MadeOf flour"
+        },
+        {
+            "input": "bread is made of grain",
+            "output": "bread MadeOf grain"
+        },
+        {
+            "input": "break can be used as the opposite of build",
+            "output": "break Antonym build"
+        },
+        {
+            "input": "break can be used as the opposite of connect",
+            "output": "break Antonym connect"
+        },
+        {
+            "input": "break can be used as the opposite of construct",
+            "output": "break Antonym construct"
+        },
+        {
+            "input": "break can be used as the opposite of create",
+            "output": "break Antonym create"
+        },
+        {
+            "input": "break can be used as the opposite of fix",
+            "output": "break Antonym fix"
+        },
+        {
+            "input": "break can be used as the opposite of hold",
+            "output": "break Antonym hold"
+        },
+        {
+            "input": "break can be used as the opposite of join",
+            "output": "break Antonym join"
+        },
+        {
+            "input": "break can be used as the opposite of make",
+            "output": "break Antonym make"
+        },
+        {
+            "input": "break can be used as the opposite of unbroken",
+            "output": "break Antonym unbroken"
+        },
+        {
+            "input": "break can be used as the opposite of whole",
+            "output": "break Antonym whole"
+        },
+        {
+            "input": "break can be used as the opposite of work",
+            "output": "break Antonym work"
+        },
+        {
+            "input": "break can be used with the same meaning of fail",
+            "output": "break Synonym fail"
+        },
+        {
+            "input": "break can be used with the same meaning of split",
+            "output": "break Synonym split"
+        },
+        {
+            "input": "break is a kind of change",
+            "output": "break IsA change"
+        },
+        {
+            "input": "break is a kind of escape",
+            "output": "break IsA escape"
+        },
+        {
+            "input": "break is a kind of happen",
+            "output": "break IsA happen"
+        },
+        {
+            "input": "break is a kind of separation",
+            "output": "break IsA separation"
+        },
+        {
+            "input": "breakfast can be used as the opposite of dinner",
+            "output": "breakfast Antonym dinner"
+        },
+        {
+            "input": "breast can be used with the same meaning of chest",
+            "output": "breast Synonym chest"
+        },
+        {
+            "input": "breast is part of chicken",
+            "output": "breast PartOf chicken"
+        },
+        {
+            "input": "breast is part of human",
+            "output": "breast PartOf human"
+        },
+        {
+            "input": "breast is part of turkey",
+            "output": "breast PartOf turkey"
+        },
+        {
+            "input": "breathe can be characterized by good",
+            "output": "breathe HasProperty good"
+        },
+        {
+            "input": "breathe is a kind of exist",
+            "output": "breathe IsA exist"
+        },
+        {
+            "input": "breathe is true then also exhale is true",
+            "output": "breathe Entails exhale"
+        },
+        {
+            "input": "brick can be characterized by hard",
+            "output": "brick HasProperty hard"
+        },
+        {
+            "input": "brick can be characterized by heavy",
+            "output": "brick HasProperty heavy"
+        },
+        {
+            "input": "brick is made of clay",
+            "output": "brick MadeOf clay"
+        },
+        {
+            "input": "bridge can be characterized by big",
+            "output": "bridge HasProperty big"
+        },
+        {
+            "input": "bridge is a kind of build",
+            "output": "bridge IsA build"
+        },
+        {
+            "input": "bridge is a kind of game",
+            "output": "bridge IsA game"
+        },
+        {
+            "input": "bridge is a kind of link",
+            "output": "bridge IsA link"
+        },
+        {
+            "input": "bridge is made of steel",
+            "output": "bridge MadeOf steel"
+        },
+        {
+            "input": "bridge is made of stone",
+            "output": "bridge MadeOf stone"
+        },
+        {
+            "input": "bridge is made of wood",
+            "output": "bridge MadeOf wood"
+        },
+        {
+            "input": "bridge is part of guitar",
+            "output": "bridge PartOf guitar"
+        },
+        {
+            "input": "bridge is part of nose",
+            "output": "bridge PartOf nose"
+        },
+        {
+            "input": "bright can be used as the opposite of dark",
+            "output": "bright Antonym dark"
+        },
+        {
+            "input": "bright can be used as the opposite of dull",
+            "output": "bright Antonym dull"
+        },
+        {
+            "input": "bring can be used as the opposite of empty",
+            "output": "bring Antonym empty"
+        },
+        {
+            "input": "bring can be used as the opposite of give",
+            "output": "bring Antonym give"
+        },
+        {
+            "input": "bring can be used as the opposite of leave",
+            "output": "bring Antonym leave"
+        },
+        {
+            "input": "bring can be used as the opposite of leave_behind",
+            "output": "bring Antonym leave_behind"
+        },
+        {
+            "input": "bring can be used as the opposite of take",
+            "output": "bring Antonym take"
+        },
+        {
+            "input": "bring can be used as the opposite of take_away",
+            "output": "bring Antonym take_away"
+        },
+        {
+            "input": "bring is true then also come is true",
+            "output": "bring Entails come"
+        },
+        {
+            "input": "brook can be used with the same meaning of stream",
+            "output": "brook Synonym stream"
+        },
+        {
+            "input": "brook is made of water",
+            "output": "brook MadeOf water"
+        },
+        {
+            "input": "brush can be used with the same meaning of tail",
+            "output": "brush Synonym tail"
+        },
+        {
+            "input": "brush is a kind of move",
+            "output": "brush IsA move"
+        },
+        {
+            "input": "bug can be characterized by small",
+            "output": "bug HasProperty small"
+        },
+        {
+            "input": "bug can be used with the same meaning of insect",
+            "output": "bug Synonym insect"
+        },
+        {
+            "input": "bug is a kind of animal",
+            "output": "bug IsA animal"
+        },
+        {
+            "input": "build can be characterized by big",
+            "output": "build HasProperty big"
+        },
+        {
+            "input": "build can be characterized by large",
+            "output": "build HasProperty large"
+        },
+        {
+            "input": "build can be characterized by solid",
+            "output": "build HasProperty solid"
+        },
+        {
+            "input": "build can be characterized by tall",
+            "output": "build HasProperty tall"
+        },
+        {
+            "input": "build can be characterized by ugly",
+            "output": "build HasProperty ugly"
+        },
+        {
+            "input": "build can be used as the opposite of destroy",
+            "output": "build Antonym destroy"
+        },
+        {
+            "input": "build can be used as the opposite of tear",
+            "output": "build Antonym tear"
+        },
+        {
+            "input": "build can be used with the same meaning of assemble",
+            "output": "build Synonym assemble"
+        },
+        {
+            "input": "build can be used with the same meaning of construct",
+            "output": "build Synonym construct"
+        },
+        {
+            "input": "build can be used with the same meaning of construction",
+            "output": "build Synonym construction"
+        },
+        {
+            "input": "build can be used with the same meaning of create",
+            "output": "build Synonym create"
+        },
+        {
+            "input": "build can be used with the same meaning of increase",
+            "output": "build Synonym increase"
+        },
+        {
+            "input": "build is a kind of create",
+            "output": "build IsA create"
+        },
+        {
+            "input": "build is a kind of creation",
+            "output": "build IsA creation"
+        },
+        {
+            "input": "build is a kind of develop",
+            "output": "build IsA develop"
+        },
+        {
+            "input": "build is a kind of good",
+            "output": "build IsA good"
+        },
+        {
+            "input": "build is a kind of make",
+            "output": "build IsA make"
+        },
+        {
+            "input": "bull can be characterized by male",
+            "output": "bull HasProperty male"
+        },
+        {
+            "input": "bull can be used as the opposite of female",
+            "output": "bull Antonym female"
+        },
+        {
+            "input": "bull can be used with the same meaning of male",
+            "output": "bull Synonym male"
+        },
+        {
+            "input": "bull can have or can contain horn",
+            "output": "bull HasA horn"
+        },
+        {
+            "input": "bull is a kind of cattle",
+            "output": "bull IsA cattle"
+        },
+        {
+            "input": "bullet can be used as the opposite of safe",
+            "output": "bullet Antonym safe"
+        },
+        {
+            "input": "burn can be used as the opposite of cold",
+            "output": "burn Antonym cold"
+        },
+        {
+            "input": "burn can be used as the opposite of cool",
+            "output": "burn Antonym cool"
+        },
+        {
+            "input": "burn can be used as the opposite of freeze",
+            "output": "burn Antonym freeze"
+        },
+        {
+            "input": "burn can be used as the opposite of ice",
+            "output": "burn Antonym ice"
+        },
+        {
+            "input": "burn can be used as the opposite of water",
+            "output": "burn Antonym water"
+        },
+        {
+            "input": "burn is a kind of damage",
+            "output": "burn IsA damage"
+        },
+        {
+            "input": "burn is a kind of destroy",
+            "output": "burn IsA destroy"
+        },
+        {
+            "input": "burn is a kind of feel",
+            "output": "burn IsA feel"
+        },
+        {
+            "input": "burn is a kind of pain",
+            "output": "burn IsA pain"
+        },
+        {
+            "input": "bus can be used with the same meaning of coach",
+            "output": "bus Synonym coach"
+        },
+        {
+            "input": "bus can have or can contain window",
+            "output": "bus HasA window"
+        },
+        {
+            "input": "bus is a kind of place",
+            "output": "bus IsA place"
+        },
+        {
+            "input": "bush can be characterized by alive",
+            "output": "bush HasProperty alive"
+        },
+        {
+            "input": "bush can have or can contain leave",
+            "output": "bush HasA leave"
+        },
+        {
+            "input": "business can be used as the opposite of personal",
+            "output": "business Antonym personal"
+        },
+        {
+            "input": "busy can be used as the opposite of idle",
+            "output": "busy Antonym idle"
+        },
+        {
+            "input": "busy can be used as the opposite of nothing",
+            "output": "busy Antonym nothing"
+        },
+        {
+            "input": "busy can be used as the opposite of relax",
+            "output": "busy Antonym relax"
+        },
+        {
+            "input": "busy can be used as the opposite of slow",
+            "output": "busy Antonym slow"
+        },
+        {
+            "input": "busy is a kind of work",
+            "output": "busy IsA work"
+        },
+        {
+            "input": "butch can be used as the opposite of gentle",
+            "output": "butch Antonym gentle"
+        },
+        {
+            "input": "butch can be used with the same meaning of kill",
+            "output": "butch Synonym kill"
+        },
+        {
+            "input": "butch is a kind of person",
+            "output": "butch IsA person"
+        },
+        {
+            "input": "butter can be characterized by soft",
+            "output": "butter HasProperty soft"
+        },
+        {
+            "input": "butter can be characterized by yellow",
+            "output": "butter HasProperty yellow"
+        },
+        {
+            "input": "butter is a kind of fat",
+            "output": "butter IsA fat"
+        },
+        {
+            "input": "butter is a kind of food",
+            "output": "butter IsA food"
+        },
+        {
+            "input": "butter is made of milk",
+            "output": "butter MadeOf milk"
+        },
+        {
+            "input": "butterfly can be characterized by beautiful",
+            "output": "butterfly HasProperty beautiful"
+        },
+        {
+            "input": "butterfly can have or can contain wing",
+            "output": "butterfly HasA wing"
+        },
+        {
+            "input": "button can be used with the same meaning of knob",
+            "output": "button Synonym knob"
+        },
+        {
+            "input": "button is made of plastic",
+            "output": "button MadeOf plastic"
+        },
+        {
+            "input": "button is part of cell_phone",
+            "output": "button PartOf cell_phone"
+        },
+        {
+            "input": "button is part of coat",
+            "output": "button PartOf coat"
+        },
+        {
+            "input": "button is part of mouse",
+            "output": "button PartOf mouse"
+        },
+        {
+            "input": "button is part of tv",
+            "output": "button PartOf tv"
+        },
+        {
+            "input": "buy can be used as the opposite of save",
+            "output": "buy Antonym save"
+        },
+        {
+            "input": "buy can be used as the opposite of sell",
+            "output": "buy Antonym sell"
+        },
+        {
+            "input": "buy can be used as the opposite of steal",
+            "output": "buy Antonym steal"
+        },
+        {
+            "input": "buy can be used with the same meaning of shop",
+            "output": "buy Synonym shop"
+        },
+        {
+            "input": "buy is a kind of get",
+            "output": "buy IsA get"
+        },
+        {
+            "input": "buy is true then also pay is true",
+            "output": "buy Entails pay"
+        },
+        {
+            "input": "cabinet can have or can contain door",
+            "output": "cabinet HasA door"
+        }
+    ]
+}
